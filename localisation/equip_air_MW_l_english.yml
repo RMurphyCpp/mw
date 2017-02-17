@@ -1,0 +1,143 @@
+﻿l_english:
+
+#####################################################                   Aircrafts               ###################################################################################
+#Fighters
+    fighter_0:0 "3rd Gen Multirole Fighter"
+    fighter_1:0 "3rd Gen Multirole Adv. Fighter"
+    fighter_2:0 "4th Gen Multirole Fighter"
+    fighter_3:0 "4.5th Gen Multirole Fighter"
+    fighter_4:0 "5th Gen Multirole Fighter"
+    
+    heavy_fighter_0:0 "4th Gen Air Supperiority Fighter"
+    heavy_fighter_1:0 "4.5th Gen Air Supperiority Fighter"
+    heavy_fighter_2:0 "5th Gen Air Supperiority Fighter"
+
+    third_gen_CAS:0 "3rd Gen CAS Fighter"
+    forth_gen_CAS:0 "4th Gen CAS Fighter"
+    fifth_gen_CAS:0 "5th Gen CAS Fighter" 
+
+    
+    USA_fighter_0:0 "F-4 Phantom "
+    USA_fighter_1:0 "F-14 Tomcat"
+    USA_fighter_2:0 "F-16 Fighting Falcon"
+    USA_fighter_3:0 "F-16V Viper"
+    USA_fighter_4:0 "F-35 Lightning II"
+
+    
+    USA_heavy_fighter_0:0 "F-15C Eagle"
+    USA_heavy_fighter_1:0 "F-15-2040C Silent Eagle"
+    USA_heavy_fighter_2:0 "F-22 Raptor"
+
+
+    USA_cv_fighter_0:0 "F-4A Phantom "
+    USA_cv_fighter_1:0 "F-14A Tomcat"
+    USA_cv_fighter_2:0 "AV-8B"
+    USA_cv_fighter_3:0 "AV-8C"
+    USA_cv_fighter_4:0 "F/A-35C"
+
+    USA_cv_heavy_fighter_0:0 "F/A-18C"
+    USA_cv_heavy_fighter_1:0 "F/A-18D"
+    USA_cv_heavy_fighter_2:0 "F-22N Sea Raptor"
+
+    
+    SOV_fighter_0:0 "MiG-21 Fishbed"
+    SOV_fighter_1:0 "MiG-23 Flogger"
+    SOV_fighter_2:0 "MiG-29 Fulcrum"
+    SOV_fighter_3:0 "MiG-35 Fulcrum"
+    SOV_fighter_4:0 "MiG LMFS"   
+    
+    SOV_heavy_fighter_0:0 "Su-27 Flanker"
+    SOV_heavy_fighter_1:0 "Su-35 Flanker-E"
+    SOV_heavy_fighter_2:0 "T-50 PAK FA"
+ 
+    CHC_fighter_0:0 "J-7 Airguard"
+    CHC_fighter_1:0 "J-8 Finback A"
+    CHC_fighter_2:0 "J-8II Finback B"
+    CHC_fighter_3:0 "J-10 Vigorous Dragon"
+    CHC_fighter_4:0 "J-20"   
+    
+    CHC_heavy_fighter_0:0 "J-11"
+    CHC_heavy_fighter_1:0 "J-16"
+    CHC_heavy_fighter_2:0 "J-31"
+  
+#Close Air Support
+
+    USA_CAS_0:0 "A-10A Warthog"
+    USA_CAS_1:0 "A-10C Thunderbolt II"
+    USA_CAS_2:0 "A-10D Thunderbolt II"
+ 
+    SOV_CAS_0:0 "Su-25 Frogfoot"
+    SOV_CAS_1:0 "Su-39 Frogfoot"
+    SOV_CAS_2:0 "Su-25SM3 Frogfoot"
+
+# Strike Fighters    
+    third_gen_attacker:0 "3rd Gen Strike Fighter"
+    adv_third_gen_attacker:0 "Adv 3rd Gen Strike Fighter"    
+    forth_gen_attacker:0 "4th Gen Strike Fighter"
+    adv_forth_gen_attacker:0 "Adv 4th Gen Strike Fighter"
+    
+    
+    
+    USA_strike_fighter_0:0 "F-111 Aardvark"
+    USA_strike_fighter_1:0 "F-111F Aardvark"
+    USA_strike_fighter_2:0 "F-15E Strike Eagle"    
+    USA_strike_fighter_3:0 "F-15SE Silent Eagle"
+
+    SOV_strike_fighter_0:0 "Su-24 Fencer"
+    SOV_strike_fighter_1:0 "Su-24M Fencer-D"    
+    SOV_strike_fighter_2:0 "Su-24M2 Fencer-D"
+    SOV_strike_fighter_3:0 "Su-34 Fullback"
+
+#Interceptors
+    third_gen_interceptor:0 "3rd Gen Interceptor"
+    forth_gen_interceptor:0 "4th Gen Interceptor"
+    adv_forth_gen_interceptor:0 "Adv. 4th Gen Interceptor"   
+
+    SOV_interceptor_0:0 "Mig-25 Foxbat"
+    SOV_interceptor_1:0 "Mig-31 Foxhound"
+    SOV_interceptor_2:0 "Mig-31BM Foxhound"   
+  
+
+# UCAVs
+    third_gen_uav:0 "3rd Gen UCAV"
+    adv_third_gen_uav:0 "Adv 3rd Gen UCAV"    
+    forth_gen_uav:0 "4th Gen UCAV"
+    adv_forth_gen_uav:0 "Adv 4th Gen UCAV"
+
+    USA_ucav_0:0 "MQ-1 Predator A"
+    USA_ucav_1:0 "MQ-9 Predator B"    
+    USA_ucav_2:0 "MQ-9 Predator C"
+    USA_ucav_3:0 "X-47 Pegasus"
+    
+#Strategic strategic_bombers
+    third_gen_strategic_bomber:0 "CW Strategic strategic_bomber"
+    adv_third_gen_strategic_bomber:0 "Mid CW Strategic strategic_bomber"    
+    forth_gen_strategic_bomber:0 "Late CW Strategic strategic_bomber"
+    fifth_gen_strategic_bomber:0 "Modern Strategic strategic_bomber" 
+    
+    SOV_strategic_bomber_1:0 "Tu-95 Bear"
+    SOV_strategic_bomber_2:0 "Tu-22M3 Backfire"
+    SOV_strategic_bomber_3:0 "Tu-160 BlackJack"   
+    SOV_strategic_bomber_4:0 "Pak Da"      
+    
+    USA_strategic_bomber_1:0 "B-52 Stratofortress"
+    USA_strategic_bomber_2:0 "B-1 Lancer"
+    USA_strategic_bomber_3:0 "B-2A Spirit"   
+    USA_strategic_bomber_4:0 "B-21 Raider"    
+    
+#MPAs
+    third_gen_mpa:0 "CW MPA"
+    forth_gen_mpa:0 "Late CW MPA"
+    fifth_gen_mpa:0 "Modern MPA"   
+
+    SOV_mpa_0:0 "Tu-142 Bear"
+    SOV_mpa_1:0 "Il-38 May"
+    SOV_mpa_2:0 "Il-38N May"   
+   
+    
+    USA_mpa_0:0 "P-3C Orion"
+    USA_mpa_1:0 "P-3C BMUP Orion"
+    USA_mpa_2:0 "P-8A Poseidon"   
+ 
+    
+    

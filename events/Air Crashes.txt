@@ -1,0 +1,437 @@
+﻿add_namespace = crash
+add_namespace = news_crash
+
+
+#########################################
+# Kenya Airways Flight 431 Crash
+#########################################
+country_event = {
+	id = crash.1
+	title = crash.1.t
+	desc = crash.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = KEN
+		date > 2000.1.30
+		date < 2001.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = crash.1.a
+		
+		news_event = {
+			hours = 6
+			id = news_crash.1
+		}
+}
+
+}
+#Earthquake News Event
+news_event = {
+	id = news_crash.1
+	title = news_crash.1.t
+	desc = news_crash.1.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_crash.1.a
+	}
+	
+}
+
+
+#########################################
+# Air France Flight 4590 crash (Concord)
+#########################################
+country_event = {
+	id = crash.2
+	title = crash.2.t
+	desc = crash.2.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = FRA
+		date > 2000.6.25
+		date < 2001.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = crash.2.a
+		
+		news_event = {
+			hours = 6
+			id = news_crash.2
+		}
+}
+}
+
+#Air France Flight 4590 crash News Event
+news_event = {
+	id = news_crash.2
+	title = news_crash.2.t
+	desc = news_crash.2.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_crash.2.a
+	}
+	
+}
+
+
+#########################################
+# Alaska Airlines Flight 261
+#########################################
+country_event = {
+	id = crash.3
+	title = crash.3.t
+	desc = crash.3.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 2000.1.31
+		date < 2001.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = crash.3.a
+		
+		news_event = {
+			hours = 6
+			id = news_crash.3
+		}
+}
+
+}
+
+#Alaska Airlines Flight 261
+news_event = {
+	id = news_crash.3
+	title = news_crash.3.t
+	desc = news_crash.3.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_crash.3.a
+	}
+	
+}
+
+
+#########################################
+# Siberia Airlines Flight 1812
+#########################################
+country_event = {
+	id = crash.4
+	title = crash.4.t
+	desc = crash.4.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SOV
+		date > 2001.10.1
+		date < 2002.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = crash.4.a
+		
+		news_event = {
+			hours = 6
+			id = news_crash.4
+		}
+}
+
+}
+
+#Alaska Airlines Flight 261
+news_event = {
+	id = news_crash.4
+	title = news_crash.4.t
+	desc = news_crash.4.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_crash.4.a
+	}
+	
+}
+
+
+#########################################
+# American Airlines Flight 587
+#########################################
+country_event = {
+	id = crash.5
+	title = crash.5.t
+	desc = crash.5.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 2001.11.12
+		date < 2002.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = crash.5.a
+		
+		news_event = {
+			hours = 6
+			id = news_crash.5
+		}
+}
+
+}
+
+#American Airlines Flight 587 (2001)
+news_event = {
+	id = news_crash.5
+	title = news_crash.5.t
+	desc = news_crash.5.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_crash.5.a
+	}
+	
+}
+
+
+#########################################
+# Sknyliv air show disaster (2002)
+#########################################
+country_event = {
+	id = crash.6
+	title = crash.6.t
+	desc = crash.6.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = UKR
+		date > 2002.6.27
+		date < 2003.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = crash.6.a
+		
+		news_event = {
+			hours = 6
+			id = news_crash.6
+		}
+}
+
+}
+
+#Sknyliv air show disaster
+news_event = {
+	id = news_crash.6
+	title = news_crash.6.t
+	desc = news_crash.6.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_crash.6.a
+	}
+	
+}
+
+
+
+#########################################
+# 2003 Iran Ilyushin Il-76 crash
+#########################################
+country_event = {
+	id = crash.7
+	title = crash.7.t
+	desc = crash.7.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = PER
+		date > 2003.2.19
+		date < 2004.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = crash.7.a
+		
+		news_event = {
+			hours = 6
+			id = news_crash.7
+		}
+}
+
+}
+
+#2003 Iran Ilyushin Il-76 crash
+news_event = {
+	id = news_crash.7
+	title = news_crash.7.t
+	desc = news_crash.7.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_crash.7.a
+	}
+	
+}
+
+
+#########################################
+# Air Algérie Flight 6289
+#########################################
+country_event = {
+	id = crash.8
+	title = crash.8.t
+	desc = crash.8.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ALG
+		date > 2003.2.19
+		date < 2004.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = crash.8.a
+		
+		news_event = {
+			hours = 6
+			id = news_crash.8
+		}
+	}
+
+}
+
+#Air Algérie Flight 6289
+news_event = {
+	id = news_crash.8
+	title = news_crash.8.t
+	desc = news_crash.8.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_crash.8.a
+	}
+}
+#########################################
+# China Airlines Flight 611
+#########################################
+country_event = {
+	id = crash.9
+	title = crash.9.t
+	desc = crash.9.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = CHC
+		date > 2005.5.25
+		date < 2003.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = crash.9.a
+		
+		news_event = {
+			hours = 6
+			id = news_crash.9
+		}
+}
+
+}
+
+#China Airlines Flight 611
+news_event = {
+	id = news_crash.9
+	title = news_crash.9.t
+	desc = news_crash.9.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_crash.9.a
+	}
+	
+}
+
+
+
+
+
+
+

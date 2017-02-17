@@ -1,0 +1,103 @@
+﻿capital = 291
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {infantry_small_arms = 1
+  infantry_small_arms_1 = 1
+  infantry_small_arms_2 = 1
+  infantry_small_arms_3 = 1
+  
+  infantry_lmg = 1
+  infantry_lmg_1 = 1
+  infantry_lmg_2 = 1
+  
+  infantry_gpmg = 1
+  infantry_gpmg_1 = 1
+  
+  infantry_at = 1
+  infantry_at_1 = 1
+  
+  infantry_atgm = 1
+  infantry_atgm_1 = 1
+  
+  infantry_manpad = 1
+  infantry_manpad_1 = 1
+  infantry_manpad_2 = 1
+  infantry_manpad_3 = 1}
+
+	set_country_flag = muslim_country	
+	add_opinion_modifier = { target = ISR modifier = historical_riverly }
+	
+    set_politics = {
+
+	    parties = {
+		
+		    autocracy = { 
+			    popularity = 20				
+			}
+			
+		    moderate_islam = { 
+			    popularity = 10				
+			
+		    }
+
+		    sunni_islam = {
+			    popularity = 25			
+		    }
+		
+		    fundamentalist_islam = {
+			    popularity = 15	
+		    }
+		
+		    shia_islam = { 
+			    popularity = 20		
+		    }
+	    }
+	
+	    ruling_party = autocracy
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+	    an_iron_fist
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+    create_country_leader = {
+    	name = "Saddam Hussein"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IRQH1.dds"
+    	expire = "2003.12.31"
+    	ideology = baathism_autocratic
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Saddam Hussein"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IRQH1.dds"
+    	expire = "2003.12.31"
+    	ideology = baathism_autocratic
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Saddam Hussein"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "IRQH1.dds"
+    	expire = "2003.12.31"
+    	ideology = baathism_autocratic
+    	traits = {
+    		#
+    	}
+    }
+}

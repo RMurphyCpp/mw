@@ -1,0 +1,332 @@
+﻿add_namespace = israel
+add_namespace = news_israel
+
+
+#########################################
+# The Versailles disaster
+#########################################
+country_event = {
+	id = israel.1
+	title = israel.1.t
+	desc = israel.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ISR
+		date > 2000.5.24
+		date < 2001.1.1
+	}
+	
+
+#Send Rescue!
+	option = {
+		name = israel.1.a
+		news_event = {
+			hours = 6
+			id = news_israel.1
+		}
+		add_national_unity = -1
+	}
+}
+
+#Earthquake News Event
+news_event = {
+	id = news_israel.1
+	title = news_israel.1.t
+	desc = news_israel.1.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_israel.1.a
+	}
+	
+}
+
+
+
+#########################################
+# Dolphinarium discotheque massacre
+#########################################
+country_event = {
+	id = israel.2
+	title = israel.2.t
+	desc = israel.2.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ISR
+		date > 2001.6.1
+		date < 2002.1.1
+	}
+	
+
+#A massacre
+	option = {
+		name = israel.2.a
+		news_event = {
+			hours = 6
+			id = news_israel.2
+		}
+		add_national_unity = -1
+	}
+}
+
+#Dolphinarium discotheque massacre news event
+news_event = {
+	id = news_israel.2
+	title = news_israel.2.t
+	desc = news_israel.2.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_israel.2.a
+	}
+	
+}
+
+
+
+#########################################
+# Ariel Sharon visits Temple Mount
+#########################################
+country_event = {
+	id = israel.3
+	title = israel.3.t
+	desc = israel.3.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ISR
+		date > 2000.9.28
+		date < 2001.1.1
+	}
+	
+
+#An unnecessary provocation
+	option = {
+		name = israel.3.a
+		news_event = {
+			hours = 6
+			id = news_israel.3
+		}
+		country_event = {
+			hours = 6
+			id = israel.4
+		}		
+		add_national_unity = -1
+	}
+}
+
+#Ariel Sharon visits Temple Mount
+news_event = {
+	id = news_israel.3
+	title = news_israel.3.t
+	desc = news_israel.3.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_israel.3.a
+	}
+	
+}
+
+#########################################
+# The Second Intifada
+#########################################
+country_event = {
+	id = israel.4
+	title = israel.4.t
+	desc = israel.4.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ISR
+		date > 2000.9.28
+		date < 2001.1.1
+	}
+	
+
+#Do whatever is possible to calm things down
+	option = {
+		name = israel.4.a
+		news_event = {
+			hours = 6
+			id = news_israel.4
+		}
+		add_national_unity = -1
+	}
+}
+
+#The Second Intifada
+news_event = {
+	id = news_israel.4
+	title = news_israel.4.t
+	desc = news_israel.4.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_israel.4.a
+	}
+	
+}
+
+
+#########################################
+# Space Shuttle Columbia Disaster
+#########################################
+country_event = {
+	id = israel.5
+	title = israel.5.t
+	desc = israel.5.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ISR
+		date > 2003.2.1
+		date < 2004.1.1
+	}
+	
+
+#Ilan Ramon's legacy will not be forgotten
+	option = {
+		name = israel.5.a
+		add_national_unity = -1
+	}
+}
+
+#########################################
+# Ariel Sharon falls into coma
+#########################################
+country_event = {
+	id = israel.6
+	title = israel.6.t
+	desc = israel.6.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ISR
+		date > 2006.1.4
+		date < 2007.1.1
+	}
+	
+
+#May he recover quickly
+	option = {
+		name = israel.6.a
+		add_national_unity = -1
+	}
+}
+
+#########################################
+# South Lebanon Withdrawal	
+#########################################
+country_event = {
+	id = israel.7
+	title = israel.7.t
+	desc = israel.7.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ISR
+		date > 2006.1.4
+		date < 2007.1.1
+	}
+	
+
+#We will remain in Lebanon
+	option = {
+		name = israel.7.a
+		news_event = {
+			hours = 6
+			id = news_israel.7
+		}		
+		
+	}
+	
+#Withdraw from South Lebanon
+	option = {
+		name = israel.7.b
+		news_event = {
+			hours = 6
+			id = news_israel.8
+		}		
+		
+	}
+
+}
+
+
+#Israel stays
+news_event = {
+	id = news_israel.7
+	title = news_israel.7.t
+	desc = news_israel.7.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_israel.7.a
+		
+		news_event = {
+			hours = 6
+			id = news_israel.7.a
+		}		
+		
+
+	}
+	
+}
+
+
+#Israel leaves
+news_event = {
+	id = news_israel.8
+	title = news_israel.8.t
+	desc = news_israel.8.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_israel.8.a
+	}
+	
+}
+
+
+

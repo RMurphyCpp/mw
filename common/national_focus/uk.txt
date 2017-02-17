@@ -1,0 +1,502 @@
+focus_tree = {
+	id = uk
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = ENG
+		}
+	}
+	default = no
+	focus = {
+		id = ENG_diplo
+		icon = GFX_focus_AST_never_gallipoli
+		cost = 0.00
+		x = 11
+		y = 0
+
+	}
+	focus = {
+		id = ENG_towards_europe
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_diplo
+		}
+		mutually_exclusive = {
+			focus = ENG_away_europe
+		}
+		x = 3
+		y = 1
+
+	}
+	focus = {
+		id = ENG_european_integ
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_towards_europe
+		}
+		x = 2
+		y = 2
+
+	}
+	focus = {
+		id = ENG_EU_parliment
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_european_integ
+		}
+		x = 2
+		y = 3
+
+	}
+	focus = {
+		id = ENG_euro
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_EU_parliment
+		}
+		mutually_exclusive = {
+			focus = ENG_replace_euro
+		}
+		x = 2
+		y = 4
+
+	}
+	focus = {
+		id = ENG_commenwelth_of_europe
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_euro
+		}
+		x = 2
+		y = 5
+
+	}
+	focus = {
+		id = ENG_keep_opts_out
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_towards_europe
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = ENG_reject_ever_closer_union
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_keep_opts_out
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = ENG_replace_euro
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_reject_ever_closer_union
+		}
+		mutually_exclusive = {
+			focus = ENG_euro
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = ENG_western_europen_union
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_replace_euro
+		}
+		x = 4
+		y = 5
+
+	}
+	focus = {
+		id = ENG_away_europe
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_diplo
+		}
+		mutually_exclusive = {
+			focus = ENG_towards_europe
+		}
+		x = 7
+		y = 1
+
+	}
+	focus = {
+		id = ENG_prepare_refereundum
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_away_europe
+		}
+		x = 7
+		y = 2
+
+	}
+	focus = {
+		id = ENG_BREXIT
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_prepare_refereundum
+			focus = ENG_keep_opts_out
+		}
+		x = 6
+		y = 3
+
+	}
+	focus = {
+		id = ENG_commonwealth
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_diplo
+		}
+		mutually_exclusive = {
+			focus = ENG_anti_commonwealth
+		}
+		x = 10
+		y = 1
+
+	}
+	focus = {
+		id = ENG_invest_in_realms
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_commonwealth
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = ENG_CANZUK
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_invest_in_realms
+			focus = ENG_prepare_refereundum
+		}
+		x = 8
+		y = 3
+
+	}
+	focus = {
+		id = ENG_invest_in_africa
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_commonwealth
+		}
+		x = 11
+		y = 2
+
+	}
+	focus = {
+		id = ENG_the_new_comonwealth
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_CANZUK
+		}
+		prerequisite = {
+			focus = ENG_invest_in_africa
+		}
+		x = 10
+		y = 4
+
+	}
+	focus = {
+		id = ENG_prepare_the_reforms
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_the_new_comonwealth
+		}
+		x = 10
+		y = 5
+
+	}
+	focus = {
+		id = ENG_anti_commonwealth
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_diplo
+		}
+		mutually_exclusive = {
+			focus = ENG_commonwealth
+		}
+		x = 13
+		y = 1
+
+	}
+	focus = {
+		id = ENG_quebec_uprising
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_anti_commonwealth
+		}
+		x = 13
+		y = 2
+
+	}
+	focus = {
+		id = ENG_oversees
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_diplo
+		}
+		x = 19
+		y = 1
+
+	}
+	focus = {
+		id = ENG_bermuda
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_oversees
+		}
+		x = 16
+		y = 2
+
+	}
+	focus = {
+		id = ENG_anguilla
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_oversees
+		}
+		x = 18
+		y = 2
+
+	}
+	focus = {
+		id = ENG_st_helena
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_oversees
+		}
+		x = 20
+		y = 2
+
+	}
+	focus = {
+		id = ENG_falkland
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_oversees
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = ENG_south_georgia
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_falkland
+		}
+		x = 22
+		y = 3
+
+	}
+	focus = {
+		id = ENG_akrotiri
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_oversees
+		}
+		x = 24
+		y = 2
+
+	}
+	focus = {
+		id = ENG_reform_empire
+		icon = GFX_focus_generic_home_defense
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_diplo
+		}
+		x = 32
+		y = 1
+
+	}
+	focus = {
+		id = ENG_get_egypt_back
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_reform_empire
+		}
+		x = 27
+		y = 2
+
+	}
+	focus = {
+		id = ENG_lower_scot
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_reform_empire
+		}
+		x = 29
+		y = 2
+
+	}
+	focus = {
+		id = ENG_thatcher_legacy
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_reform_empire
+		}
+		x = 32
+		y = 2
+
+	}
+	focus = {
+		id = ENG_anti_arg
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_thatcher_legacy
+		}
+		x = 31
+		y = 3
+
+	}
+	focus = {
+		id = ENG_falklands_ours
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_anti_arg
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = ENG_pearl_of_the_orient
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_thatcher_legacy
+		}
+		x = 33
+		y = 3
+
+	}
+	focus = {
+		id = ENG_blair_legacy
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_reform_empire
+		}
+		x = 35
+		y = 2
+
+	}
+	focus = {
+		id = ENG_european_rivalry
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_reform_empire
+		}
+		prerequisite = {
+			focus = ENG_reform_empire
+		}
+		prerequisite = {
+			focus = ENG_reform_empire
+		}
+		x = 38
+		y = 2
+
+	}
+	focus = {
+		id = ENG_anti_FRA
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_european_rivalry
+		}
+		x = 37
+		y = 3
+
+	}
+	focus = {
+		id = ENG_pale_of_calais
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_anti_FRA
+		}
+		prerequisite = {
+			focus = ENG_blair_legacy
+		}
+		x = 36
+		y = 4
+
+	}
+	focus = {
+		id = ENG_british_federation
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_prepare_the_reforms
+		}
+		x = 10
+		y = 6
+
+	}
+	focus = {
+		id = ENG_anti_GER
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_european_rivalry
+		}
+		x = 39
+		y = 3
+
+	}
+	focus = {
+		id = ENG_against_GER_dominence
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = ENG_anti_GER
+		}
+		x = 39
+		y = 4
+
+	}
+}

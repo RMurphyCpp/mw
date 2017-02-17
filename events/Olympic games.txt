@@ -1,0 +1,576 @@
+﻿add_namespace = olympics
+add_namespace = winter_olympics
+add_namespace = news_olympics
+add_namespace = news_winter_olympics
+
+
+#*********************************************************************** Summer Olympics ******************************************************************************
+
+
+#########################################
+# Sydney 2000
+#########################################
+
+country_event = {
+	id = olympics.1
+	title = olympics.1.t
+	desc = olympics.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = AST		
+		date > 2000.10.15
+		date < 2001.1.1
+	}
+	
+	
+	option = {
+		name = olympics.1.a
+		news_event = {
+			hours = 6
+			id = news_olympics.1
+		}
+	}
+}
+
+#Sydney 2000 News Event
+news_event = {
+	id = news_olympics.1
+	title = news_olympics.1.t
+	desc = news_olympics.1.d
+	picture = GFX_news_event_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_olympics.1.a
+	}
+	
+}
+
+#########################################
+# Athens 2004
+#########################################
+
+country_event = {
+	id = olympics.2
+	title = olympics.2.t
+	desc = olympics.2.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = GRE		
+		date > 2004.8.13
+		date < 2005.1.1
+	}
+	
+	
+	option = {
+		name = olympics.2.a
+		news_event = {
+			hours = 6
+			id = news_olympics.2
+		}
+	}
+}
+
+#Sydney 2000 News Event
+news_event = {
+	id = news_olympics.2
+	title = news_olympics.2.t
+	desc = news_olympics.2.d
+	picture = GFX_news_event_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_olympics.2.a
+	}
+	
+}
+
+
+
+#########################################
+# Beijing 2008
+#########################################
+
+country_event = {
+	id = olympics.3
+	title = olympics.3.t
+	desc = olympics.3.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = CHC		
+		date > 2008.8.8
+		date < 2009.1.1
+	}
+	
+	
+	option = {
+		name = olympics.3.a
+		news_event = {
+			hours = 6
+			id = news_olympics.3
+		}
+	}
+}
+
+#Beijing 2008 News Event
+news_event = {
+	id = news_olympics.3
+	title = news_olympics.3.t
+	desc = news_olympics.3.d
+	picture = GFX_news_event_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_olympics.3.a
+	}
+	
+}
+
+#########################################
+# London 2012
+#########################################
+
+country_event = {
+	id = olympics.4
+	title = olympics.4.t
+	desc = olympics.4.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ENG		
+		date > 2012.6.27
+		date < 2013.1.1
+	}
+	
+	
+	option = {
+		name = olympics.4.a
+		news_event = {
+			hours = 6
+			id = news_olympics.4
+		}
+	}
+}
+
+#London 2012 News Event
+news_event = {
+	id = news_olympics.4
+	title = news_olympics.4.t
+	desc = news_olympics.4.d
+	picture = GFX_news_event_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_olympics.4.a
+	}
+	
+}
+
+
+#########################################
+# Rio 2016
+#########################################
+
+country_event = {
+	id = olympics.5
+	title = olympics.5.t
+	desc = olympics.5.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = BRA		
+		date > 2016.8.5
+		date < 2017.1.1
+	}
+	
+	
+	option = {
+		name = olympics.5.a
+		news_event = {
+			hours = 6
+			id = news_olympics.5
+		}
+	}
+}
+
+#Rio 2016 News Event
+news_event = {
+	id = news_olympics.5
+	title = news_olympics.5.t
+	desc = news_olympics.5.d
+	picture = GFX_news_event_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_olympics.5.a
+	}
+	
+}
+
+#########################################
+# Tokyo 2020
+#########################################
+
+country_event = {
+	id = olympics.6
+	title = olympics.6.t
+	desc = olympics.6.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = JAP		
+		date > 2020.6.24
+		date < 2021.1.1
+	}
+	
+	
+	option = {
+		name = olympics.6.a
+		news_event = {
+			hours = 6
+			id = news_olympics.6
+		}
+	}
+}
+
+# Tokyo 2020 News Event
+news_event = {
+	id = news_olympics.6
+	title = news_olympics.6.t
+	desc = news_olympics.6.d
+	picture = GFX_news_event_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_olympics.6.a
+	}
+	
+}
+
+
+
+
+
+
+
+#*********************************************************************** Winter Olympics ******************************************************************************
+
+
+
+#########################################
+# Salt Lake 2002
+#########################################
+
+country_event = {
+	id = winter_olympics.1
+	title = winter_olympics.1.t
+	desc = winter_olympics.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA		
+		date > 2002.2.8
+		date < 2003.1.1
+	}
+	
+	
+	option = {
+		name = winter_olympics.1.a
+		news_event = {
+			hours = 6
+			id = news_winter_olympics.1
+		}
+	}
+}
+
+#Salt Lake 2002 News Event
+news_event = {
+	id = news_winter_olympics.1
+	title = news_winter_olympics.1.t
+	desc = news_winter_olympics.1.d
+	picture = GFX_news_event_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_winter_olympics.1.a
+	}
+	
+}
+
+#########################################
+# Torino 2006
+#########################################
+
+country_event = {
+	id = winter_olympics.2
+	title = winter_olympics.2.t
+	desc = winter_olympics.2.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ITA		
+		date > 2006.2.10
+		date < 2007.1.1
+	}
+	
+	
+	option = {
+		name = winter_olympics.2.a
+		news_event = {
+			hours = 6
+			id = news_winter_olympics.2
+		}
+	}
+}
+
+#Torino 2006 News Event
+news_event = {
+	id = news_winter_olympics.2
+	title = news_winter_olympics.2.t
+	desc = news_winter_olympics.2.d
+	picture = GFX_news_event_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_winter_olympics.2.a
+	}
+	
+}
+
+
+
+#########################################
+# Beijing 2008
+#########################################
+
+country_event = {
+	id = winter_olympics.3
+	title = winter_olympics.3.t
+	desc = winter_olympics.3.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = CHC		
+		date > 2008.8.8
+		date < 2009.1.1
+	}
+	
+	
+	option = {
+		name = winter_olympics.3.a
+		news_event = {
+			hours = 6
+			id = news_winter_olympics.3
+		}
+	}
+}
+
+#Beijing 2008 News Event
+news_event = {
+	id = news_winter_olympics.3
+	title = news_winter_olympics.3.t
+	desc = news_winter_olympics.3.d
+	picture = GFX_news_event_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_winter_olympics.3.a
+	}
+	
+}
+
+#########################################
+# Vancouver 2010
+#########################################
+
+country_event = {
+	id = winter_olympics.4
+	title = winter_olympics.4.t
+	desc = winter_olympics.4.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA		
+		date > 2010.2.10
+		date < 2011.1.1
+	}
+	
+	
+	option = {
+		name = winter_olympics.4.a
+		news_event = {
+			hours = 6
+			id = news_winter_olympics.4
+		}
+	}
+}
+
+#Vancouver 2010 News Event
+news_event = {
+	id = news_winter_olympics.4
+	title = news_winter_olympics.4.t
+	desc = news_winter_olympics.4.d
+	picture = GFX_news_event_winter_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_winter_olympics.4.a
+	}
+	
+}
+
+
+#########################################
+# Sochi 2014
+#########################################
+
+country_event = {
+	id = winter_olympics.5
+	title = winter_olympics.5.t
+	desc = winter_olympics.5.d
+	picture = GFX_report_event_winter_olympics_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SOV		
+		date > 2014.2.7
+		date < 2015.1.1
+	}
+	
+	
+	option = {
+		name = winter_olympics.5.a
+		news_event = {
+			hours = 6
+			id = news_winter_olympics.5
+		}
+	}
+}
+
+#Sochi 2014 News Event
+news_event = {
+	id = news_winter_olympics.5
+	title = news_winter_olympics.5.t
+	desc = news_winter_olympics.5.d
+	picture = GFX_news_event_winter_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_winter_olympics.5.a
+	}
+	
+}
+
+#########################################
+# Pyeongchang 2018
+#########################################
+
+country_event = {
+	id = winter_olympics.6
+	title = winter_olympics.6.t
+	desc = winter_olympics.6.d
+	picture = GFX_report_event_winter_olympics_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = KOR		
+		date > 2018.2.9
+		date < 2019.1.1
+	}
+	
+	
+	option = {
+		name = winter_olympics.6.a
+		news_event = {
+			hours = 6
+			id = news_winter_olympics.6
+		}
+	}
+}
+
+# Pyeongchang 2018 News Event
+news_event = {
+	id = news_winter_olympics.6
+	title = news_winter_olympics.6.t
+	desc = news_winter_olympics.6.d
+	picture = GFX_news_event_winter_olympics_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_winter_olympics.6.a
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+

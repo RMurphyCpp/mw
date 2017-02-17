@@ -1,0 +1,212 @@
+﻿l_english:
+#####################################################                   Land Vehicles               ###################################################################################
+
+#tanks
+
+    mbt_0:0 "1G Main Battle tank"
+    mbt_1:0 "2G Main Battle tank"
+    mbt_2:0 "2G adv. Main Battle tank"
+    mbt_3:0 "3G Main Battle tank"
+    mbt_4:0 "3G adv. Main Battle tank"
+    mbt_5:0 "4G Main Battle tank"
+
+    
+    USA_mbt_0:0 "M48 Patton"
+    USA_mbt_1:0 "M60 Patton"
+    USA_mbt_2:0 "M60A2 Patton"
+    USA_mbt_3:0 "M1 Abrams"
+    USA_mbt_4:0 "M1A1 Abrams"
+    USA_mbt_5:0 "M1A3 Abrams"
+
+    
+    SOV_mbt_0:0 "T-55"
+    SOV_mbt_1:0 "T-62"
+    SOV_mbt_2:0 "T-72"
+    SOV_mbt_3:0 "T-80"
+    SOV_mbt_4:0 "T-90"
+    SOV_mbt_5:0 "T-14"
+    
+    ENG_mbt_0:0 "FV4012 Centurion"
+    ENG_mbt_1:0 "FV4201 Chieftain mk.3"
+    ENG_mbt_2:0 "FV4201 Chieftain Mk.11"
+    ENG_mbt_3:0 "FV4030/4 Challenger 1"
+    ENG_mbt_4:0 "Challenger 2"
+    ENG_mbt_5:0 "Challenger 2 LEP"    
+
+    CAN_mbt_0:0 "Sherman M4A2"
+    CAN_mbt_1:0 "Centurion Mk.5"
+    CAN_mbt_2:0 "Centurion Mk.11"
+    CAN_mbt_3:0 "Leopard C1"
+    CAN_mbt_4:0 "Leopard C2"
+    CAN_mbt_5:0 "Leopard 2A7+"    
+ 
+
+    SRM_mbt_1:0 "M-84"
+    SRM_mbt_2:0 "M-84A"
+    SRM_mbt_3:0 "M-84AB"
+    SRM_mbt_4:0 "M-91 Vihor"
+    SRM_mbt_5:0 "M-20UP1"
+    SRM_mbt_6:0 "M-20UP2"   
+    
+    SER_mbt_1:0 "M-84"
+    SER_mbt_2:0 "M-84A"
+    SER_mbt_3:0 "M-84AB"
+    SER_mbt_4:0 "M-91 Vihor"
+    SER_mbt_5:0 "M-20UP1"
+    SER_mbt_6:0 "M-20UP2"  
+
+    
+#IFVs    
+    ifv_0:0 "1G Infantry Fighting vehicle"
+    ifv_1:0 "2G Infantry Fighting vehicle"
+    ifv_2:0 "3G Infantry Fighting vehicle"
+    ifv_3:0 "4G Infantry Fighting vehicle"
+ 
+    USA_ifv_0:0 "AIFV"
+    USA_ifv_1:0 "M2 Bradley"
+    USA_ifv_2:0 "M2A2 Bradley"
+    USA_ifv_3:0 "M2A3 ERA Bradley"
+
+    
+    SOV_ifv_0:0 "BMP-1"
+    SOV_ifv_1:0 "BMP-2"
+    SOV_ifv_2:0 "BMP-3"
+    SOV_ifv_3:0 "Kurganets-25"    
+
+
+#APC   
+    apc_0:0 "1G Armored Personal Carrier"
+    apc_1:0 "2G Armored Personal Carrier"
+    apc_2:0 "3G Armored Personal Carrier"
+    apc_3:0 "4G Armored Personal Carrier"
+ 
+    USA_apc_0:0 "M113"
+    USA_apc_1:0 "M113A3"
+    USA_apc_2:0 "Stryker"
+    USA_apc_3:0 "Turrentless Bradley"
+
+    
+    SOV_apc_0:0 "MTLB"
+    SOV_apc_1:0 "Btr-80"
+    SOV_apc_2:0 "Btr-90"
+    SOV_apc_3:0 "Bumerang"  
+    
+    ENG_apc_0:0 "FV432"
+    ENG_apc_1:0 "FV510 Warrior"
+    ENG_apc_2:0 "FV103 Spartan"
+    ENG_apc_3:0 "Warthog (BATTC)"   
+#IMVs
+    imv_0:0 "1G Infantry Mobility Vehicle"
+    imv_1:0 "2G Infantry Mobility Vehicle"
+    imv_2:0 "3G Infantry Mobility Vehicle"
+    imv_3:0 "4G Infantry Mobility Vehicle"    
+
+    USA_imv_0:0 "M151A2 Mutt"
+    USA_imv_1:0 "M998 Humvee"
+    USA_imv_2:0 "M1097A2 Humvee"
+    USA_imv_3:0 "M1165 Humvee"    
+   
+    ENG_imv_0:0 "M151A2 Mutt"
+    ENG_imv_1:0 "Land Rover Wolf"
+    ENG_imv_2:0 "Snatch Land Rover"
+    ENG_imv_3:0 "M1165 Humvee" 
+ 
+    SOV_imv_0:0 "UAZ-469"
+    SOV_imv_1:0 "Land Rover Wolf"
+    SOV_imv_2:0 "Snatch Land Rover"
+    SOV_imv_3:0 "M1165 Humvee" 
+    
+#IMVs
+    truck_0:0 "1G Truck"
+    truck_1:0 "2G Truck"
+    truck_2:0 "3G Truck"
+    truck_3:0 "4G Truck"    
+
+    USA_truck_1:0 "M35"
+    USA_truck_1:0 "M809"
+    USA_truck_2:0 "M939"
+    USA_truck_3:0 "FMTV"
+
+ 
+#####################################################                  Inf Equipment               ###################################################################################
+#Small Arms
+    infantry_small_arms_0:0 "Small arms I"
+    infantry_small_arms_1:0 "Small arms II"
+    infantry_small_arms_2:0 "Small arms III"
+    infantry_small_arms_3:0 "Small arms IV"
+    infantry_small_arms_4:0 "Small arms V"
+    infantry_small_arms_5:0 "Small arms VI"
+    
+    USA_infantry_small_arms_0:0 "M14"
+    USA_infantry_small_arms_1:0 "M16A1"
+    USA_infantry_small_arms_2:0 "M16A2"
+    USA_infantry_small_arms_3:0 "M4"
+    USA_infantry_small_arms_4:0 "M16A4"
+    USA_infantry_small_arms_5:0 "M4A1"   
+
+    SOV_infantry_small_arms_0:0 "AK-47"
+    SOV_infantry_small_arms_1:0 "AKM"
+    SOV_infantry_small_arms_2:0 "AK-74"
+    SOV_infantry_small_arms_3:0 "AN-92"
+    SOV_infantry_small_arms_4:0 "AK-74M"
+    SOV_infantry_small_arms_5:0 "AK-12"       
+
+    ENG_infantry_small_arms_0:0 "FN FAL"
+    ENG_infantry_small_arms_1:0 "L64/65"
+    ENG_infantry_small_arms_2:0 "L85A1"
+    ENG_infantry_small_arms_3:0 "L22A1"
+    ENG_infantry_small_arms_4:0 "L85A2"
+    ENG_infantry_small_arms_5:0 "L85A3"    
+    
+#Light machine guns    
+    USA_infantry_lmg_0:0 "B.A.R"
+    USA_infantry_lmg_1:0 "M249"
+    USA_infantry_lmg_2:0 "M249 Para"
+    USA_infantry_lmg_3:0 "M249 mk3"    
+    
+    SOV_infantry_lmg_0:0 "RPD"
+    SOV_infantry_lmg_1:0 "RPK"
+    SOV_infantry_lmg_2:0 "RPK-74"
+    SOV_infantry_lmg_3:0 "RPK-74M" 
+    
+    ENG_infantry_lmg_0:0 "Bren L4"
+    ENG_infantry_lmg_1:0 "FN Minimi"
+    ENG_infantry_lmg_2:0 "FN Minimi Para"
+    ENG_infantry_lmg_3:0 "FN Minimi mk3"    
+    
+    #General Purpose Machine guns    
+    USA_infantry_gpmg_0:0 "M60"
+    USA_infantry_gpmg_1:0 "M240B"
+    USA_infantry_gpmg_2:0 "MK48 mod 0"
+    
+    SOV_infantry_gpmg_0:0 "PK"
+    SOV_infantry_gpmg_1:0 "RPK"
+    SOV_infantry_gpmg_2:0 "PKP"
+    
+    ENG_infantry_gpmg_0:0 "FN MAG"
+    ENG_infantry_gpmg_1:0 "FN Minimi"
+    ENG_infantry_gpmg_2:0 "FN Minimi Para"
+    
+    #Anti Tank Rocket
+    USA_infantry_at_0:0 "M72 LAW"
+    USA_infantry_at_1:0 "AT4"
+    USA_infantry_at_2:0 "SMAW-D"
+    USA_infantry_at_3:0 "SMAW II"    
+    
+    SOV_infantry_at_0:0 "RPG-7"
+    SOV_infantry_at_1:0 "RPG-26"
+    SOV_infantry_at_2:0 "RPG-29"
+    SOV_infantry_at_3:0 "RPG-30" 
+    
+    #Anti Tank Rocket
+    USA_infantry_manpad_0:0 "FIM-43 Redeye"
+    USA_infantry_manpad_1:0 "FIM 92 Stinger"
+    USA_infantry_manpad_2:0 "FIM-92C Stinger"
+    USA_infantry_manpad_3:0 "FIM-92 Stinger Block II"    
+    USA_infantry_manpad_4:0 "FIM-92J Stinger"    
+    
+    SOV_infantry_manpad_0:0 "Strela-2"
+    SOV_infantry_manpad_1:0 "Igla"
+    SOV_infantry_manpad_2:0 "RPG-29"
+    SOV_infantry_manpad_3:0 "Igla-S"     
+    SOV_infantry_manpad_4:0 "Vebra" 

@@ -1,0 +1,679 @@
+###Event pics index for modern warfare mod. File made by Murphy
+##news frame (major = yes)  pic size 397x153
+##others 210x176 (I think)
+
+spriteTypes = {
+	
+
+##### US tech ######################################################################################################	
+
+#---------------------------------------------------------- CCGs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Belknap-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_basic_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ticonderoga-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ticonderoga-class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_advanced_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ticonderoga-class II.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/CGX.dds"
+		alwaystransparent = yes
+	}
+
+
+#----------------------------------------------------------DDGs----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Spruance-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kidd-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Arleigh Burke-Class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Arleigh Burke-Class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/DDX.dds"
+		alwaystransparent = yes
+	}
+
+
+#---------------------------------------------------------- FFGs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Brooke class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/OHP-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/OHP-Class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/freedom-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Independence-class.dds"
+		alwaystransparent = yes
+	}
+	
+
+#---------------------------------------------------------- SSNs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/strugeon.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_basic_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Los Angeles-class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_USA_improved_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/seawolf.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_USA_advanced_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/virginia.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/virginia.dds"
+		alwaystransparent = yes
+	}
+
+
+#---------------------------------------------------------- SSKs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/strugeon.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_basic_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Los Angeles-class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_USA_improved_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/seawolf.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_USA_advanced_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/virginia.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/virginia.dds"
+		alwaystransparent = yes
+	}
+	
+
+#---------------------------------------------------------- SSBN/SSGNs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Benjamin Franklin-class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_basic_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_USA_improved_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_USA_advanced_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+	
+
+
+#---------------------------------------------------------- CVs/CVNs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Forrestal-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kitty Hawk-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Enterprise-Class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Nimitz-Class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Nimitz-Class.dds"
+		alwaystransparent = yes
+	}
+
+#---------------------------------------------------------- AASs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_aas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Iwo Jima class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_basic_aas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Tarawa class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_improved_aas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Wasp Class.dds"
+		alwaystransparent = yes
+	}
+	
+
+############# British Tech ####################################################################################################################	
+#----------------------------------------------------------DDGs----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_ENG_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Type 42 class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Type 42 class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Type 42 class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Type 45 class.dds"
+		alwaystransparent = yes
+	}
+
+	
+#---------------------------------------------------------- FFGs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_ENG_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Type 21 class.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_ENG_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Type 22 class.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_ENG_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Type 23 class.dds"
+		alwaystransparent = yes
+	}	
+
+	SpriteType = {
+		name = "GFX_ENG_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Type 23 class.dds"
+		alwaystransparent = yes
+	}	
+
+		SpriteType = {
+		name = "GFX_ENG_modern_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Type 26 class.dds"
+		alwaystransparent = yes
+	}
+
+	
+#---------------------------------------------------------- CVs/CVNs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_ENG_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Centaur class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Invincible class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_ENG_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Invincible class 2.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Invincible class 2.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_ENG_modern_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/QE Class.dds"
+		alwaystransparent = yes
+	}	
+
+	
+#---------------------------------------------------------- SSNs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/strugeon.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_basic_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/strugeon.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_USA_improved_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/seawolf.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_USA_advanced_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/virginia.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/virginia.dds"
+		alwaystransparent = yes
+	}
+
+	
+#---------------------------------------------------------- SSBN/SSGNs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_early_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Benjamin Franklin-class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_basic_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_USA_improved_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_USA_advanced_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_modern_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ohio-class.dds"
+		alwaystransparent = yes
+	}
+
+	
+	############# Ruskie Tech ####################################################################################################################
+
+#---------------------------------------------------------- CCGs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_early_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kresta class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_basic_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kara class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_improved_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Slava class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Slava class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_cruiser_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Lider class.dds"
+		alwaystransparent = yes
+	}
+
+	
+#----------------------------------------------------------DDGs----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_early_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kashin class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_basic_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Sovremenny class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_improved_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Udaloy II class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Chabanenko class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_destroyer_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Lider class.dds"
+		alwaystransparent = yes
+	}
+
+#---------------------------------------------------------- FFGs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_early_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Krivak I class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_basic_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Krivak III class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_improved_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Neustrashimy class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Admiral Gorshkov class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_frigate_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Admiral Grigorovich class.dds"
+		alwaystransparent = yes
+	}
+	
+#---------------------------------------------------------- Corvettes ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_early_corvette_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Nanuchka I class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_basic_corvette_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Nanuchka III class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_improved_corvette_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Gepard class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_corvette_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Steregushchiy class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_corvette_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Buyan M class.dds"
+		alwaystransparent = yes
+	}
+	
+#---------------------------------------------------------- CVs/CVNs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_early_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kiev class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_basic_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Baku class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_improved_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Adm Kuznetsov class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_advanced_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Ulyanovsk class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_carrier_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/shtorm class.dds"
+		alwaystransparent = yes
+	}	
+
+
+#---------------------------------------------------------- SSKs ----------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_SOV_early_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Tango class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_basic_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kilo class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_SOV_improved_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kilo class.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Kilo class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Lada class.dds"
+		alwaystransparent = yes
+	}
+	
+
+#---------------------------------------------------------- SSNs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_early_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Victor class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_basic_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Alfa class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_SOV_improved_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Akula class.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Akula class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_nuclear_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Yasen class.dds"
+		alwaystransparent = yes
+	}
+
+
+#---------------------------------------------------------- SSBN/SSGNs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_early_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/delta I class.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_basic_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Oscar class.dds"
+		alwaystransparent = yes
+	}
+	
+
+	SpriteType = {
+		name = "GFX_SOV_improved_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/typhoon class.dds"
+		alwaystransparent = yes
+	}
+
+
+	SpriteType = {
+		name = "GFX_SOV_advanced_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Delta IV class.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_modern_nuclear_missile_submarine_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/sea/Borei class.dds"
+		alwaystransparent = yes
+	}
+	
+}

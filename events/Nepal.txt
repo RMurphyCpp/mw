@@ -1,0 +1,50 @@
+﻿add_namespace = nepal
+add_namespace = news_nepal
+
+
+
+#########################################
+# Nepalese Royal Massacre
+#########################################
+country_event = {
+	id = nepal.1
+	title = nepal.1.t
+	desc = nepal.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = NEP
+		date > 2001.6.1
+		date < 2002.1.1
+	}
+	
+
+#Ok.
+	option = {
+		name = nepal.1.a
+		news_event = {
+			hours = 6
+			id = news_nepal.1
+		}
+		add_national_unity = -1
+	}
+}
+
+#Nepalese Royal Massacre
+news_event = {
+	id = news_nepal.1
+	title = news_nepal.1.t
+	desc = news_nepal.1.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_nepal.1.a
+	}
+	
+}

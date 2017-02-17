@@ -1,0 +1,44 @@
+﻿add_namespace = g8
+
+
+
+#########################################
+# 26th G8 summit
+#########################################
+
+country_event = {
+	id = g8.1
+	title = g8.1.t
+	desc = g8.1.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		date > 2000.10.10
+		date < 2001.1.1
+		
+	}
+	
+
+
+#USS Cole get's repairs	
+	option = {
+		name = g8.1.a
+		news_event = {
+			hours = 6
+			id = news_usa.3
+		}
+	}
+
+#USS Cole get's scrapped	
+	option = {
+		name = g8.1.b
+		news_event = {
+			hours = 6
+			id = news_usa.3
+		}
+		
+	}
+	
+}

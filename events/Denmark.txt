@@ -1,0 +1,53 @@
+﻿add_namespace = denmark
+add_namespace = news_denmark
+
+
+#########################################
+# Øresund Bridge opens
+#########################################
+country_event = {
+	id = denmark.1
+	title = denmark.1.t
+	desc = denmark.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		 OR = {
+		original_tag = DEN
+		original_tag = SWE
+		}
+	
+		date > 2000.3.4
+		date < 2001.1.1
+	}
+	
+
+#Start search and rescue operation!
+	option = {
+		name = denmark.1.a
+		
+		news_event = {
+			hours = 6
+			id = news_denmark.1
+		}
+}
+
+}
+#Earthquake News Event
+news_event = {
+	id = news_denmark.1
+	title = news_denmark.1.t
+	desc = news_denmark.1.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_denmark.1.a
+	}
+	
+}

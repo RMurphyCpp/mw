@@ -1,0 +1,191 @@
+﻿add_namespace = russian_elections
+add_namespace = news_russian_elections
+
+
+
+#########################################
+# 2000 elections 
+#########################################
+
+country_event = {
+	id = russian_elections.1
+	title = russian_elections.1.t
+	desc = russian_elections.1.d
+	picture = GFX_report_event_election_2000_brussianh_gore
+
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = SOV
+		date > 2000.3.26
+		date < 2001.1.1
+		not = { has_country_flag = russian_election_2000 }
+	}
+	
+	immediate = {
+		set_country_flag = russian_election_2000
+	
+	}
+
+#	Vladimir Putin
+	option = {	
+		name = russian_elections.1.a
+		ai_chance = {
+			factor = 64
+		}
+		retire_country_leader = yes
+		add_popularity = {
+			ideology = democratic_nationalism
+			popularity = 0.03
+		}
+
+		add_political_power = 15
+		set_country_flag = russian_putin_victory_2000
+		
+	}
+
+#	Gennady Zyuganov
+	option = {	
+		name = russian_elections.1.b
+		ai_chance = {
+			factor = 30
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_politics = {
+			ruling_party = communism
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = communism
+			popularity = 0.03
+		}
+		add_political_power = -15
+		set_country_flag = russian_zyuganov_victory_2000
+		
+	}
+
+	#	Grigory Yavlinsky
+	option = {	
+		name = russian_elections.1.c
+		ai_chance = {
+			factor = 6
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_politics = {
+			ruling_party = democratic_liberal
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_liberal
+			popularity = 0.03
+		}
+		add_political_power = -15
+		set_country_flag = russian_yavlinsky_victory_2000
+		
+	}
+	
+}	
+
+
+#########################################
+# Russian Elections 2004
+#########################################
+country_event = {
+	id = russian_elections.2
+	title = russian_elections.2.t
+	desc = russian_elections.2.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SOV
+		date > 2004.3.12
+		date < 2005.1.1
+		not = { has_country_flag = russian_elections_2004 }
+	}
+	
+	immediate = {
+		set_country_flag = russian_elections_2004
+	
+	}
+	
+	
+	
+	
+#George Walker Bush
+	option = {
+		name = russian_elections.2.a
+		trigger = {
+		has_country_flag =  bush_victory_2000
+		}	
+
+	}
+	
+#John Kerry
+	option = {
+		name = russian_elections.2.b
+		trigger = {
+		has_country_flag =  bush_victory_2000
+		}	
+		set_politics = {
+			ruling_party = democratic_liberal
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_liberal
+			popularity = 0.03
+		}		
+
+	}
+
+#Al Gore
+	option = {
+		name = russian_elections.2.c
+		trigger = {
+		has_country_flag = gore_victory_2000
+		}	
+
+	}
+	
+#Rudy Giuliani
+	option = {
+		name = russian_elections.2.e
+		trigger = {
+		has_country_flag = gore_victory_2000
+		}	
+		set_politics = {
+			ruling_party = democratic_conservative
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_conservative
+			popularity = 0.03
+		}		
+
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

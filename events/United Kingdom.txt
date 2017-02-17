@@ -1,0 +1,139 @@
+﻿add_namespace = uk
+add_namespace = news_uk
+
+
+
+#########################################
+# Golden Jubilee of Elizabeth II
+#########################################
+
+country_event = {
+	id = uk.1
+	title = uk.1.t
+	desc = uk.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ENG
+		date > 2002.05.10
+		date < 2003.1.1
+	}	
+
+
+#Let the celebrations begn
+	option = {
+		name = uk.1.a
+		
+	}
+	
+}	
+
+
+#########################################
+# 2005 London Bombings
+#########################################
+
+country_event = {
+	id = uk.2
+	title = uk.2.t
+	desc = uk.2.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ENG
+		date > 2005.4.7
+		date < 2006.1.1
+	}	
+
+
+#Horrible!
+	option = {
+		name = uk.2.a
+	}
+	
+}	
+
+
+#########################################
+# Diamond Jubilee of Elizabeth II
+#########################################
+
+country_event = {
+	id = uk.3
+	title = uk.3.t
+	desc = uk.3.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ENG
+		date > 2012.2.6
+		date < 2013.1.1
+	}	
+
+
+#Horrible!
+	option = {
+		name = uk.3.a
+	}
+	
+}
+
+#########################################
+# The royal wedding
+#########################################
+
+country_event = {
+	id = uk.4
+	title = uk.4.t
+	desc = uk.4.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ENG
+		date > 2011.4.28
+		date < 2012.1.1
+	}	
+
+
+#Horrible!
+	option = {
+		name = uk.4.a
+	}
+	
+}
+
+
+
+#########################################
+# 2011 England riots
+#########################################
+
+country_event = {
+	id = uk.5
+	title = uk.5.t
+	desc = uk.5.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = ENG
+		date > 2011.8.11
+		date < 2012.1.1
+	}	
+
+
+#Horrible!
+	option = {
+		name = uk.5.a
+	}
+	
+}

@@ -1,0 +1,50 @@
+﻿add_namespace = philippines
+add_namespace = news_philippines
+
+
+
+#########################################
+#	Rizal Day bombings
+#########################################
+country_event = {
+	id = philippines.1
+	title = philippines.1.t
+	desc = philippines.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = PHI
+		date > 2000.12.30
+		date < 2001.1.1
+	}
+	
+
+#Horrible
+	option = {   
+		name = philippines.1.a
+		news_event = {
+			hours = 6
+			id = news_philippines.1
+		}
+		add_national_unity = -1
+	}
+}
+
+#	Rizal Day bombings
+news_event = {
+	id = news_philippines.1
+	title = news_philippines.1.t
+	desc = news_philippines.1.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_philippines.1.a
+	}
+	
+}

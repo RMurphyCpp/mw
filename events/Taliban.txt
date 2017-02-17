@@ -1,0 +1,23 @@
+﻿add_namespace = taliban
+add_namespace = news_taliban
+
+
+
+#########################################
+# Five Point Ultimatum
+#########################################
+country_event = {
+	id = taliban.1
+	title = taliban.1.t
+	desc = taliban.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	is_triggered_only = yes	
+
+#We refuse these terms
+	option = {
+		name = taliban.1.a
+	}
+}
+

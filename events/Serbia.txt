@@ -1,0 +1,110 @@
+﻿add_namespace = serbia
+add_namespace = news_serbia
+
+
+
+#########################################
+# The Bulldozer revolution
+#########################################
+
+country_event = {
+	id = serbia.1
+	title = serbia.1.t
+	desc = serbia.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SRM
+		date > 2001.10.5
+		date < 2002.1.1
+	}	
+
+
+#Down with Milošević
+	option = {
+		name = serbia.1.a
+	}
+	
+#Subjugate the people (with military)
+	option = {
+		name = serbia.1.b
+	}	
+
+}	
+#########################################
+# 2004 unrest in Kosovo
+#########################################
+
+country_event = {
+	id = serbia.2
+	title = serbia.2.t
+	desc = serbia.2.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SRM
+		date > 2004.5.21
+		date < 2006.1.1
+	}	
+
+
+#Let the UN handle it
+	option = {
+		name = serbia.2.a
+	}
+	
+#Bring in the troops
+	option = {
+		name = serbia.2.b
+	}		
+	
+}	
+#########################################
+# 2006 Montenegrin referendum
+#########################################
+
+country_event = {
+	id = serbia.3
+	title = serbia.3.t
+	desc = serbia.3.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = SRM
+		date > 2004.5.21
+		date < 2006.1.1
+	}	
+
+
+#We accept the results of the referendum
+	option = {
+		name = serbia.3.a
+		release = MTN
+		release = SER
+		change_tag_from = SER		
+	}
+
+#We accept the results of the referendum
+	option = {
+		name = serbia.3.a
+		release = MTN
+		release = SER
+		change_tag_from = MTN		
+	}
+	
+#Unity at all costs
+	option = {
+		name = serbia.3.b
+		
+	}		
+}	
+
+	
+	
+	
