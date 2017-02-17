@@ -1,0 +1,54 @@
+﻿add_namespace = canada
+add_namespace = news_canada
+
+#########################################
+# Kipawa Earthquake
+#########################################
+country_event = {
+    id = canada.1
+    title = canada.1.t
+    desc = canada.1.d
+    picture = GFX_event_kipawa_earthquake
+
+    fire_only_once = yes
+
+    trigger = {
+        original_tag = CAN
+        date > 2000.1.1
+        date < 2000.1.3
+    }
+
+    option = {
+        name = canada.1.o1
+    }
+}
+
+
+#canada.1.t:0 "The Kipawa Earthquake"
+#canada.1.d:0 "The 2000 Kipawa earthquake struck Quebec and Ontario, Canada with a moment magnitude of 5.2 at 6:22 a.m. on January 1. It occurred in the Western Quebec Seismic Zone. The main shock epicenter was located in Lake Kipawa about 10 km (6 mi) north of Témiscaming in southwestern Quebec and 70 km (43 mi) northeast of North Bay, Ontario. It was felt as far away as Toronto, making it one of the most significant earthquakes in Canada in 2000. Minor damage was reported during this earthquake such as fallen light objects. A total of 17 aftershocks were reported."
+#canada.1.o1:0 "That is too bad."
+
+#########################################
+# Clarity Act
+#########################################
+country_event = {
+    id = canada.2
+    title = canada.2.t
+    desc = canada.2.d
+    picture = GFX_clarity_act
+
+    fire_only_once = yes
+
+    trigger = {
+        original_tag = CAN
+        date > 2000.3.13
+        date < 2000.3.15
+    }
+
+    option = {
+        name = canada.2.o1
+    }
+}
+#canada.2.t:0 "Clarity Act Passed"
+#canada.2.d:0 "The Clarity Act is legislation passed by the Parliament of Canada that established the conditions under which the Government of Canada would enter into negotiations that might lead to secession following such a vote by one of the provinces. The key points of the legislation are:Giving the House of Commons the power to decide whether a proposed referendum question was considered clear before the public vote;Giving the House of Commons the power to determine whether or not a clear majority had expressed itself following any referendum vote, implying that some sort of supermajority is required for success;Stating that all provinces and the First Nations were to be part of the negotiations;Allowing the House of Commons to override a referendum decision if it felt the referendum violated any of the tenets of the Clarity Act. It was passed by the House on March 15th,2000."
+#canada.2.o1:0 "Wonderful."

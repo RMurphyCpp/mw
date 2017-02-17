@@ -1,0 +1,877 @@
+technologies = {
+
+	@as_fighter_line = 8
+	@mr_fighter_line = 6
+	@interceptor_line = 4
+	@attacker_line = 2
+	@ucav_line = 0
+	@cas_line = 10
+	@bomber_line = -2	
+	
+	@3G_line = 2		
+	@Adv_3G_line = 6		
+	@4G_line = 10		
+	@Adv_4G_line = 14		
+	@5G_line = 18		
+	
+	
+######################################### Carrier based fighters ###########################################################################
+
+# F-4A, Mig-21K	
+	cv_third_gen_fighter = {
+
+		enable_equipments = {
+			cv_fighter_0
+		}
+	
+		research_cost = 0.01 #Carrier Variant
+		start_year = 1960
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# F-14A, Mig-23K	
+	cv_third_gen_adv_fighter = {
+
+		enable_equipments = {
+			cv_fighter_1
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1971
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}			
+
+#Mig-29K, Harrier II
+	cv_forth_gen_light_fighter = {
+
+		enable_equipments = {
+			cv_fighter_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1971
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+	
+#Mig-35K, AV-8C Harrier II
+	cv_adv_forth_gen_light_fighter = {
+
+		enable_equipments = {
+			cv_fighter_3
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1971
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+# F/A-35 Mig-50K LMFS 
+	cv_fifth_gen_light_fighter = {
+
+		enable_equipments = {
+			cv_fighter_4
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1971
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+	
+#Heavy CV Fighters	***************************************************
+	
+#Su-33 F/A-18C
+	cv_forth_gen_fighter = {
+
+		enable_equipments = {
+			cv_heavy_fighter_0
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1971
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}		
+	
+# F/A-18E Su-33M
+	cv_adv_forth_gen_fighter = {
+
+		enable_equipments = {
+			cv_heavy_fighter_1
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1971
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+# F/A-22N Su-50K PAK FA 
+	cv_fifth_gen_fighter = {
+
+		enable_equipments = {
+			cv_heavy_fighter_2
+		}
+	
+		research_cost = 1.0 #Carrier Variant
+		start_year = 1971
+		
+		categories = {
+			naval_air
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+
+
+	
+###############################################          Fighters        #############################################################
+
+# 3G	Mig-21s , F-4s	
+	third_gen_fighter = {
+
+		enable_equipments = {
+			fighter_0
+		}
+	
+		path = {
+			leads_to_tech = adv_third_gen_fighter
+			research_cost_coeff = 0.01
+		}
+		
+		research_cost = 2
+		start_year = 1960
+		folder = {
+			name = air_techs_folder
+			position = { x = @mr_fighter_line y = @3G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_third_gen_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# 3G Adv	Mig-23s , F-14	
+	adv_third_gen_fighter = {
+
+		enable_equipments = {
+			fighter_1
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_fighter
+			research_cost_coeff = 1
+		}
+
+		path = {
+			leads_to_tech = forth_gen_heavy_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1971
+		folder = {
+			name = air_techs_folder
+			position = { x = @mr_fighter_line y = @Adv_3G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_third_gen_adv_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# 4G MR Mig-29s F-16s	(light fighters)
+	forth_gen_fighter = {
+
+		enable_equipments = {
+			fighter_2
+		}
+	
+		path = {
+			leads_to_tech = adv_forth_gen_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @mr_fighter_line y = @4G_line }
+		}
+
+		sub_technologies = {
+			cv_forth_gen_light_fighter
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# 4.5G MR Mig-35 F/A-18E Super Hornet
+	adv_forth_gen_fighter = {
+
+		enable_equipments = {
+			fighter_3
+		}
+	
+		path = {
+			leads_to_tech = fifth_gen_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @mr_fighter_line y = @Adv_4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_adv_forth_gen_light_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# Light 5G F-35, Mig LMFS, J-31	(light)
+	fifth_gen_fighter = {
+
+		enable_equipments = {
+			fighter_4
+		}
+			
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @mr_fighter_line y = @5G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_fifth_gen_light_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+	
+
+##################################################          Heavy Fighters           ###########################################################	
+
+# 4G AS F-15Cs, Su-27s	(heavy)
+	forth_gen_heavy_fighter = {
+
+		enable_equipments = {
+			heavy_fighter_0
+		}
+	
+		path = {
+			leads_to_tech = adv_forth_gen_heavy_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @as_fighter_line y = @4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_forth_gen_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# 4.5G AS Su-35 (heavy)
+	adv_forth_gen_heavy_fighter = {
+
+		enable_equipments = {
+			heavy_fighter_1
+		}
+	
+		path = {
+			leads_to_tech = fifth_gen_heavy_fighter
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @as_fighter_line y = @Adv_4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+
+		sub_technologies = {
+			cv_adv_forth_gen_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# 5G AS F-22, PAK FA, J-20 (heavy)
+	fifth_gen_heavy_fighter = {
+
+		enable_equipments = {
+			heavy_fighter_2
+		}
+			
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @as_fighter_line y = @5G_line }
+		}
+
+		path = {
+			research_cost_coeff = 1
+		}		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		sub_technologies = {
+			cv_fifth_gen_fighter
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+
+###########################################           Interceptors         #################################################################
+
+
+# 3G	Mig-25
+	third_gen_interceptor = {
+
+		enable_equipments = {
+			Interceptor_0
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_interceptor
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @interceptor_line y = @3G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# 4G Mig-31	
+	forth_gen_interceptor = {
+
+		enable_equipments = {
+			Interceptor_1
+		}
+	
+		path = {
+			leads_to_tech = adv_forth_gen_interceptor
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @interceptor_line y = @4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# Adv 4G Mig-31BM
+	adv_forth_gen_interceptor = {
+
+		enable_equipments = {
+			Interceptor_2
+		}
+			
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @interceptor_line y = @Adv_4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}	
+
+#############################################             Close Air Support                       ###############################################################
+
+
+# 3G	 A-10, Su-25
+	third_gen_cas = {
+
+		enable_equipments = {
+			CAS_0
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_cas
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @cas_line y = @3G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# 4G Su-39,A-10C
+	forth_gen_cas = {
+
+		enable_equipments = {
+			CAS_1
+		}
+	
+		path = {
+			leads_to_tech = adv_forth_gen_cas
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @cas_line y = @4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# 5G 
+	adv_forth_gen_cas = {
+
+		enable_equipments = {
+			CAS_2
+		}
+			
+		research_cost = 2
+		start_year = 1955
+		folder = {
+			name = air_techs_folder
+			position = { x = @cas_line y = @Adv_4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+################################################                 Strike Fighters                  #####################################################
+
+# 3G	 Su-24 F-111 (70s)
+	third_gen_attacker = {
+
+		enable_equipments = {
+			strike_fighter_0
+		}
+	
+		path = {
+			leads_to_tech = adv_third_gen_attacker
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = @attacker_line y = @3G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# Adv 3G	F-117 ,  Su-24M  (80s)
+	adv_third_gen_attacker = {
+
+		enable_equipments = {
+			strike_fighter_1
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_attacker
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = @attacker_line y = @Adv_3G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# 4G  Su-24M2, F-15E (2000s)
+	forth_gen_attacker = {
+
+		enable_equipments = {
+			strike_fighter_2
+		}
+	
+		path = {
+			leads_to_tech = adv_forth_gen_attacker
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1985
+		folder = {
+			name = air_techs_folder
+			position = { x = @attacker_line y = @4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# 5G Su-34,F-15SE... (2010s)
+	adv_forth_gen_attacker = {
+
+		enable_equipments = {
+			strike_fighter_3
+		}
+			
+		research_cost = 2
+		start_year = 2018
+		folder = {
+			name = air_techs_folder
+			position = { x = @attacker_line y = @Adv_4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+################################################                UAVs/UCAVs                  #####################################################
+
+# MQ-1 Predator A
+	third_gen_ucav = {
+
+		enable_equipments = {
+			ucav_0
+		}
+	
+		path = {
+			leads_to_tech = forth_gen_ucav
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = @ucav_line y = @Adv_3G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# MQ-9 Predator B
+	forth_gen_ucav = {
+
+		enable_equipments = {
+			ucav_1
+		}
+	
+		path = {
+			leads_to_tech = adv_forth_gen_ucav
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1970
+		folder = {
+			name = air_techs_folder
+			position = { x = @ucav_line y = @4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+
+# MQ-9 Predator C
+	adv_forth_gen_ucav = {
+
+		enable_equipments = {
+			ucav_2
+		}
+	
+		path = {
+			leads_to_tech = fifth_gen_ucav
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1985
+		folder = {
+			name = air_techs_folder
+			position = { x = @ucav_line y = @Adv_4G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+# X-47
+	fifth_gen_ucav = {
+
+		enable_equipments = {
+			ucav_3
+		}
+			
+		research_cost = 2
+		start_year = 2018
+		folder = {
+			name = air_techs_folder
+			position = { x = @ucav_line y = @5G_line }
+		}
+		
+		categories = {
+			light_air
+			light_fighter
+			air_equipment
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+	}
+	
+
+
+	
+	
+##################################################################	
+
+}

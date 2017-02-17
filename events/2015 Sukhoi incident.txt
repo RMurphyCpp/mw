@@ -1,0 +1,142 @@
+﻿add_namespace = sukhoi_incident
+add_namespace = news_sukhoi_incident
+
+
+
+#########################################
+#	2015 Sukhoi Incident event chain
+#########################################
+
+
+#Turkey shoots downs Russian aircraft
+country_event = {
+	id = sukhoi_incident.1
+	title = sukhoi_incident.1.t
+	desc = sukhoi_incident.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = TUR
+		date > 2015.10.24
+		date < 2016.1.1
+		#NOT = { has_war = ISS }		
+	}
+	
+
+#Deny responsibility
+	option = {   
+		name = sukhoi_incident.1.a
+		SOV = { country_event = { days = 1 id = sukhoi_incident.2 }}
+		add_opinion_modifier = { target  = SOV modifier = protest_action_strong }
+	}
+	
+#Apologize for the incident
+	option = {   
+		name = sukhoi_incident.1.b
+		SOV = { country_event = { days = 1 id = sukhoi_incident.3 }}
+		add_opinion_modifier = { target = SOV modifier = small_decrease }
+		add_national_unity = -0.02
+	}
+
+#Blame Russia, they violated our airspace
+	option = {   
+		name = sukhoi_incident.1.c
+		SOV = { country_event = { days = 1 id = sukhoi_incident.4 }}
+		add_opinion_modifier = { target = SOV modifier = protest_action_strong }	
+		add_opinion_modifier = { target = SYR modifier = protest_action_strong }
+	}	
+}
+
+
+
+
+
+#Russian reaction #1 (Turkey denies responsibility)
+country_event = {
+	id = sukhoi_incident.2
+	title = sukhoi_incident.2.t
+	desc = sukhoi_incident.2.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	
+#This will not stand
+	option = {   
+		name = sukhoi_incident.2.a
+	}
+	
+}
+
+#Russian reaction #2 (Turkey apologises)
+country_event = {
+	id = sukhoi_incident.3
+	title = sukhoi_incident.3.t
+	desc = sukhoi_incident.3.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+
+#They better know their place
+	option = {   
+		name = sukhoi_incident.3.a
+		add_political_power = 25
+	}
+	
+}
+
+
+#Russian reaction #3 (Turkey blames us)
+country_event = {
+	id = sukhoi_incident.4
+	title = sukhoi_incident.4.t
+	desc = sukhoi_incident.4.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+
+#Lies!
+	option = {   
+		name = sukhoi_incident.4.a
+		ai_chance = { factor = 15 }
+	}
+	
+#I'll show them provoking
+	option = {   
+		name = sukhoi_incident.4.b
+		ai_chance = { factor = 85 }
+		add_opinion_modifier = { target = USA modifier = small_decrease }
+		add_opinion_modifier = { target = ENG modifier = small_decrease }
+		add_opinion_modifier = { target = TUR modifier = medium_decrease }
+	}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

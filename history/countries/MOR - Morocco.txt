@@ -1,0 +1,72 @@
+﻿capital = 461
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {
+		#placeholder techs.
+		infantry_small_arms = 1
+		infantry_lmg = 1
+		infantry_gpmg = 1
+		infantry_at = 1
+		infantry_atgm = 1
+		infantry_manpad = 1
+		
+	}
+
+	set_country_flag = muslim_country	
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 15				
+			
+		    }
+
+		    fascism = {
+			    popularity = 80			
+		    }
+		
+		    communism = {
+			    popularity = 5	
+		    }
+		
+		    autocracy = { 
+			    popularity = 0		
+		    }
+	    }
+	
+	    ruling_party = autocracy
+	    last_election = "1996.3.5"
+	    election_frequency = 48
+	    elections_allowed = no
+    }
+    add_ideas = {
+            religious_monarchy
+    }
+    #############LAST ENTRY IS USED FIRST#############	
+
+
+   create_country_leader = {
+    	name = "Jean-Marie Le Pen"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "FRANHFAS1.dds"
+    	expire = "2011.1.15"
+    	ideology = monarchism_autocratic
+    	traits = {
+    		#
+    	}
+    }
+
+
+    create_country_leader = {
+    	name = "Mohammed VI"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "MORH1.dds"
+    	expire = "2030.1.1"
+    	ideology = monarchism_autocratic
+    	traits = {
+    		#
+    	}
+    }
+}

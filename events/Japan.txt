@@ -1,0 +1,50 @@
+﻿add_namespace = japan
+add_namespace = news_japan
+
+
+
+#########################################
+# The PS2 is launched
+#########################################
+country_event = {
+	id = japan.1
+	title = japan.1.t
+	desc = japan.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = JAP
+		date > 2000.3.4
+		date < 2001.1.1
+	}
+	
+
+#Good for them
+	option = {
+		name = japan.1.a
+		news_event = {
+			hours = 6
+			id = news_japan.1
+		}
+		add_national_unity = -1
+	}
+}
+
+#The PS2 is launched
+news_event = {
+	id = news_japan.1
+	title = news_japan.1.t
+	desc = news_japan.1.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_japan.1.a
+	}
+	
+}

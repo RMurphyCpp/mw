@@ -1,0 +1,31 @@
+﻿l_english:
+
+#UNSC setup
+unsc.1.t:0 "United Nations Security Council Setup"
+unsc.1.d:0 "Placeholder"
+unsc.1.a:0 "Disable Non Permanent Security Council Members"
+unsc.1.b:0 "Keep Non Permanent Security Council Members"
+
+
+#UNSC test event
+unsc.2.t:0 "United Nations Security Council vote"
+unsc.2.d:0 "Placeholder"
+unsc.2.a:0 "Yes"
+unsc.2.b:0 "No"
+
+#UNSC test event results
+unsc.3.t:0 "United Nations Security Council results"
+unsc.3.d:0 "Placeholder"
+unsc.3.a:0 "The resolution passed"
+unsc.3.b:0 "The resolution is rejected"
+
+#Resolution passes
+news_unsc.1.t:0 "Resolution passed"
+news_unsc.1.d:0 "Placeholder"
+news_unsc.1.a:0 "OK"
+
+
+#Resolution rejected
+news_unsc.2.t:0 "Resolution rejected"
+news_unsc.2.d:0 "Placeholder"
+news_unsc.2.a:0 "OK"

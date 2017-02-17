@@ -1,0 +1,424 @@
+﻿add_namespace = us_elections
+add_namespace = news_us_elections
+
+
+
+#########################################
+# 2000 elections 
+#########################################
+
+country_event = {
+	id = us_elections.1
+	title = us_elections.1.t
+	desc = us_elections.1.d
+	picture = GFX_report_event_USA_elections_2000_bush_gore
+
+	is_triggered_only = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 2000.6.1
+		date < 2001.1.1
+		not = { has_country_flag = us_elections_2000 }
+	}
+	
+	immediate = {
+		set_country_flag = us_elections_2000
+	
+	}
+
+#	George Walker Bush	
+	option = {	
+		name = us_elections.1.a
+		ai_chance = {
+			factor = 60
+		}
+		set_politics = {
+			ruling_party = democratic_conservative
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_conservative
+			popularity = 0.03
+		}
+		hidden_effect = {
+			create_country_leader = {
+				name = "John Kerry"
+				desc = "POLITICIAN_USA_JOHN_KERRY_DESC"
+				picture = "USANHLIB2.dds"
+				expire = "2050.1.1"
+				ideology = liberalism
+				
+				traits = {
+				
+				}
+			}
+		}
+		add_political_power = 15
+		set_country_flag = bush_victory_2000
+		
+	}
+
+#	Al Gore	
+	option = {	
+		name = us_elections.1.b
+		ai_chance = {
+			factor = 40
+			modifier = {
+				factor = 0
+				is_historical_focus_on = yes
+			}
+		}
+		set_politics = {
+			ruling_party = democratic_liberal
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_liberal
+			popularity = 0.03
+		}
+		create_country_leader = {
+			name = "Al Gore"
+			desc = "POLITICS_KING_ZOG_DESC"
+			picture = "USALNHLIB1.dds"
+			expire = "2002.1.1"
+			ideology = liberalism
+			traits = {
+				#
+			}
+		}
+		hidden_effect = {
+			create_country_leader = {
+				name = "Rudy Giuliani"
+				desc = "POLITICS_KING_ZOG_DESC"
+				picture = "USALNHCON1.dds"
+				expire = "2050.1.1"
+				ideology = conservatism
+			
+				traits = {
+				
+				}
+			}
+		}
+		add_political_power = -15
+		set_country_flag = gore_victory_2000
+		
+	}
+}	
+
+
+
+#########################################
+# US Elections 2004
+#########################################
+country_event = {
+	id = us_elections.2
+	title = us_elections.2.t
+	desc = us_elections.2.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 2004.11.2
+		date < 2005.1.1
+		not = { has_country_flag = us_elections_2004 }
+	}
+	
+	immediate = {
+		set_country_flag = us_elections_2004
+	
+	}
+	
+	
+	
+	
+#George Walker Bush
+	option = {
+		name = us_elections.2.a
+		trigger = {
+		has_country_flag =  bush_victory_2000
+		}	
+		set_country_flag = bush_victory_2004
+			hidden_effect = {
+				create_country_leader = {
+				name = "Barack Obama"
+				desc = "POLITICS_KING_ZOG_DESC"
+				picture = "USAH3.dds"
+				expire = "2017.1.1"
+				ideology = liberalism
+				traits = {
+					#
+				}
+			}
+				create_country_leader = {
+				name = "John McCain"
+				desc = "POLITICS_KING_ZOG_DESC"
+				picture = "USAHNHCON1.dds"
+				expire = "2017.1.1"
+				ideology = conservatism
+				traits = {
+					#
+				}
+			}			
+		}		
+	}
+	
+#John Kerry
+	option = {
+		name = us_elections.2.b
+		trigger = {
+		has_country_flag =  bush_victory_2000
+		}	
+		set_politics = {
+			ruling_party = democratic_liberal
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_liberal
+			popularity = 0.03
+		}		
+		set_country_flag = kerry_victory_2004
+		
+			hidden_effect = {
+				create_country_leader = {
+				name = "Dick Cheney"
+				desc = "POLITICS_KING_ZOG_DESC"
+				picture = "USAHNHCON3.dds"
+				expire = "2017.1.1"
+				ideology = conservatism
+				traits = {
+					#
+				}
+			}
+		}		
+		
+		
+	}
+
+#Al Gore
+	option = {
+		name = us_elections.2.c
+		trigger = {
+		has_country_flag = gore_victory_2000
+		}	
+		set_country_flag = gore_victory_2004
+		
+			hidden_effect = {
+				create_country_leader = {
+				name = "Joe Biden"
+				desc = "POLITICS_KING_ZOG_DESC"
+				picture = "USALNHLIB3.dds"
+				expire = "2017.1.1"
+				ideology = liberalism
+				traits = {
+					#
+				}
+			}
+		}		
+		
+			hidden_effect = {
+				create_country_leader = {
+				name = "Mike Huckabee"
+				desc = "POLITICS_KING_ZOG_DESC"
+				picture = "USANHCON2.dds"
+				expire = "2017.1.1"
+				ideology = conservatism
+				traits = {
+					#
+				}
+			}
+		}		
+		
+	}
+	
+#Rudy Giuliani
+	option = {
+		name = us_elections.2.e
+		trigger = {
+		has_country_flag = gore_victory_2000
+		}	
+		set_politics = {
+			ruling_party = democratic_conservative
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_conservative
+			popularity = 0.03
+		}		
+		set_country_flag = giuliani_victory_2004
+		
+			hidden_effect = {
+				create_country_leader = {
+				name = "Hillary Clinton "
+				desc = "POLITICS_KING_ZOG_DESC"
+				picture = "USALNHLIB5.dds"
+				expire = "2017.1.1"
+				ideology = liberalism
+				traits = {
+					#
+				}
+			}
+		}		
+		
+		
+		
+	}
+	
+}
+
+
+
+
+#########################################
+# US Elections 2008
+#########################################
+country_event = {
+	id = us_elections.3
+	title = us_elections.3.t
+	desc = us_elections.3.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 2008.11.4
+		date < 2009.1.1
+		not = { has_country_flag = us_elections_2008 }
+	}
+	
+	immediate = {
+		set_country_flag = us_elections_2008
+	
+	}
+	
+	
+####### IF Bush wins in 2004 ###################	
+	
+#Barack Obama
+	option = {
+		name = us_elections.3.a
+		trigger = {
+		has_country_flag =  bush_victory_2004
+		}	
+		set_politics = {
+			ruling_party = democratic_liberal
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_liberal
+			popularity = 0.03
+		}			
+		set_country_flag = obama_victory_2008
+	}
+	
+#John McCain
+	option = {
+		name = us_elections.3.b
+		trigger = {
+		has_country_flag =  bush_victory_2004
+		}	
+		retire_country_leader = yes	
+		set_country_flag = mccain_victory_2008
+	}
+
+####### IF Kerry wins in 2004 ###################	
+#John Kerry
+	option = {
+		name = us_elections.3.c
+		trigger = {
+		has_country_flag = kerry_victory_2004
+		}	
+		set_country_flag = kerry_victory_2008
+	}
+	
+#Dick Cheney
+	option = {
+		name = us_elections.3.e
+		trigger = {
+		has_country_flag = kerry_victory_2004
+		}	
+		set_politics = {
+			ruling_party = democratic_conservative
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_conservative
+			popularity = 0.03
+		}		
+		set_country_flag = cheney_victory_2008
+	}
+
+####### IF Gore wins in 2004 ###################	
+#Joe Biden 
+	option = {
+		name = us_elections.3.f
+		trigger = {
+		has_country_flag = gore_victory_2004
+		}	
+		retire_country_leader = yes
+		set_country_flag = gore_victory_2004
+	}
+	
+
+#Mike Huckabee
+	option = {
+		name = us_elections.3.g
+		trigger = {
+		has_country_flag = gore_victory_2004
+		}	
+		set_country_flag = gore_victory_2004
+		set_politics = {
+			ruling_party = democratic_conservative
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_conservative
+			popularity = 0.03
+		}			
+	}
+	
+####### IF Giuliani wins in 2004 ###################	
+#Rudy Giuliani
+	option = {
+		name = us_elections.3.h
+		trigger = {
+		has_country_flag = giuliani_victory_2004
+		}	
+		set_country_flag = giuliani_victory_2008
+	}
+	
+
+#Hillary Clinton
+	option = {
+		name = us_elections.3.i
+		trigger = {
+		has_country_flag = giuliani_victory_2004
+		}	
+		set_country_flag = hillary_victory_2008
+		set_politics = {
+			ruling_party = democratic_liberal
+			elections_allowed = yes
+		}
+		add_popularity = {
+			ideology = democratic_liberal
+			popularity = 0.03
+		}			
+	}
+	
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,184 @@
+﻿capital = 126
+2000.1.1 = {
+    set_research_slots = 3
+    set_convoys = 10
+    set_national_unity = 0.7
+    set_technology = {
+		#placeholder techs.
+		infantry_small_arms = 1
+		infantry_lmg = 1
+		infantry_gpmg = 1
+		infantry_at = 1
+		infantry_atgm = 1
+		infantry_manpad = 1
+		
+	}
+
+	add_opinion_modifier = { target = USA modifier = historical_friends }	
+	give_guarantee = CYP
+
+    set_politics = {
+
+	    parties = {
+		    democratic_conservative = { 
+			    popularity = 30
+		    }
+
+		    democratic_liberal = {
+			    popularity = 16.8	
+		    }
+		
+		    democratic_socialism = {
+			    popularity = 43.7
+		    }
+
+            democratic_reactionary = {
+                popularity = 0.5
+            }
+	    }
+	
+	    ruling_party = democratic_socialism
+	    last_election = "1997.6.7"
+	    election_frequency = 48
+	    elections_allowed = yes
+    }
+    add_ideas = {
+		un_permanent_member
+		european_union_member
+	    city_of_london
+		magna_carta
+		the_union_jack
+    }
+    #############LAST ENTRY IS USED FIRST#############
+    create_country_leader = {
+    	name = "Jeffrey Titford"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGREA1.dds"
+    	expire = "2002.10.5"
+    	ideology = reactionarism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Charles Kennedy"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGLIB1.dds"
+    	expire = "2010.5.6"
+    	ideology = liberalism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "William Hague"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGCON1.dds"
+    	expire = "2020.6.27"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }	
+    create_country_leader = {
+    	name = "Tony Blair"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGG1.dds"
+    	expire = "2007.6.27"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2001.10.7 = {
+    create_country_leader = {
+    	name = "Tony Blair"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGG1.dds"
+    	expire = "2007.6.27"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2003.3.15 = {
+    create_country_leader = {
+    	name = "Tony Blair"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGG1.dds"
+    	expire = "2007.6.27"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2008.8.7 = {
+    create_country_leader = {
+    	name = "Gordon Brown"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGG2.dds"
+    	expire = "2010.5.11"
+    	ideology = socialism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2010.12.18 = {
+    create_country_leader = {
+    	name = "David Cameron"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGG3.dds"
+    	expire = "2030.5.11"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2011.3.15 = {
+    create_country_leader = {
+    	name = "David Cameron"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGG3.dds"
+    	expire = "2030.5.11"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2013.4.8 = {
+    create_country_leader = {
+    	name = "David Cameron"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGG3.dds"
+    	expire = "2030.5.11"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+}
+
+2014.4.7 = {
+    create_country_leader = {
+    	name = "David Cameron"
+    	desc = "POLITICS_KING_ZOG_DESC"
+    	picture = "ENGG3.dds"
+    	expire = "2030.5.11"
+    	ideology = conservatism
+    	traits = {
+    		#
+    	}
+    }
+} 

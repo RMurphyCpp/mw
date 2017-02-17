@@ -1,0 +1,112 @@
+equipments = {
+
+	trucks_equipment = {
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		maximum_speed = 12
+		reliability = 0.8
+		hardness = 0.1
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 2.5
+		resources = {
+			oil = 1
+			rubber = 1
+			steel = 1
+		}
+	}
+
+	truck_1 = {
+		archetype = trucks_equipment
+		priority = 30			
+	}
+
+	truck_2 = {
+		archetype = trucks_equipment
+		priority = 30			
+	}
+	truck_3 = {
+		archetype = trucks_equipment
+		priority = 30			
+	}
+	truck_4 = {
+		archetype = trucks_equipment
+		priority = 30			
+	}	
+	
+	
+	
+	#################
+	
+	heavy_sam_equipment = {
+		is_archetype = yes
+		picture = archetype_motorized_equipment		
+		is_buildable = no
+		type = {
+			#infantry #Removing inf type 
+			motorized
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		maximum_speed = 12
+		reliability = 0.8
+		hardness = 0.1
+
+		#Space taken in convoy
+		lend_lease_cost = 5
+
+		build_cost_ic = 2.5
+		resources = {
+			oil = 1
+			rubber = 1
+			steel = 1
+		}
+	}
+
+	heavy_sam_1 = {
+		archetype = heavy_sam_equipment
+		priority = 30			
+	}
+
+	heavy_sam_2 = {
+		archetype = heavy_sam_equipment
+		priority = 30			
+	}
+	heavy_sam_3 = {
+		archetype = heavy_sam_equipment
+		priority = 30			
+	}
+	heavy_sam_4 = {
+		archetype = heavy_sam_equipment
+		priority = 30			
+	}	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+}

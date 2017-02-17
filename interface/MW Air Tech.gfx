@@ -1,0 +1,396 @@
+
+spriteTypes = {
+	
+
+
+##### US tech ######################################################################################################	
+
+
+#----------------------------------------------------------Fighters-------------------------------------------------------------------------------
+
+#3G
+	SpriteType = {
+		name = "GFX_USA_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-4.dds"
+		alwaystransparent = yes
+	}		
+#Adv 3G	
+	SpriteType = {
+		name = "GFX_USA_adv_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-14.dds"
+		alwaystransparent = yes
+	}	
+#4G MR	
+	SpriteType = {
+		name = "GFX_USA_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-16.dds"
+		alwaystransparent = yes
+	}	
+#Adv 4G MR	
+	SpriteType = {
+		name = "GFX_USA_adv_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-16.dds"
+		alwaystransparent = yes
+	}	
+#4G AS	
+	SpriteType = {
+		name = "GFX_USA_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-15C.dds"
+		alwaystransparent = yes
+	}		
+#Adv 4G AS	
+	SpriteType = {
+		name = "GFX_USA_adv_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-15C.dds"
+		alwaystransparent = yes
+	}	
+#5G MR		
+	SpriteType = {
+		name = "GFX_USA_fifth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-35.dds"
+		alwaystransparent = yes
+	}
+#5G AS	
+	SpriteType = {
+		name = "GFX_USA_fifth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-22.dds"
+		alwaystransparent = yes
+	}	
+
+#----------------------------------------------------------CAS-------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_USA_third_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/A-10.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_forth_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/A-10.dds"
+		alwaystransparent = yes
+	}	
+	
+
+	SpriteType = {
+		name = "GFX_USA_adv_forth_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/A-10.dds"
+		alwaystransparent = yes
+	}
+
+#----------------------------------------------------------Strike Fighters-------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_USA_third_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-111.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_adv_third_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-111.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_forth_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-15E.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_USA_adv_forth_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-15E.dds"
+		alwaystransparent = yes
+	}	
+
+#----------------------------------------------------------UCAVs-------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_third_gen_ucav_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MQ-1.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_forth_gen_ucav_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MQ-9.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_adv_forth_gen_ucav_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/RQ-4.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_USA_fifth_gen_ucav_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/X-47.dds"
+		alwaystransparent = yes
+	}
+
+#----------------------------------------------------------Stragetic Bombers-------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_third_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/B-52.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_adv_third_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/B-1B.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_forth_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/B-2.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_USA_fifth_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/B-2.dds"
+		alwaystransparent = yes
+	}
+
+#---------------------------------------------------------- Maritime patrol Aircraft -------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_third_gen_mpa_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/P-3.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_forth_gen_mpa_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/P-3.dds"
+		alwaystransparent = yes
+	}	
+		
+	
+#----------------------------------------------------------CAG-------------------------------------------------------------------------------	
+	
+	SpriteType = {
+		name = "GFX_USA_cv_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-4A.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_USA_cv_third_gen_adv_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-14A.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_cv_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/FA-18E.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_cv_adv_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/FA-18E.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_cv_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/AV-8B.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_cv_adv_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/AV-8C.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_cv_fifth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-35.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_cv_fifth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/F-22.dds"
+		alwaystransparent = yes
+	}
+	
+############# British Tech ####################################################################################################################	
+
+	
+############# Ruskie Tech ####################################################################################################################
+
+#----------------------------------------------------------Fighters-------------------------------------------------------------------------------
+
+	SpriteType = {
+		name = "GFX_SOV_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MIG-21.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_adv_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MIG-23.dds"
+		alwaystransparent = yes
+	}		
+	
+
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Mig-29.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Mig-35.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-27.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_SOV_adv_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-35.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_fifth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MIG LMFS.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_fifth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/PAK FA.dds"
+		alwaystransparent = yes
+	}		
+#----------------------------------------------------------Interceptor-------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_third_gen_interceptor_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MiG-25.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_forth_gen_interceptor_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MiG-31.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_adv_forth_gen_interceptor_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/MiG-31.dds"
+		alwaystransparent = yes
+	}	
+	
+	
+
+#----------------------------------------------------------CAS-------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_SOV_third_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-25.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-39.dds"
+		alwaystransparent = yes
+	}	
+	
+
+	SpriteType = {
+		name = "GFX_SOV_adv_forth_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-39.dds"
+		alwaystransparent = yes
+	}
+
+#----------------------------------------------------------Strike Fighters-------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_SOV_third_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-24.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_adv_third_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-24M.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-24M.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_SOV_adv_forth_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-34.dds"
+		alwaystransparent = yes
+	}	
+
+
+#---------------------------------------------------------- Stragetic Bombers----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_third_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Tu-95.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_adv_third_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Tu-22.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Tu-160.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_SOV_fifth_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Tu-160.dds"
+		alwaystransparent = yes
+	}
+
+#---------------------------------------------------------- Maritime patrol Aircraft -------------------------------------------------------------------------------	
+		
+	SpriteType = {
+		name = "GFX_SOV_third_gen_mpa_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Tu-95.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_mpa_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Il-38.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_SOV_fifth_gen_mpa_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Il-38N.dds"
+		alwaystransparent = yes
+	}		
+		
+#---------------------------------------------------------- CAG -------------------------------------------------------------------------------
+
+	SpriteType = {
+		name = "GFX_SOV_cv_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Su-33.dds"
+		alwaystransparent = yes
+	}	
+
+
+	
+}

@@ -1,0 +1,696 @@
+﻿add_namespace = ru_reac
+
+add_namespace = ru_blr
+add_namespace = blr_ru
+
+add_namespace = ru_ukr
+add_namespace = ukr_ru
+
+add_namespace = ru_kazakh
+add_namespace = kazakh_ru
+
+add_namespace = ru_baltics
+
+add_namespace = ru_prc
+add_namespace = prc_ru
+
+add_namespace = ru_anti_prc
+add_namespace = anti_prc_ru
+
+#########################################
+# They can't teach us!
+#########################################
+country_event = {
+	id = ru_reac.0
+	title = ru_reac.0.t
+	desc = ru_reac.0.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+
+	option = {
+	name = ru_reac.0.a
+		add_opinion_modifier = {
+				target = USA
+				modifier = protest_action_light
+		}
+	}
+}
+
+
+#########################################
+# Propose unification to Belarus
+#########################################
+
+country_event = {
+	id = ru_blr.0
+	title = ru_blr.0.t
+	desc = ru_blr.0.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+
+	option = {
+	name = ru_blr.0.a
+		BLR = { country_event = { days = 1 id = blr_ru.0}}
+	}
+}
+
+####################
+#Belarus : Russia proposes unification
+country_event = {
+	id = blr_ru.0
+	title = blr_ru.0.t
+	desc = blr_ru.0.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#We accept!
+	option = {
+	name = blr_ru.0.a
+		#Unification + player choose to play as Russia or not (remain as a puppet) 
+	}
+
+#We refuse	
+	option = {
+	name = blr_ru.0.a
+		
+	}	
+}
+
+
+#########################################
+# Aiming at Belarus
+#########################################
+
+country_event = {
+	id = ru_blr.1
+	title = ru_blr.1.t
+	desc = ru_blr.1.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Prepare a coup in Minsk
+	option = {
+	name = ru_blr.1.a
+	#Launches a random event, to simulate the possibility of failure for the coup
+	}
+
+#Support Russian minorities!	
+	option = {
+	name = ru_blr.1.a
+	#Add Vitebsk People’s Republic, at war with Belarus
+	}	
+	
+}
+
+#########################################
+# Aiming at Belarus
+#########################################
+
+country_event = {
+	id = ru_blr.2
+	title = ru_blr.2.t
+	desc = ru_blr.2.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Prepare a coup in Minsk
+	option = {
+	name = ru_blr.2.a
+
+	}
+
+#Support Russian minorities!	
+	option = {
+	name = ru_blr.2.a
+
+	}	
+	
+}
+
+
+#########################################
+# You are our brothers
+#########################################
+
+country_event = {
+	id = ru_ukr.1
+	title = ru_ukr.1.t
+	desc = ru_ukr.1.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Support our brothers in Ukraine
+	option = {
+	name = ru_ukr.1.a
+		UKR = {country_event = { days = 2 id = ukr_ru.1}}
+	}	
+}
+
+####################
+#Ukraine : Pro-Russian parties demand new elections
+country_event = {
+	id = ukr_ru.1
+	title = ukr_ru.1.t
+	desc = ukr_ru.1.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#The people have spoken
+	option = {
+	name = ukr_ru.1.a
+	
+	}	
+
+#We refuse	
+	option = {
+	name = ukr_ru.1.b
+	}		
+}
+
+
+#########################################
+# Support Russians in Crimea
+#########################################
+
+country_event = {
+	id = ru_ukr.2
+	title = ru_ukr.2.t
+	desc = ru_ukr.2.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Support our brothers in Ukraine!
+	option = {
+	name = ru_ukr.2.a
+		UKR = {country_event = { days = 1 id = ukr_ru.2}}
+
+	}	
+}
+
+####################
+#Ukraine : Russians in Crimea demands independence
+country_event = {
+	id = ukr_ru.2
+	title = ukr_ru.2.t
+	desc = ukr_ru.2.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Let them have it
+	option = {
+	name = ukr_ru.2.a
+	release = CRM
+	#No tensions whatsoever
+	}	
+
+#Crimea is ours!
+	option = {
+	name = ukr_ru.2.b
+	release = CRM
+	#tons of tensions should be generated between UKR and Russia
+	}		
+#Add modifiers for AI		
+}
+
+
+#########################################
+# Support Russian minority in Ukraine
+#########################################
+
+country_event = {
+	id = ru_ukr.3
+	title = ru_ukr.3.t
+	desc = ru_ukr.3.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#The motherland calls!
+	option = {
+	name = ru_ukr.3.a
+	#Thank you Alex for making this event simple:95% chance of creating Donetsk People’s Republic, 95% chance of creating Lugansk People’s Republic, 40% chance of creating Kharkov People’s Republic, 40% chance of creating Odessa People’s Republic, 25% chance of creating Dnepropetrovsk People’s Republic, 25% chance of creating Herson People’s Republic, 25% chance of creating Zaporozhye People’s Republic, 25% chance of creating Nikolaev People’s Republic, Ukraine declares war to all People’s Republics
+	}	
+}
+
+
+#########################################
+#  Plan B for Donbass
+#########################################
+
+country_event = {
+	id = ru_ukr.4
+	title = ru_ukr.4.t
+	desc = ru_ukr.4.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Welcome home
+	option = {
+	name = ru_ukr.4.a
+	#Russia annexes Lushansk and Donetsk
+	}	
+}
+
+
+
+#########################################
+#  Project Novorossiya
+#########################################
+
+country_event = {
+	id = ru_ukr.5
+	title = ru_ukr.5.t
+	desc = ru_ukr.5.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Good.
+	option = {
+	name = ru_ukr.5.a
+	#All existing People's republics merge into Novorossiya
+	}	
+}
+
+#########################################
+#  Kiev, Mother of Russian cities
+#########################################
+
+country_event = {
+	id = ru_ukr.6
+	title = ru_ukr.6.t
+	desc = ru_ukr.6.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Time to Liberate our brothers in arms
+	option = {
+	name = ru_ukr.6.a
+	UKR = {country_event = { days = 1 id = ukr_ru.6}}
+	}	
+}
+
+####################
+#Ultimateum for Ukraine (or what's left of it at least)
+country_event = {
+	id = ukr_ru.6
+	title = ukr_ru.6.t
+	desc = ukr_ru.6.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#We will resist and bite!
+	option = {
+	name = ukr_ru.6.a
+	}	
+
+#There's nothing we can do
+	option = {
+	name = ukr_ru.6.b
+	}	
+#Add modifiers for AI		
+}
+
+
+
+#########################################
+#  Referendums in South-Western region
+#########################################
+
+country_event = {
+	id = ru_ukr.7
+	title = ru_ukr.7.t
+	desc = ru_ukr.7.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Welcome home
+	option = {
+	name = ru_ukr.7.a
+	#Russia annexes Malorossiya (if it exists), Novorossiya and Transnistria
+	}	
+}
+
+#########################################
+#  There was no statehood in the steppes
+#########################################
+
+country_event = {
+	id = ru_kazakh.1
+	title = ru_kazakh.1.t
+	desc = ru_kazakh.1.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#That land is rightfully ours!
+	option = {
+	name = ru_kazakh.1.a
+		KAZ = { country_event = { days = 1 id= kazakh_ru.7}}
+	}	
+}
+
+
+####################
+#Kazakhstan : Russia demands Northern Kazakhstan
+country_event = {
+	id = kazakh_ru.7
+	title = kazakh_ru.7.t
+	desc = kazakh_ru.7.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#We will resist and bite!
+	option = {
+	name = kazakh_ru.7.a
+	}	
+
+#There's nothing we can do
+	option = {
+	name = kazakh_ru.7.b
+	}	
+#Add modifiers for AI		
+}
+
+#########################################
+#  The Baltics was always ours
+#########################################
+
+country_event = {
+	id = ru_baltics.1
+	title = ru_baltics.1.t
+	desc = ru_baltics.1.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#That land is rightfully ours!
+	option = {
+	name = ru_baltics.1.a
+	#Baltic countries gets "Pro russian parties demand re-elections"
+	}	
+}
+
+
+#########################################
+#  2001 Sino-Russian Treaty of Friendship
+#########################################
+
+country_event = {
+	id = ru_prc.1
+	title = ru_prc.1.t
+	desc = ru_prc.1.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Send our proposition
+	option = {
+	name = ru_prc.1.a
+	CHC = {country_event = { days = 1 id = prc_ru.1}}
+	}	
+}
+
+####################
+#China : Russia proposes a treaty of friendship
+country_event = {
+	id = prc_ru.1
+	title = prc_ru.1.t
+	desc = prc_ru.1.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Signed- President Jiang Zemin
+	option = {
+	name = prc_ru.1.a
+	SOV = { country_event = { days = 1 id = ru_prc.2}}
+	}	
+
+#We aren't interested
+	option = {
+	name = prc_ru.1.b
+	SOV = { country_event = { days = 1 id = ru_prc.3}}
+	}
+#Add modifiers for AI	
+}
+
+####################
+#Russia : China refused our proposition
+country_event = {
+	id = ru_prc.2
+	title = ru_prc.2.t
+	desc = ru_prc.2.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Their loss
+	option = {
+	name = ru_prc.2.a
+	add_opinion_modifier = { target = PRC modifier = protest_action_light }
+	}	
+}
+
+####################
+#Russia : China accepts
+country_event = {
+	id = ru_prc.3
+	title = ru_prc.3.t
+	desc = ru_prc.3.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Signed- President Vladimir Putin
+	option = {
+	name = ru_prc.3.a
+	diplomatic_relation = { country = CHC relation = non_aggression_pact }
+	}	
+}
+
+#########################################
+#  Invite China to the Eurasian economic union
+#########################################
+
+country_event = {
+	id = ru_prc.4
+	title = ru_prc.4.t
+	desc = ru_prc.4.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Send our proposition
+	option = {
+	name = ru_prc.4.a
+	CHC = {country_event = { days = 1 id = prc_ru.2}}
+	}	
+}
+
+
+####################
+#China : Russia invites us to the EAEU
+country_event = {
+	id = prc_ru.2
+	title = prc_ru.2.t
+	desc = prc_ru.2.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Signed
+	option = {
+	name = ru_prc.2.a
+	add_opinion_modifier = { target = CHC modifier = medium_increase }
+	}	
+	
+#We have different plans
+	option = {
+	name = ru_prc.2.b
+	add_opinion_modifier = { target = CHC modifier = small_decrease }
+	}	
+}
+
+
+#########################################
+#  Propose Eurasian Union
+#########################################
+
+country_event = {
+	id = ru_prc.5
+	title = ru_prc.5.t
+	desc = ru_prc.5.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Send our proposition
+	option = {
+	name = ru_prc.5.a
+	CHC = {country_event = { days = 1 id = prc_ru.4}}
+	}	
+}
+
+
+####################
+#China : Russia invites us to the EAEU
+country_event = {
+	id = prc_ru.4
+	title = prc_ru.4.t
+	desc = prc_ru.4.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Signed
+	option = {
+	name = ru_prc.4.a
+	
+	}	
+	
+#We have different plans
+	option = {
+	name = ru_prc.4.b
+	
+	}	
+}
+
+
+#########################################
+#  Propose Further Military cooperation
+#########################################
+
+country_event = {
+	id = ru_prc.6
+	title = ru_prc.6.t
+	desc = ru_prc.6.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Send our proposition
+	option = {
+	name = ru_prc.6.a
+	
+	}	
+}
+
+#########################################
+#  The CSTO-SCO Merge
+#########################################
+
+country_event = {
+	id = ru_prc.7
+	title = ru_prc.7.t
+	desc = ru_prc.7.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Send our proposition
+	option = {
+	name = ru_prc.7.a
+	
+	}	
+}
+
+
+#########################################
+#  Fortify the Far East
+#########################################
+
+country_event = {
+	id = ru_anti_prc.1
+	title = ru_anti_prc.1.t
+	desc = ru_anti_prc.1.d
+	picture = GFX_event_test
+
+	major = yes
+	is_triggered_only = yes
+	fire_only_once = yes
+
+#Send our proposition
+	option = {
+	name = ru_anti_prc.1.a
+	
+	}	
+}
+
+
+
+
+
+

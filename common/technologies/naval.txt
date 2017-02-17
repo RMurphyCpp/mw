@@ -1,0 +1,685 @@
+technologies = {
+
+	@destroyer_line = 0
+	@cruiser_line = 3
+	@battlecruiser_line = 6
+	@carrier_line = 9
+	@lha_line = 15
+	@lpd_line = 12
+	
+	@70s_line = 0
+	@80s_line = 5
+	@90s_line = 10
+	@late_90s_line = 12	
+	@2000s_line = 15
+	@2010s_line = 20	
+	
+#################################################################               Destroyers                   ####################################################################################
+	
+#late 70's (Kidd class; Kashin class)
+	early_destroyer = {
+
+		enable_equipments = {
+			destroyer_1
+		}
+		
+		path = {
+			leads_to_tech = basic_destroyer 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1975 
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyer_line y = @70s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+#late 80s (Sovremenny class, Arleigh Burke Flight I)	
+	basic_destroyer = {
+
+		enable_equipments = { 
+			destroyer_2
+		}
+		
+		path = {
+			leads_to_tech = improved_destroyer 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		
+		start_year = 1985
+
+		folder = {
+			name = naval_folder
+			position = { x = @destroyer_line y = @80s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+		
+#late 90s (Udaloy II, Arleigh Burke Flight II)		
+	improved_destroyer = {
+
+		enable_equipments = { 
+			destroyer_3
+		}
+		
+		path = {
+			leads_to_tech = modern_destroyer 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1995
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyer_line y = @late_90s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+	
+#DD-1000, Lider Class
+	modern_destroyer = {
+
+		enable_equipments = { 
+			destroyer_4
+		}
+		
+		research_cost = 2
+
+		start_year = 2012
+		
+		
+		folder = {
+			name = naval_folder
+			position = { x = @destroyer_line y = @2010s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+
+
+
+#################################################################               Guided Missiles Cruiser                   ####################################################################################
+
+#mid 70's 
+	early_cruiser = {
+
+		enable_equipments = {
+			cruiser_1
+		}
+		
+		path = {
+			leads_to_tech = basic_cruiser 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1975 
+		
+		folder = {
+			name = naval_folder
+			position = { x = @cruiser_line y = @70s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+
+#mid 80s 
+	basic_cruiser = {
+
+		enable_equipments = { 
+			cruiser_2
+		}
+		
+		path = {
+			leads_to_tech = improved_cruiser 
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = cw_battlecruiser 
+			research_cost_coeff = 1
+		}		
+		research_cost = 2
+		
+		start_year = 1985
+
+		folder = {
+			name = naval_folder
+			position = { x = @cruiser_line y = @80s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+#mid 80s 
+	cw_battlecruiser = {
+
+		enable_equipments = { 
+			battlecruiser_1
+		}
+		
+		
+		research_cost = 2
+		
+		start_year = 1980
+
+		folder = {
+			name = naval_folder
+			position = { x = @battlecruiser_line y = @80s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+	
+#mid 90s 
+	improved_cruiser = {
+
+		enable_equipments = { 
+			cruiser_3
+		}
+		
+		path = {
+			leads_to_tech = modern_cruiser 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1995
+		
+		folder = {
+			name = naval_folder
+			position = { x = @cruiser_line y = @late_90s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+		
+#Mid 2010s
+	modern_cruiser = {
+
+		enable_equipments = { 
+			cruiser_4
+		}
+		
+		research_cost = 2
+
+		start_year = 2012
+		
+		folder = {
+			name = naval_folder
+			position = { x = @cruiser_line y = @2010s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			dd_tech
+		}
+	}
+
+
+
+#################################################################               Aircraft carriers                   ####################################################################################
+
+
+
+	early_carrier = {
+
+		enable_equipments = { 
+			carrier_1
+		}
+		
+		path = {
+			leads_to_tech = basic_carrier 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1972
+		
+		folder = {
+			name = naval_folder
+			position = { x = @carrier_line y = @70s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	basic_carrier = {
+
+		enable_equipments = { 
+			carrier_2
+		}
+		
+		path = {
+			leads_to_tech = improved_carrier 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1983
+		
+		folder = {
+			name = naval_folder
+			position = { x = @carrier_line y = @80s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	improved_carrier = {
+
+		enable_equipments = { 
+			carrier_3
+		}
+		
+		path = {
+			leads_to_tech = advanced_carrier 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1991
+		
+		folder = {
+			name = naval_folder
+			position = { x = @carrier_line y = @90s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+	advanced_carrier = {
+
+		enable_equipments = { 
+			carrier_4
+		}
+
+		
+		research_cost = 2
+
+		start_year = 2001
+		
+		folder = {
+			name = naval_folder
+			position = { x = @carrier_line y = @2000s_line }
+		}
+
+		path = {
+			leads_to_tech = modern_carrier 
+			research_cost_coeff = 1
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+	modern_carrier = {
+
+		enable_equipments = { 
+			carrier_5
+		}
+
+		
+		research_cost = 2
+
+		start_year = 2011
+		
+		folder = {
+			name = naval_folder
+			position = { x = @carrier_line y = @2010s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+
+#################################################################               Amphibious Assault Ships    (LPDs)               ####################################################################################
+
+#Iwo Jima class
+	early_lpd = {
+
+		enable_equipments = { 
+			aas_1
+		}
+		
+		path = {
+			leads_to_tech = basic_lpd 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1972
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lpd_line y = @70s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+#Tarawa	
+	basic_lpd = {
+
+		enable_equipments = { 
+			aas_2
+		}
+		
+		path = {
+			leads_to_tech = improved_lpd 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1983
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lpd_line y = @80s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+#WASP	
+	improved_lpd = {
+
+		enable_equipments = { 
+			aas_3
+		}
+		
+		path = {
+			leads_to_tech = modern_lpd 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1991
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lpd_line y = @90s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+#America class
+	modern_lpd = {
+
+		enable_equipments = { 
+			aas_4
+		}
+
+		
+		research_cost = 2
+
+		start_year = 2011
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lpd_line y = @2010s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+
+#################################################################               Amphibious Assault Ships    (LPDs)               ####################################################################################
+
+#Iwo Jima class
+	early_lha = {
+
+		enable_equipments = { 
+			aas_1
+		}
+		
+		path = {
+			leads_to_tech = basic_lha 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 1.5
+
+		start_year = 1972
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lha_line y = @70s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+#Tarawa	
+	basic_lha = {
+
+		enable_equipments = { 
+			aas_2
+		}
+		
+		path = {
+			leads_to_tech = improved_lha 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+		start_year = 1983
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lha_line y = @80s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+#WASP	
+	improved_lha = {
+
+		enable_equipments = { 
+			aas_3
+		}
+		
+		path = {
+			leads_to_tech = modern_lha 
+			research_cost_coeff = 1
+		}
+		
+		research_cost = 2
+
+		start_year = 1991
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lha_line y = @90s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+#America class
+	modern_lha = {
+
+		enable_equipments = { 
+			aas_4
+		}
+
+		
+		research_cost = 2
+
+		start_year = 2011
+		
+		folder = {
+			name = naval_folder
+			position = { x = @lha_line y = @2010s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			naval_equipment
+			cv_tech
+		}
+	}
+	
+}

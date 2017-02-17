@@ -1,0 +1,65 @@
+﻿add_namespace = arab_spring
+add_namespace = news_arab_spring
+
+
+#########################################
+#	Mohamed Bouazizi's self-immolation
+#########################################
+
+country_event = {
+	id = arab_spring.1
+	title = arab_spring.1.t
+	desc = arab_spring.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = TUN
+		date > 2010.12.17
+		date < 2011.1.1
+	}
+	
+
+#Ignore the peasant rabble
+	option = {   
+		name = arab_spring.1.a
+	}
+	
+
+}
+
+
+#########################################
+#	Major protests in the capital Tunis
+#########################################
+
+country_event = {
+	id = arab_spring.2
+	title = arab_spring.2.t
+	desc = arab_spring.2.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = TUN
+		date > 2010.12.17
+		date < 2011.1.1
+	}
+	
+
+#It's time to leave
+	option = {   
+		name = arab_spring.2.a
+		#Ben Ali leaves, start random event of him being caught or not
+	}
+	
+#I'm staying!
+	option = {   
+		name = arab_spring.2.b
+		#Tension grows
+	}
+	
+	
+}

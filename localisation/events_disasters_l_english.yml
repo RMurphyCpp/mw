@@ -1,0 +1,34 @@
+﻿l_english:
+
+#Air crashes
+#########################################
+# Air crashes
+#########################################
+
+#Kenya Airways Flight 431 Crash
+crash.1.t:0 "Kenya Airways Flight 431 Crash"
+crash.1.d:0 "Placeholder"
+crash.1.a:0 "May their souls rest in peace"
+
+news_crash.1.t:0 "Kenya Airways Flight 431 Crash"
+news_crash.1.d:0 "Placeholder"
+news_crash.1.a:0 "May their souls rest in peace"
+
+#Air France Flight 4590 crash
+crash.2.t:0 "Air France Flight 4590 crash"
+crash.2.d:0 "Placeholder"
+crash.2.a:0 "May their souls rest in peace"
+
+news_crash.2.t:0 "Air France Flight 4590 crash"
+news_crash.2.d:0 "Placeholder"
+news_crash.2.a:0 "May their souls rest in peace"
+
+#Alaska Airlines Flight 261 crash
+crash.3.t:0 "Alaska Airlines Flight 261 crash"
+crash.3.d:0 "Placeholder"
+crash.3.a:0 "May their souls rest in peace"
+
+news_crash.3.t:0 "Alaska Airlines Flight 261 crash"
+news_crash.3.d:0 "Placeholder"
+news_crash.3.a:0 "May their souls rest in peace"
+

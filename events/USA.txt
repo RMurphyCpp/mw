@@ -1,0 +1,879 @@
+﻿#Iraq War Events
+
+add_namespace = usa_iraq
+add_namespace = usa_iran
+add_namespace = usa_cuba
+add_namespace = usa_nk
+add_namespace = usa
+add_namespace = news_usa
+
+country_event = {
+	id = usa_iraq.1		#State union address: https://www.youtube.com/watch?v=MHA-0EmkoC8
+	title = usa_iraq.1.t 
+	desc = usa_iraq.1.d
+	picture = GFX_mwm_event_usa_iraq_1
+	
+	major = yes #for bigger event frame
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iraq.1.a
+		
+		#IRQ = {
+			#SANCTIONS PLACEHOLDER
+		#}
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_iraq.2		#iraq dossier
+	title = usa_iraq.2.t 
+	desc = usa_iraq.2.d
+	picture = GFX_mwm_event_cia_logo_small
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iraq.2.a
+		
+	}
+	
+	option = {
+		name = usa_iraq.2.b
+		USA = { set_country_flag = iraq_intelligence_questioned}
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_iraq.3		#iraqi freedom
+	title = usa_iraq.3.t 
+	desc = usa_iraq.3.d
+	picture = GFX_mwm_event_usa_iraq_3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iraq.3.a
+		#TODO Add effects for iraq event
+		#Temporary effect until expanded upon
+		USA = {
+			declare_war_on = {
+				target = IRQ
+				type = install_democracy
+			}
+		}
+	}
+	
+	
+}
+
+##iran Events##
+
+country_event = {
+	id = usa_iran.1
+	title = usa_iran.1.t
+	desc = usa_iran.1.d
+	picture = GFX_mwm_event_usa_iran_1
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iran.1.a
+		
+		#TODO add UN sanctions
+		#IRQ = {
+			#SANCTIONS PLACEHOLDER
+		#}
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_iran.2		#UN resolution 1696
+	title = usa_iran.2.t 
+	desc = usa_iran.2.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iran.2.a
+		##TODO add UN resolution 1696
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_iran.3		# OP Ajax
+	title = usa_iran.3.t 
+	desc = usa_iran.3.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_iran.3.a
+		USA = {
+			declare_war_on = {
+				target = PER
+				type = install_democracy
+			}
+		}
+	}
+	
+	
+}
+
+##cuba Events##
+
+country_event = {
+	id = usa_cuba.1		#
+	title = usa_cuba.1.t 
+	desc = usa_cuba.1.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_cuba.1.a
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_cuba.2		#cuba dossier
+	title = usa_cuba.2.t 
+	desc = usa_cuba.2.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_cuba.2.a
+		
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_cuba.3		#No fly zone
+	title = usa_cuba.3.t 
+	desc = usa_cuba.3.d
+	picture = GFX_mwm_event_no_image
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = usa_cuba.3.a
+		##TODO add no fly zone event which will add  for cuba ie:
+		#CUB = { country_event = xxxxx.x }
+	}
+	
+	
+}
+
+
+country_event = {
+	id = usa_cuba.4		#choose type of op
+	title = usa_cuba.4.t 
+	desc = usa_cuba.4.d
+	picture = GFX_mwm_event_no_image
+	
+	is_triggered_only = yes
+	
+	major = yes
+	
+	option = {
+		name = usa_cuba.4.a
+		USA = {
+			add_ideas = major_terrorism_attack
+			declare_war_on = {
+				target = CUB
+				type = install_democracy
+			}
+		}
+		ai_chance = { factor = 50 }
+		
+		#consequences
+		hidden_effect = {
+			USA = {
+				country_event = { days = 730 id = usa.1 }
+			}
+		}
+	}
+	
+	option = {
+		name = usa_cuba.4.b
+		USA = {
+			add_ideas = illegal_war
+			declare_war_on = {
+				target = CUB
+				type = install_democracy
+			}
+		}
+		ai_chance = { factor = 50 }
+	}
+	
+	
+}
+
+##NK Events##
+
+country_event = {
+	id = usa_nk.1		#nk one
+	title = usa_nk.1.t 
+	desc = usa_nk.1.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_nk.1.a
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_nk.2		#cuba dossier
+	title = usa_nk.2.t 
+	desc = usa_nk.2.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_nk.2.a
+		
+	}
+	
+	
+}
+
+country_event = {
+	id = usa_nk.3		#cuba freedom
+	title = usa_nk.3.t 
+	desc = usa_nk.3.d
+	picture = GFX_mwm_event_no_image
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa_nk.3.a
+		USA = {
+			declare_war_on = {
+				target = CUB
+				type = install_democracy
+			}
+		}
+	}
+	
+	
+}
+
+##Political events
+
+country_event = {
+	id = usa.1	
+	title = usa.1.t 
+	desc = usa.1.d
+	picture = GFX_mwm_event_usa_1
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.1.a
+		add_ideas = constitutional_crisis
+		
+		hidden_effect = {
+			country_event = { days = 120 id = usa.2 }
+		}
+	}
+	
+	
+}
+
+
+country_event = {
+	id = usa.2	
+	title = usa.2.t 
+	desc = usa.2.d
+	picture = GFX_mwm_event_usa_2
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.2.a
+		remove_ideas = constitutional_crisis
+		hold_election = USA
+	}
+	
+	option = {
+		name = usa.2.b
+		
+		country_event = { days = 45 id = usa.3 }
+	}
+	
+	
+	
+}
+
+
+country_event = {
+	id = usa.3	
+	title = usa.3.t 
+	desc = usa.3.d
+	picture = GFX_mwm_event_usa_3
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = usa.3.a
+		remove_ideas = constitutional_crisis
+	}
+	
+	
+	
+}
+
+country_event = {
+	id = usa.4	
+	title = usa.4.t 
+	desc = usa.4.d
+	picture = GFX_mwm_event_usa_3
+	
+	major = yes
+	
+	trigger = {
+		OR = {
+			CUB = { has_government = democratic_conservative }
+			CUB = { has_government = democratic_liberal }
+			CUB = { has_government = democratic_center }
+			CUB = { has_government = democratic_green }
+			CUB = { has_government = democratic_socialism }
+		}
+		OR = {
+			USA = { controls_state = 315 }
+		}
+	}
+	
+	mean_time_to_happen = { days = 14 }
+	
+	option = {
+		name = usa.4.a
+		remove_ideas = illegal_war
+	}
+}	
+
+
+#########################################
+# September Eleven Event #
+#########################################
+country_event = {
+	id = usa.5
+	title = usa.5.t
+	desc = usa.5.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		NOT = { has_country_flag = usa_9_11 }
+		date > 2001.9.7
+		date < 2002.1.1
+	}
+	
+	immediate = {
+		set_country_flag = usa_9_11
+	}
+	
+	option = {
+		name = usa.5.a
+		news_event = {
+			hours = 6
+			id = news_usa.1
+		}
+		add_national_unity = 0.1
+	}
+}
+
+#9/11 News Event
+news_event = {
+	id = news_usa.1
+	title = news_usa.1.t
+	desc = news_usa.1.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.1.a
+	}
+	
+}
+
+
+	
+#########################################
+# Anthrax attacks Event #
+#########################################
+
+country_event = {
+	id = usa.6
+	title = usa.6.t
+	desc = usa.6.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		has_country_flag = usa_9_11 
+		date > 2001.9.7
+		date < 2002.1.1
+	}
+	
+	
+	option = {
+		name = usa.6.a
+		news_event = {
+			hours = 6
+			id = news_usa.2
+		}
+		add_national_unity = 0.1
+	}
+}
+
+#Anthrax attacks News Event
+news_event = {
+	id = news_usa.2
+	title = news_usa.2.t
+	desc = news_usa.2.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.2.a
+	}
+	
+}
+
+#########################################
+# USS Cole attacks Event #
+#########################################
+
+country_event = {
+	id = usa.7
+	title = usa.7.t
+	desc = usa.7.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		NOT = { has_country_flag = usa_uss_cole_attack }
+		date > 2000.10.10
+		date < 2001.1.1
+	}
+	
+	immediate = {
+		set_country_flag = usa_uss_cole_attack
+	}
+
+#USS Cole get's repairs	
+	option = {
+		name = usa.7.a
+		news_event = {
+			hours = 6
+			id = news_usa.3
+		}
+		add_political_power = -10		
+	}
+
+#USS Cole get's scrapped	
+	option = {
+		name = usa.7.b
+		news_event = {
+			hours = 6
+			id = news_usa.3
+		}
+		add_political_power = -10			
+	}
+	
+}
+
+#USS Cole News Event
+news_event = {
+	id = news_usa.3
+	title = news_usa.3.t
+	desc = news_usa.3.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.3.a
+	}
+	
+}
+
+
+#########################################
+# US issues an ultimatium to Taliban
+#########################################
+
+country_event = {
+	id = usa.9
+	title = usa.9.t
+	desc = usa.9.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		has_country_flag = usa_9_11 
+		date > 2001.9.20
+		date < 2002.1.1
+	}	
+
+
+#Prepare the invasion plans
+	option = {
+		name = usa.9.a
+
+	}
+	
+}
+
+
+#########################################
+# Elián González affair Event #
+#########################################
+
+country_event = {
+	id = usa.11
+	title = usa.11.t
+	desc = usa.11.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 2001.9.7
+		date < 2002.1.1
+	}
+	
+	
+	option = {
+		name = usa.11.a
+		news_event = {
+			hours = 6
+			id = news_usa.11
+		}
+		add_national_unity = 0.1
+	}
+
+#Keep the child 	
+	option = {
+		name = usa.11.a
+		news_event = {
+			hours = 6
+			id = news_usa.10
+		}
+
+	}	
+
+#Return him to Cuba
+	option = {
+		name = usa.11.b
+		news_event = {
+			hours = 6
+			id = news_usa.10
+		}
+
+	}	
+	
+	
+}
+
+#Anthrax attacks News Event
+news_event = {
+	id = news_usa.11
+	title = news_usa.11.t
+	desc = news_usa.11.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.11.a
+	}
+	
+}
+
+
+#########################################
+# Human Genome Draft Completed
+#########################################
+
+country_event = {
+	id = usa.12
+	title = usa.12.t
+	desc = usa.12.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 2000.06.26
+		date < 2001.1.1
+	}
+	
+	
+	option = {
+		name = usa.12.a
+		news_event = {
+			hours = 6
+			id = news_usa.12
+		}
+		add_national_unity = 0.1
+	}
+
+#This will benefit all of mankind
+	option = {
+		name = usa.12.a
+		news_event = {
+			hours = 6
+			id = news_usa.12
+		}
+
+	}	
+
+}
+
+
+
+#News Event
+news_event = {
+	id = news_usa.12
+	title = news_usa.12.t
+	desc = news_usa.12.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.12.a
+	}
+	
+}
+
+
+#########################################
+# NASA loses contact with Pioneer 10
+#########################################
+
+country_event = {
+	id = usa.13
+	title = usa.13.t
+	desc = usa.13.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 2003.1.22
+		date < 2004.1.1
+	}
+	
+	
+	option = {
+		name = usa.13.a
+		news_event = {
+			hours = 6
+			id = news_usa.13
+		}
+		add_national_unity = 0.1
+	}
+
+#This will benefit all of mankind
+	option = {
+		name = usa.13.a
+		news_event = {
+			hours = 6
+			id = news_usa.13
+		}
+
+	}	
+
+}
+
+
+
+#News Event
+news_event = {
+	id = news_usa.13
+	title = news_usa.13.t
+	desc = news_usa.13.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.13.a
+	}
+	
+}
+
+#########################################
+#  Space Shuttle Columbia disintegrates during reentry over Texas
+#########################################
+
+country_event = {
+	id = usa.14
+	title = usa.14.t
+	desc = usa.14.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = USA
+		date > 2000.06.26
+		date < 2001.1.1
+	}
+	
+	
+
+
+#This will benefit all of mankind
+	option = {
+		name = usa.14.a
+		news_event = {
+			hours = 6
+			id = news_usa.14
+		}
+
+	}	
+
+}
+
+
+
+#News Event
+news_event = {
+	id = news_usa.14
+	title = news_usa.14.t
+	desc = news_usa.14.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.14.a
+	}
+	
+}	
+	
+#########################################
+#  Operation Iraqi freedom
+#########################################
+
+country_event = {
+	id = usa.15
+	title = usa.15.t
+	desc = usa.15.d
+	picture = GFX_report_event_USA_nine_eleven
+	
+	fire_only_once = yes
+	
+	is_triggered_only = yes
+	
+	
+
+#Godspeed
+	option = {
+		name = usa.14.a
+		news_event = {
+			hours = 6
+			id = news_usa.15
+		}
+
+	}	
+
+}
+
+
+
+#News Event
+news_event = {
+	id = news_usa.15
+	title = news_usa.15.t
+	desc = news_usa.15.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_usa.15.a
+	}
+	
+}

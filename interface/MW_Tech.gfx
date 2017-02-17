@@ -1,0 +1,192 @@
+###Event pics index for modern warfare mod. File made by Murphy
+##news frame (major = yes)  pic size 397x153
+##others 210x176 (I think)
+
+spriteTypes = {
+	
+
+
+##### US tech ######################################################################################################	
+
+#---------------------------------------------------------- MBTs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_first_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M48.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_second_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M60.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_adv_second_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M60A2.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M1.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_adv_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M1A1.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_mod_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M1A2.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_forth_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M1A2.dds"
+		alwaystransparent = yes
+	}	
+	
+#---------------------------------------------------------- Small arms ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_infantry_small_arms_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M14.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_infantry_small_arms_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M16A1.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_small_arms_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M16A2.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_small_arms_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M4.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_small_arms_4_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M16A4.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_small_arms_5_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M16A4.dds"
+		alwaystransparent = yes
+	}
+
+
+############# British Tech ####################################################################################################################	
+
+############# Ruskie Tech ####################################################################################################################
+
+#---------------------------------------------------------- MBTs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_first_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-55.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_SOV_second_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-62.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_adv_second_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-72.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-80.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_adv_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-90.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_mod_third_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-90MS.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_forth_gen_mbt_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+
+	
+#---------------------------------------------------------- IFVs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_first_gen_ifv_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BMP-1.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_second_gen_ifv_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BMP-2.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_third_gen_ifv_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BMP-3.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_forth_gen_ifv_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-15.dds"
+		alwaystransparent = yes
+	}
+
+	
+#---------------------------------------------------------- APCs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_first_gen_apc_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_second_gen_apc_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_third_gen_apc_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_SOV_forth_gen_apc_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		alwaystransparent = yes
+	}
+
+	
+}

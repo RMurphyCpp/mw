@@ -1,0 +1,50 @@
+﻿add_namespace = georgia
+add_namespace = news_georgia
+
+#########################################
+# The Rose Revolution
+#########################################
+country_event = {
+	id = georgia.1
+	title = georgia.1.t
+	desc = georgia.1.d
+	picture = GFX_event_test
+	
+	fire_only_once = yes
+	
+	trigger = {
+		original_tag = GEO
+		date > 2003.11.2
+		date < 2004.1.1
+	}
+	
+
+#Time to move
+	option = {
+		name = georgia.1.a
+		news_event = {
+			hours = 6
+			id = news_georgia.1
+		}
+		add_national_unity = 0.1
+	}
+}
+
+
+
+#Rose Revolution news event
+news_event = {
+	id = news_georgia.1
+	title = news_georgia.1.t
+	desc = news_georgia.1.d
+	picture = GFX_news_event_USA_nine_eleven
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = news_georgia.1.a
+	}
+	
+}
