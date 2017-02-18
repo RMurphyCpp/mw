@@ -3,7 +3,7 @@ ideas = {
 		the_dragon_awakes = {
 			
 			allowed = {
-				original_tag = CHC
+				original_tag = PRC
 			}
 
 			allowed_civil_war = {
@@ -20,7 +20,7 @@ ideas = {
 		chinese_economic_reform = {
 			
 			allowed = {
-				original_tag = CHC
+				original_tag = PRC
 			}
 
 			allowed_civil_war = {
@@ -37,7 +37,7 @@ ideas = {
 		corporate_communism = {
 			
 			allowed = {
-				original_tag = CHC
+				original_tag = PRC
 			}
 
 			allowed_civil_war = {
@@ -57,7 +57,7 @@ ideas = {
 		industrial_powerhouse = {
 			
 			allowed = {
-				original_tag = CHC
+				original_tag = PRC
 			}
 
 			allowed_civil_war = {
@@ -75,10 +75,10 @@ ideas = {
 	
 	tank_manufacturer = {
 	
-		chc_norinco = { 	#China
+		PRC_norinco = { 	#China
 
 			allowed = {
-				tag = CHC
+				tag = PRC
 			}
 
 			cost = 150
@@ -95,10 +95,10 @@ ideas = {
 	
 	naval_manufacturer = {
 
-		chc_cssc = { 	#China
+		PRC_cssc = { 	#China
 
 			allowed = {
-				tag = CHC
+				tag = PRC
 			}
 
 			cost = 150
@@ -115,10 +115,10 @@ ideas = {
 	
 	aircraft_manufacturer = {
 
-		chc_casic = { 	#China
+		PRC_casic = { 	#China
 
 			allowed = {
-				tag = CHC
+				tag = PRC
 			}
 			
 			cost = 150
@@ -131,10 +131,10 @@ ideas = {
 			traits = { medium_aircraft_manufacturer }
 		}
 		
-		chc_chengdu = {		#China	
+		PRC_chengdu = {		#China	
 		
 			allowed = {
-				tag = CHC
+				tag = PRC
 			}
 	
 			cost = 150
@@ -151,10 +151,10 @@ ideas = {
 	
 	materiel_manufacturer = {
 
-		chc_norinco_arms = { 	#China
+		PRC_norinco_arms = { 	#China
 
 			allowed = {
-				tag = CHC
+				tag = PRC
 			}
 
 			cost = 150
@@ -171,10 +171,10 @@ ideas = {
 	
 	industrial_concern = {
 
-		chc_petrochina = { 	#China
+		PRC_petrochina = { 	#China
 
 			allowed = {
-				tag = CHC
+				tag = PRC
 			}
 			
 			cost = 150

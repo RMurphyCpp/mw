@@ -461,7 +461,7 @@ country_event = {
 #Send our proposition
 	option = {
 	name = ru_prc.1.a
-	CHC = {country_event = { days = 1 id = prc_ru.1}}
+	PRC = {country_event = { days = 1 id = prc_ru.1}}
 	}	
 }
 
@@ -525,7 +525,7 @@ country_event = {
 #Signed- President Vladimir Putin
 	option = {
 	name = ru_prc.3.a
-	diplomatic_relation = { country = CHC relation = non_aggression_pact }
+	diplomatic_relation = { country = PRC relation = non_aggression_pact }
 	}	
 }
 
@@ -546,7 +546,7 @@ country_event = {
 #Send our proposition
 	option = {
 	name = ru_prc.4.a
-	CHC = {country_event = { days = 1 id = prc_ru.2}}
+	PRC = {country_event = { days = 1 id = prc_ru.2}}
 	}	
 }
 
@@ -566,13 +566,13 @@ country_event = {
 #Signed
 	option = {
 	name = ru_prc.2.a
-	add_opinion_modifier = { target = CHC modifier = medium_increase }
+	add_opinion_modifier = { target = PRC modifier = medium_increase }
 	}	
 	
 #We have different plans
 	option = {
 	name = ru_prc.2.b
-	add_opinion_modifier = { target = CHC modifier = small_decrease }
+	add_opinion_modifier = { target = PRC modifier = small_decrease }
 	}	
 }
 
@@ -594,7 +594,7 @@ country_event = {
 #Send our proposition
 	option = {
 	name = ru_prc.5.a
-	CHC = {country_event = { days = 1 id = prc_ru.4}}
+	PRC = {country_event = { days = 1 id = prc_ru.4}}
 	}	
 }
 
