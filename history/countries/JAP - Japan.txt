@@ -14,7 +14,7 @@
 		
 	}
 
-	add_opinion_modifier = { target = CHC modifier = historical_riverly }	
+	add_opinion_modifier = { target = PRC modifier = historical_riverly }	
 	
     set_politics = {
 

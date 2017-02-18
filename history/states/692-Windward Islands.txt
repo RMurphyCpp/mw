@@ -6,6 +6,26 @@ state={
 
 	history={
 		owner = ENG
+		add_core_of = BAR #TEMP
+		##From now on I will use this as a placeholder
+		add_core_of = DMN
+		add_core_of = GRN
+		add_core_of = SUR
+		add_core_of = BEN
+		add_core_of = BRD
+		add_core_of = BKN
+		add_core_of = CAM
+		add_core_of = CDI
+		add_core_of = MAL
+		add_core_of = MLW
+		add_core_of = NGR
+		add_core_of = CNG
+		add_core_of = RWD
+		add_core_of = TOG
+		add_core_of = ZIM
+		add_core_of = VNT
+		add_core_of = CHR
+		add_core_of = NGK
 		buildings = {
 			infrastructure = 4
 			11350 = {

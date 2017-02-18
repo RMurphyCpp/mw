@@ -10,10 +10,9 @@ state={
 	}
 
 	history={
-		owner = CHC
-		add_core_of = CHC
-		add_core_of = CHI
+		owner = PRC
 		add_core_of = PRC
+		add_core_of = ROC
 		
 		buildings = {
 			infrastructure = 3
@@ -29,17 +28,6 @@ state={
 		}
 		victory_points = {
 			1047 5
-		}
-
-		1938.10.25 = {
-			remove_core_of = CHC
-			owner = CHI
-			JAP = {
-				set_province_controller = 1047
-				set_province_controller = 7152
-				set_province_controller = 11938
-				set_province_controller = 11941
-			} 			
 		}
 	}
 

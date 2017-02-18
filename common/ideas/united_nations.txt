@@ -6,7 +6,7 @@ ideas = {
 				OR = {
 				original_tag = ENG
 				original_tag = USA
-				original_tag = CHC
+				original_tag = PRC
 				original_tag = FRA
 				original_tag = SOV
 				}

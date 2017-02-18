@@ -10,10 +10,9 @@ state= {
 	}
 
 	history= {
-		owner = CHC
-		add_core_of = CHC
-		add_core_of = CHI
+		owner = PRC
 		add_core_of = PRC
+		add_core_of = ROC
 		buildings = {
 			infrastructure = 3
 			industrial_complex = 1
@@ -21,10 +20,6 @@ state= {
 		}
 		victory_points = { 
 			10404 3 
-		}
-
-		1938.10.25 = {
-			owner = CHI
 		}
 
 	}

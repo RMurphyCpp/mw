@@ -167,21 +167,21 @@ ideas = {
 		generic_norinco = { 	#China
 
 			available = {
-				country_exists = CHC
-				NOT = { has_war_with = CHC }				
-				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				country_exists = PRC
+				NOT = { has_war_with = PRC }				
+				PRC = { has_opinion = { target = ROOT value > -50 } }			
 				custom_trigger_tooltip = {
 					tooltip =  based_in_china
 				}
 			}		
 		
 			allowed = {
-				NOT = { tag = CHC }
+				NOT = { tag = PRC }
 			}
 
 			on_add = {
-				add_opinion_modifier = { target = CHC modifier = tank_contract_reciever }
-				reverse_add_opinion_modifier = { target = CHC modifier = tank_contract_reciever }
+				add_opinion_modifier = { target = PRC modifier = tank_contract_reciever }
+				reverse_add_opinion_modifier = { target = PRC modifier = tank_contract_reciever }
 				hidden_effect = {
 				add_opinion_modifier = { target = ROOT modifier = tank_contract_initiator }				
 				country_event = { days = 365 id = company.1 }
@@ -332,21 +332,21 @@ ideas = {
 		generic_cssc = { 	#China
 
 			available = {
-				country_exists = CHC
-				NOT = { has_war_with = CHC }				
-				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				country_exists = PRC
+				NOT = { has_war_with = PRC }				
+				PRC = { has_opinion = { target = ROOT value > -50 } }			
 				custom_trigger_tooltip = {
 					tooltip =  based_in_china
 				}
 			}		
 		
 			allowed = {
-				NOT = { tag = CHC }
+				NOT = { tag = PRC }
 			}
 			
 			on_add = {
-				add_opinion_modifier = { target = CHC modifier = ship_contract_reciever }
-				reverse_add_opinion_modifier = { target = CHC modifier = ship_contract_reciever }
+				add_opinion_modifier = { target = PRC modifier = ship_contract_reciever }
+				reverse_add_opinion_modifier = { target = PRC modifier = ship_contract_reciever }
 				hidden_effect = {
 				add_opinion_modifier = { target = ROOT modifier = ship_contract_initiator }
 				country_event = { days = 365 id = company.2 }
@@ -697,9 +697,9 @@ ideas = {
 		generic_casic = { 	#China
 
 			available = {
-				country_exists = CHC
-				NOT = { has_war_with = CHC }				
-				CHC = { has_opinion = { target = ROOT value > -50 } }
+				country_exists = PRC
+				NOT = { has_war_with = PRC }				
+				PRC = { has_opinion = { target = ROOT value > -50 } }
 			
 				custom_trigger_tooltip = {
 					tooltip =  based_in_china
@@ -707,12 +707,12 @@ ideas = {
 			}		
 		
 			allowed = {
-				NOT = { tag = CHC }
+				NOT = { tag = PRC }
 			}
 			
 			on_add = {
-				add_opinion_modifier = { target = CHC modifier = air_contract_reciever }
-				reverse_add_opinion_modifier = { target = CHC modifier = air_contract_reciever }				
+				add_opinion_modifier = { target = PRC modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = PRC modifier = air_contract_reciever }				
 				hidden_effect = {
 				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
 				country_event = { days = 365 id = company.3 }
@@ -738,21 +738,21 @@ ideas = {
 		generic_chengdu = {		#China
 			
 			available = {
-				country_exists = CHC
-				NOT = { has_war_with = CHC }				
-				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				country_exists = PRC
+				NOT = { has_war_with = PRC }				
+				PRC = { has_opinion = { target = ROOT value > -50 } }			
 				custom_trigger_tooltip = {
 					tooltip =  based_in_china
 				}
 			}		
 		
 			allowed = {
-				NOT = { tag = CHC }
+				NOT = { tag = PRC }
 			}
 			
 			on_add = {
-				add_opinion_modifier = { target = CHC modifier = air_contract_reciever }
-				reverse_add_opinion_modifier = { target = CHC modifier = air_contract_reciever }				
+				add_opinion_modifier = { target = PRC modifier = air_contract_reciever }
+				reverse_add_opinion_modifier = { target = PRC modifier = air_contract_reciever }				
 				hidden_effect = {
 				add_opinion_modifier = { target = ROOT modifier = air_contract_reciever }				
 				country_event = { days = 365 id = company.3 }
@@ -1384,21 +1384,21 @@ ideas = {
 		generic_norinco_arms = { 	#China
 
 			available = {
-				country_exists = CHC
-				NOT = { has_war_with = CHC }				
-				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				country_exists = PRC
+				NOT = { has_war_with = PRC }				
+				PRC = { has_opinion = { target = ROOT value > -50 } }			
 				custom_trigger_tooltip = {
 					tooltip =  based_in_china
 				}
 			}		
 		
 			allowed = {
-				NOT = { tag = CHC }
+				NOT = { tag = PRC }
 			}
 			
 			on_add = {
-				add_opinion_modifier = { target = CHC modifier = equipment_contract_reciever }
-				reverse_add_opinion_modifier = { target = CHC modifier = equipment_contract_reciever }				
+				add_opinion_modifier = { target = PRC modifier = equipment_contract_reciever }
+				reverse_add_opinion_modifier = { target = PRC modifier = equipment_contract_reciever }				
 				hidden_effect = {
 				add_opinion_modifier = { target = ROOT modifier = equipment_contract_initiator }				
 				country_event = { days = 365 id = company.4 }
@@ -1718,21 +1718,21 @@ ideas = {
 		generic_petrochina = { 	#China
 
 			available = {
-				country_exists = CHC
-				NOT = { has_war_with = CHC }				
-				CHC = { has_opinion = { target = ROOT value > -50 } }			
+				country_exists = PRC
+				NOT = { has_war_with = PRC }				
+				PRC = { has_opinion = { target = ROOT value > -50 } }			
 				custom_trigger_tooltip = {
 					tooltip =  based_in_saudi_china
 				}
 			}		
 		
 			allowed = {
-				NOT = { tag = CHC }
+				NOT = { tag = PRC }
 			}
 			
 			on_add = {
-				add_opinion_modifier = { target = CHC modifier = civilian_contract_reciever }
-				reverse_add_opinion_modifier = { target = CHC modifier = civilian_contract_reciever }				
+				add_opinion_modifier = { target = PRC modifier = civilian_contract_reciever }
+				reverse_add_opinion_modifier = { target = PRC modifier = civilian_contract_reciever }				
 				hidden_effect = {
 				add_opinion_modifier = { target = ROOT modifier = civilian_contract_initiator }				
 				country_event = { days = 365 id = company.6 }

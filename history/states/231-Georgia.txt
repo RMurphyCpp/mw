@@ -7,6 +7,7 @@ state={
 	history={
 		owner = GEO
 		add_core_of = GEO
+		add_core_of = SOT #TEMP
 		victory_points = { 1599 10 }
 
 		buildings = {

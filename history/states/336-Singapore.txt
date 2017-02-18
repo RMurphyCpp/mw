@@ -13,7 +13,9 @@ state={
 	}
 
 	history={
-		owner = MAL
+		owner = MLY
+		add_core_of = MLY
+		add_core_of = SGP #Singapore
 		victory_points = {
 			12299 10
 		}
@@ -38,7 +40,6 @@ state={
 				naval_base = 5
 			}
 		}
-		add_core_of = MAL
 	}
 
 	provinces={

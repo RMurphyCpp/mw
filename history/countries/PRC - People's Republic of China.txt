@@ -15,7 +15,7 @@
 	}
 	
 	add_opinion_modifier = { target = JAP modifier = historical_riverly }
-	add_opinion_modifier = { target = TWN modifier = historical_riverly }
+	add_opinion_modifier = { target = PRC modifier = historical_riverly }
 	add_opinion_modifier = { target = USA modifier = historical_riverly }	
 	give_guarantee = PRK #Sino-North Korean Mutual Aid and Cooperation Friendship Treaty
 	puppet = HNK

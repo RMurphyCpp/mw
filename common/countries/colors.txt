@@ -16,6 +16,10 @@ SOV = {
 	color = rgb { 0  102  0 }
 	color_ui = rgb { 163 17 31 }
 }
+PRC = {
+	color = rgb { 255 0 0 }
+	color_ui = rgb { 163 17 31 }
+}
 NGK = {
 	color = rgb { 199 32 229 }
 	color_ui = rgb { 163 17 31 }
@@ -148,10 +152,6 @@ BRA = {
 CAN = {
 	color = rgb { 119 48 39 }
 	color_ui = rgb { 155 62 51 }
-}
-TWN = {
-	color = hsv { 0.18 0.6 0.9 } #255 244 190
-	color_ui = hsv { 0.18 0.3 0.9 }
 }
 CHL = {
 	color = rgb { 155 101 107 }
@@ -298,7 +298,7 @@ CRO = {
 	color = rgb { 245 70 180 }
 	color_ui = rgb { 255 255 122 }
 }
-CHC = {
+PTR = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 178 34 60 }
 }
@@ -390,10 +390,10 @@ LAO = {
 	color = rgb { 204 204 255 }
 	color_ui = rgb { 100  125  175 }
 }
-EUU = {
-	color = rgb { 0 33 148 }
-	color_ui = rgb { 100  125  175 }
-}
+#EUU = {
+#	color = rgb { 0 33 148 }
+#	color_ui = rgb { 100  125  175 }
+#}
 SEN = {
 	color = rgb { 164 249 193 }
 	color_ui = rgb { 100  125  175 }

@@ -5,7 +5,7 @@ ideas = {
 			allowed = {
 				OR = {
 				original_tag = KOR
-				original_tag = TWN
+				original_tag = ROC
 				original_tag = HNK
 				original_tag = SGP
 				}

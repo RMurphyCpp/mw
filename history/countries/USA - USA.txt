@@ -19,14 +19,14 @@
 	
 	give_guarantee = ISR
 	give_guarantee = KOR
-	give_guarantee = TWN
+	give_guarantee = ROC
 	give_guarantee = MAR #Has no army, US is responsible for defense
 	give_guarantee = MIC #Has no army, US is responsible for defense
 	give_guarantee = KWT
 
 	add_opinion_modifier = { target = ENG modifier = historical_friends }
 	add_opinion_modifier = { target = SOV modifier = historical_riverly }
-	add_opinion_modifier = { target = CHC modifier = historical_riverly }	
+	add_opinion_modifier = { target = PRC modifier = historical_riverly }	
 	add_opinion_modifier = { target = LBY modifier = historical_riverly }	
 	add_opinion_modifier = { target = PRK modifier = historical_riverly }
 	add_opinion_modifier = { target = VEN modifier = historical_riverly }	

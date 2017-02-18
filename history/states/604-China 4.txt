@@ -7,10 +7,9 @@ state={
 	state_category = town
 
 	history={
-		owner = CHC
-		add_core_of = CHC
-		add_core_of = CHI
+		owner = PRC
 		add_core_of = PRC
+		add_core_of = ROC
 		
 		victory_points = {
 			7940 10 
@@ -22,10 +21,6 @@ state={
 			infrastructure = 1
 			industrial_complex = 3
 			arms_factory = 1
-		}
-
-		1938.10.25 = {
-			owner = CHI
 		}
 	}
 

@@ -5,10 +5,9 @@ state={
 	state_category = town
 
 	history={
-		owner = CHC
-		add_core_of = CHC
-		add_core_of = CHI
+		owner = PRC
 		add_core_of = PRC
+		add_core_of = ROC
 		
 		victory_points = {
 			1070 1 
@@ -21,12 +20,6 @@ state={
 				naval_base = 2
 			}
 
-		}
-
-		1938.10.25 = {
-			remove_core_of = CHC
-			owner = CHI
-			controller = JAP
 		}
 	}
 

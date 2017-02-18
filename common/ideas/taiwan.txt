@@ -3,7 +3,7 @@ ideas = {
 		tpotr = {
 			
 			allowed = {
-				original_tag = TWN
+				original_tag = ROC
 			}
 
 			allowed_civil_war = {

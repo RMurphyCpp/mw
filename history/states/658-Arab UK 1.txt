@@ -1,6 +1,6 @@
 
 state={
-	id=658
+	id=658 #Abu Dhabi
 	name="STATE_658"
 	manpower = 220000
 	resources={
@@ -12,6 +12,7 @@ state={
 
 	history={
 		owner = ENG
+		add_core_of = QTR
 		victory_points = {
 			7960 1 
 		}

@@ -7,13 +7,14 @@ state={
 	state_category = rural
 
 	history={
-		owner = AFG
+		owner = IEA
 		buildings = {
 			infrastructure = 2
 		}
 		victory_points = {
 			4893 1 
 		}
+		add_core_of = IEA
 		add_core_of = AFG
 	}
 
