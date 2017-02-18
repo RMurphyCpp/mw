@@ -250,7 +250,7 @@ technologies = {
 	mod_strategic_airlift = {
 
 		enable_equipments = {
-			strategic_airlift_3
+			strategic_airlift_2
 		}
 			
 		research_cost = 2
@@ -309,7 +309,7 @@ technologies = {
 	mod_tactical_airlift = {
 
 		enable_equipments = {
-			tactical_airlift_3
+			tactical_airlift_2
 		}
 			
 		research_cost = 2

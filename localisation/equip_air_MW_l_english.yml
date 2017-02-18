@@ -139,5 +139,28 @@
     USA_mpa_1:0 "P-3C BMUP Orion"
     USA_mpa_2:0 "P-8A Poseidon"   
  
+#Strategic trans
+ 
+    strategic_airlift_1:0 "CW Strategic airlift"
+    strategic_airlift_2:0 "Late CW Strategic airlift" 
+
+    medium_airlift_1:0 "CW Medium airlift"
+    medium_airlift_2:0 "Late CW Medium airlift"   
+    
+    tactical_airlift_1:0 "CW Tactical airlift"
+    tactical_airlift_2:0 "Late CW airlift" 
+    
+  
+    
+    USA_strategic_airlift_1:0 "C-5C Galaxy"
+    USA_strategic_airlift_2:0 "C-5M Super Galaxy" 
+
+    USA_medium_airlift_1:0 "C-141 Starlifter"
+    USA_medium_airlift_2:0 "C-17 Globemaster III" 
+ 
+    USA_tactical_airlift_1:0 "C-130 Hercules"
+    USA_tactical_airlift_2:0 "C-130J Super Hercule" 
+    
+    
     
     
