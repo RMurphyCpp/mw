@@ -50,9 +50,6 @@ bookmarks = {
 				un_permanent_member
 				petro_dollar
 				land_of_the_free
-			}
-			focuses = {
-				USA_patriot_act
 			}			
 		}
 
