@@ -594,7 +594,7 @@ CHL = {
 	
 }
 
-TWN = {
+ROC = {
 	submarine = {
 		prefix = ""
 		generic = { "Qianting" }
