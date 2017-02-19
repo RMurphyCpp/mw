@@ -7,11 +7,12 @@ state={
 	
 	
 	history={
-		owner = ITA
+		owner = LBY
+		add_core_of = LBY
 		buildings = {
 			infrastructure = 1
 		}
-		add_core_of = LBY
+
 	}
 	
 	provinces={
