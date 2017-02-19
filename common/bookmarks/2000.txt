@@ -61,13 +61,10 @@ bookmarks = {
 				bleeding_russian_bear
 				ashes_of_empire
 				mother_russia	
-			}
-			focuses = {
-				USA_patriot_act
 			}			
 		}
 #China		
-		"CHC" = {
+		"PRC" = {
 			history = ITA_BLITZKRIEG_DESC
 			ideology = communism
 			ideas={
