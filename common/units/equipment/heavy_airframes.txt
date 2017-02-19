@@ -316,7 +316,7 @@ equipments = {
 	
 
 	# Basic strategic_bomber
-	mpa_1 = {
+	mpa_0 = {
 		archetype = mpa_equipment
 		priority = 140
 		
@@ -331,9 +331,9 @@ equipments = {
 	}
 
 	# Improved mpa
-	mpa_2 = {
+	mpa_1 = {
 		archetype = mpa_equipment
-		parent = mpa_1
+		parent = mpa_0
 		priority = 140
 
 		air_range = 3500
@@ -352,9 +352,9 @@ equipments = {
 	}
 	
 	# Advanced mpa
-	mpa_3 = {
+	mpa_2 = {
 		archetype = mpa_equipment
-		parent = mpa_2
+		parent = mpa_1
 		priority = 140
 		
 		air_range = 5000

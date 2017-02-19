@@ -164,8 +164,51 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4mw/air/P-3.dds"
 		alwaystransparent = yes
 	}	
-		
+
+	SpriteType = {
+		name = "GFX_USA_fifth_gen_mpa_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/P-8.dds"
+		alwaystransparent = yes
+	}	
 	
+#---------------------------------------------------------- Strategic airlift -------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_cw_strategic_airlift_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/C-5.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_mod_strategic_airlift_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/C-5.dds"
+		alwaystransparent = yes
+	}
+
+#---------------------------------------------------------- Tactical airlift -------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_cw_tactical_airlift_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/C-130.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_mod_tactical_airlift_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/C-130.dds"
+		alwaystransparent = yes
+	}
+
+#---------------------------------------------------------- Medium airlift -------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_cw_medium_airlift_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/C-141.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_mod_medium_airlift_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/C-17.dds"
+		alwaystransparent = yes
+	}	
 #----------------------------------------------------------CAG-------------------------------------------------------------------------------	
 	
 	SpriteType = {
