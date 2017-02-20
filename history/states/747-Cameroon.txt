@@ -1,0 +1,19 @@
+state={
+	id=747
+	name="STATE_747"
+	
+	history={
+		owner = CAM
+		buildings = {
+			infrastructure = 2
+
+		}
+		add_core_of = CAM
+	}	
+	
+	provinces={
+		2080 5036 5054 6039 7963 9137 11194 
+	}
+	manpower=0
+	buildings_max_level_factor=1.000
+}
