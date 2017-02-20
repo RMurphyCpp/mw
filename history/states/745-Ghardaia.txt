@@ -1,8 +1,7 @@
-
 state={
-	id=513
-	name="STATE_513"
-
+	id=745
+	name="STATE_745"
+	
 	history={
 		owner = ALG
 		add_core_of = ALG
@@ -11,12 +10,11 @@ state={
 
 		}
 
-	}
-
+	}	
+	
 	provinces={
-		1126 3991 4018 4150 7008 7040 10045 12018 12020 13074 
+		1128 1967 5053 7033 7149 9960 
 	}
-	manpower=811486
+	manpower=0
 	buildings_max_level_factor=1.000
-	state_category=wasteland
 }
