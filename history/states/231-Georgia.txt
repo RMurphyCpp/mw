@@ -1,15 +1,15 @@
+
 state={
 	id=231
 	name="STATE_231"
-	manpower = 2949413
-	state_category = city
-	
+
 	history={
 		owner = GEO
 		add_core_of = GEO
-		add_core_of = SOT #TEMP
-		victory_points = { 1599 10 }
-
+		add_core_of = SOT
+		victory_points = {
+			1599 10 
+		}
 		buildings = {
 			infrastructure = 4
 			industrial_complex = 2
@@ -19,9 +19,15 @@ state={
 				naval_base = 2
 
 			}
-		}		
-    }
-	provinces={
-		654 672 772 4605 6436 6674 7554 1530 1599 3653 3656 3658 3667 4534 6669 6671 9702 11609 11599 11664 9626 11617
+
+		}
+
 	}
+
+	provinces={
+		654 672 772 1530 1599 3653 3656 3658 3667 4534 4605 6436 6669 6671 6674 9626 9702 11599 11609 11617 11664 
+	}
+	manpower=2949413
+	buildings_max_level_factor=1.000
+	state_category=city
 }

@@ -1,0 +1,21 @@
+
+state={
+	id=749
+	name="STATE_749"
+
+	history={
+		owner = SOT
+		add_core_of = GEO
+		add_core_of = SOT
+
+
+	}
+	
+
+	provinces={
+		9632 
+	}
+	manpower=1000000
+	state_category=city	
+	buildings_max_level_factor=1.000
+}
