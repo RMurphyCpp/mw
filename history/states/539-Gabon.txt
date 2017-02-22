@@ -3,29 +3,18 @@ state={
 	id=539
 	name="STATE_539"
 
+	state_category = wasteland	
+	
 	history={
-		owner = FRA
-		victory_points = {
-			8193 2 
-		}
-		victory_points = {
-			5139 1 
-		}
+		owner = GAB
 		buildings = {
-			infrastructure = 3
-			industrial_complex = 1
-			air_base = 1
-			5139 = {
-				naval_base = 1
-
-			}
-
+			infrastructure = 1
 		}
-
+		add_core_of = GAB
 	}
 
 	provinces={
-		2192 3109 5139 6008 8193 8207 10948 11012 12975 
+		5139 8207 10948 
 	}
 	manpower=2564000
 	buildings_max_level_factor=1.000

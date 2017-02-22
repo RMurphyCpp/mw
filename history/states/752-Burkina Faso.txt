@@ -1,0 +1,23 @@
+state={
+	id=752
+	name="STATE_752"
+	
+	
+	history={
+		owner = BKN
+		add_core_of = BKN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}	
+	
+	state_category = wasteland
+	
+	provinces={
+		2001 7950 7983 8071 10836 12851 
+	}
+	manpower=1000000
+	buildings_max_level_factor=1.000
+}

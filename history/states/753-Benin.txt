@@ -1,0 +1,23 @@
+state={
+	id=753
+	name="STATE_753"
+	
+	
+	history={
+		owner = BEN
+		add_core_of = BEN
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}	
+	
+	state_category = wasteland	
+	
+	provinces={
+		10919 12762 12874 
+	}
+	manpower=10000
+	buildings_max_level_factor=1.000
+}

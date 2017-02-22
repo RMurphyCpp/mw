@@ -1,0 +1,22 @@
+state={
+	id=757
+	name="STATE_757"
+	
+	history={
+		owner = ZIM
+		add_core_of = ZIM
+		buildings = {
+			infrastructure = 3
+
+		}
+
+	}	
+	
+	state_category = wasteland	
+	
+	provinces={
+		1874 2151 2216 4851 7842 10929 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+}

@@ -1,0 +1,20 @@
+state={
+	id=755
+	name="STATE_755"
+	
+	state_category = wasteland
+
+	history={
+		owner = CNG
+		buildings = {
+			infrastructure = 1
+		}
+		add_core_of = CNG
+	}	
+	
+	provinces={
+		2192 3109 6008 8193 11012 12975 
+	}
+	manpower=100000
+	buildings_max_level_factor=1.000
+}
