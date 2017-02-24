@@ -88,7 +88,75 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
+#---------------------------------------------------------- LMGs ----------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_USA_infantry_lmg_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/BAR.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_infantry_lmg_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M249.dds"
+		alwaystransparent = yes
+	}
 
+	SpriteType = {
+		name = "GFX_USA_infantry_lmg_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M249.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_lmg_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M249.dds"
+		alwaystransparent = yes
+	}
+
+#---------------------------------------------------------- GPMGs ----------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_USA_infantry_gpmg_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M60.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_infantry_gpmg_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M240.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_gpmg_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/MK48.dds"
+		alwaystransparent = yes
+	}
+	
+#---------------------------------------------------------- AT Rocket launchers ----------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_USA_infantry_at_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M72 LAW.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_USA_infantry_at_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/M136.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_at_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/SMAW.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_infantry_at_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/SMAW.dds"
+		alwaystransparent = yes
+	}
+	
 ############# British Tech ####################################################################################################################	
 
 ############# Ruskie Tech ####################################################################################################################
@@ -188,5 +256,48 @@ spriteTypes = {
 		alwaystransparent = yes
 	}
 
+#---------------------------------------------------------- Small arms ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_SOV_infantry_small_arms_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/AK-47.dds"
+		alwaystransparent = yes
+	}
 	
+	SpriteType = {
+		name = "GFX_SOV_infantry_small_arms_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/AKM.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOVA_infantry_small_arms_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/AK-74.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_infantry_small_arms_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/AN-94.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_infantry_small_arms_4_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/AK-74.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_SOV_infantry_small_arms_5_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/weapons/AK-12.dds"
+		alwaystransparent = yes
+	}
+
+
+
+
+
+
+
+
 }

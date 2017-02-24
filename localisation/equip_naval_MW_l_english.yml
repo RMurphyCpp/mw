@@ -63,11 +63,17 @@
  carrier_4:0 "Carrier IV"
  carrier_5:0 "Carrier V"
  
- aas_1:0 "Amphibious assault Ship I"
- aas_2:0 "Amphibious assault Ship II"
- aas_3:0 "Amphibious assault Ship III"
- aas_4:0 "Amphibious assault Ship IV"
- aas_5:0 "Amphibious assault Ship V"
+ lpd_1:0 "Amphibious assault Ship I"
+ lpd_2:0 "Amphibious assault Ship II"
+ lpd_3:0 "Amphibious assault Ship III"
+ lpd_4:0 "Amphibious assault Ship IV"
+ lpd_5:0 "Amphibious assault Ship V"
+ 
+ lha_1:0 "Amphibious assault Ship I"
+ lha_2:0 "Amphibious assault Ship II"
+ lha_3:0 "Amphibious assault Ship III"
+ lha_4:0 "Amphibious assault Ship IV"
+ lha_5:0 "Amphibious assault Ship V"
  
  ### USA  ###################################################################################################################
 

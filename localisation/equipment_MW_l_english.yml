@@ -5,9 +5,9 @@
 
     mbt_0:0 "1G Main Battle tank"
     mbt_1:0 "2G Main Battle tank"
-    mbt_2:0 "2G adv. Main Battle tank"
+    mbt_2:0 "2G Adv. Main Battle tank"
     mbt_3:0 "3G Main Battle tank"
-    mbt_4:0 "3G adv. Main Battle tank"
+    mbt_4:0 "3G Adv. Main Battle tank"
     mbt_5:0 "4G Main Battle tank"
 
     
@@ -159,6 +159,11 @@
     ENG_infantry_small_arms_5:0 "L85A3"    
     
 #Light machine guns    
+    infantry_lmg_0:0 "Light Machine Gun I"
+    infantry_lmg_1:0 "Light Machine Gun II"
+    infantry_lmg_2:0 "Light Machine Gun III"
+    infantry_lmg_3:0 "Light Machine Gun IV"    
+    
     USA_infantry_lmg_0:0 "B.A.R"
     USA_infantry_lmg_1:0 "M249"
     USA_infantry_lmg_2:0 "M249 Para"
@@ -175,12 +180,16 @@
     ENG_infantry_lmg_3:0 "FN Minimi mk3"    
     
     #General Purpose Machine guns    
+    infantry_gpmg_0:0 "General Purpose Machine Gun I"
+    infantry_gpmg_1:0 "General Purpose Machine Gun II"
+    infantry_gpmg_2:0 "General Purpose Machine Gun III"   
+    
     USA_infantry_gpmg_0:0 "M60"
     USA_infantry_gpmg_1:0 "M240B"
     USA_infantry_gpmg_2:0 "MK48 mod 0"
     
     SOV_infantry_gpmg_0:0 "PK"
-    SOV_infantry_gpmg_1:0 "RPK"
+    SOV_infantry_gpmg_1:0 "PKM"
     SOV_infantry_gpmg_2:0 "PKP"
     
     ENG_infantry_gpmg_0:0 "FN MAG"
@@ -188,6 +197,11 @@
     ENG_infantry_gpmg_2:0 "FN Minimi Para"
     
     #Anti Tank Rocket
+    infantry_at_0:0 "Anti-Tank Rocket Launcher I"
+    infantry_at_1:0 "Anti-Tank Rocket Launcher II"
+    infantry_at_2:0 "Anti-Tank Rocket Launcher III"
+    infantry_at_3:0 "Anti-Tank Rocket Launcher IV"       
+    
     USA_infantry_at_0:0 "M72 LAW"
     USA_infantry_at_1:0 "AT4"
     USA_infantry_at_2:0 "SMAW-D"
@@ -199,6 +213,12 @@
     SOV_infantry_at_3:0 "RPG-30" 
     
     #Anti Tank Rocket
+    infantry_manpad_0:0 "MANPAD I"
+    infantry_manpad_1:0 "MANPAD II"
+    infantry_manpad_2:0 "MANPAD III"
+    infantry_manpad_3:0 "MANPAD IV"
+    infantry_manpad_4:0 "MANPAD V"
+    
     USA_infantry_manpad_0:0 "FIM-43 Redeye"
     USA_infantry_manpad_1:0 "FIM 92 Stinger"
     USA_infantry_manpad_2:0 "FIM-92C Stinger"

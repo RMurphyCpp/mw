@@ -11,12 +11,7 @@
     heavy_fighter_0:0 "4th Gen Air Supperiority Fighter"
     heavy_fighter_1:0 "4.5th Gen Air Supperiority Fighter"
     heavy_fighter_2:0 "5th Gen Air Supperiority Fighter"
-
-    third_gen_CAS:0 "3rd Gen CAS Fighter"
-    forth_gen_CAS:0 "4th Gen CAS Fighter"
-    fifth_gen_CAS:0 "5th Gen CAS Fighter" 
-
-    
+  
     USA_fighter_0:0 "F-4 Phantom "
     USA_fighter_1:0 "F-14 Tomcat"
     USA_fighter_2:0 "F-16 Fighting Falcon"
@@ -61,6 +56,9 @@
     CHC_heavy_fighter_2:0 "J-31"
   
 #Close Air Support
+    third_gen_CAS:0 "3rd Gen CAS Fighter"
+    forth_gen_CAS:0 "4th Gen CAS Fighter"
+    fifth_gen_CAS:0 "5th Gen CAS Fighter" 
 
     USA_CAS_0:0 "A-10A Warthog"
     USA_CAS_1:0 "A-10C Thunderbolt II"
@@ -77,16 +75,13 @@
     adv_forth_gen_attacker:0 "Adv 4th Gen Strike Fighter"
     
     
-    
     USA_strike_fighter_0:0 "F-111 Aardvark"
-    USA_strike_fighter_1:0 "F-111F Aardvark"
-    USA_strike_fighter_2:0 "F-15E Strike Eagle"    
-    USA_strike_fighter_3:0 "F-15SE Silent Eagle"
+    USA_strike_fighter_1:0 "F-15E Strike Eagle"    
+    USA_strike_fighter_2:0 "F-15SE Silent Eagle"
 
     SOV_strike_fighter_0:0 "Su-24 Fencer"
-    SOV_strike_fighter_1:0 "Su-24M Fencer-D"    
-    SOV_strike_fighter_2:0 "Su-24M2 Fencer-D"
-    SOV_strike_fighter_3:0 "Su-34 Fullback"
+    SOV_strike_fighter_1:0 "Su-24M2 Fencer-D"
+    SOV_strike_fighter_2:0 "Su-34 Fullback"
 
 #Interceptors
     third_gen_interceptor:0 "3rd Gen Interceptor"
@@ -110,10 +105,10 @@
     USA_ucav_3:0 "X-47 Pegasus"
     
 #Strategic strategic_bombers
-    third_gen_strategic_bomber:0 "CW Strategic strategic_bomber"
-    adv_third_gen_strategic_bomber:0 "Mid CW Strategic strategic_bomber"    
-    forth_gen_strategic_bomber:0 "Late CW Strategic strategic_bomber"
-    fifth_gen_strategic_bomber:0 "Modern Strategic strategic_bomber" 
+    third_gen_strategic_bomber:0 "CW Strategic Bomber"
+    adv_third_gen_strategic_bomber:0 "Mid CW Strategic Bomber"    
+    forth_gen_strategic_bomber:0 "Late CW Strategic Bomber"
+    fifth_gen_strategic_bomber:0 "Modern Strategic Bomber" 
     
     SOV_strategic_bomber_1:0 "Tu-95 Bear"
     SOV_strategic_bomber_2:0 "Tu-22M3 Backfire"
@@ -141,14 +136,14 @@
  
 #Strategic trans
  
-    strategic_airlift_1:0 "CW Strategic airlift"
-    strategic_airlift_2:0 "Late CW Strategic airlift" 
+    strategic_airlift_1:0 "CW Strategic Airlift"
+    strategic_airlift_2:0 "Late CW Strategic Airlift" 
 
-    medium_airlift_1:0 "CW Medium airlift"
-    medium_airlift_2:0 "Late CW Medium airlift"   
+    medium_airlift_1:0 "CW Medium Airlift"
+    medium_airlift_2:0 "Late CW Medium Airlift"   
     
-    tactical_airlift_1:0 "CW Tactical airlift"
-    tactical_airlift_2:0 "Late CW airlift" 
+    tactical_airlift_1:0 "CW Tactical Airlift"
+    tactical_airlift_2:0 "Late CW Airlift" 
     
   
     

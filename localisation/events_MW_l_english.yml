@@ -1,0 +1,492 @@
+﻿l_english:
+ generic_election_lose_title:0 "The [Root.GetRulingParty] Party Lost the Elections"
+ generic_election_lose_desc:0 "The [Root.GetRulingParty] has lost the election and [Root.GetLeader] will have to step down as leader of the government."
+ generic_election_lose_a:0 "The People Have Spoken"
+ generic_election_stay_title:0 "The [Root.GetRulingParty] Party Remains in Power!"
+ generic_election_stay_desc:0 "The [Root.GetRulingParty] has won the elections and will remain in power for another term."
+ generic_election_stay_a:0 "Hurray [Root.GetRulingParty]!"
+ generic.1.t:0 "[From.GetName] Is Influencing Our Politics"
+ generic.1.d_neutral_good:0 "For a long time the [From.GetAdjective] government has sought to align the path of our countries, and has expressed a great interest in [Root.GetAdjective] politics. Recently this intensified when [From.GetRulingParty] started pushing their [From.GetRulingIdeology] propaganda with a number of speeches and reading material distributed to the [Root.GetAdjective] people. \n\nNow even a number of politicians and other officials are being swayed by the [From.GetAdjective] propaganda, and have started advocating for [From.GetRulingIdeologyNoun] in [Root.GetName]."
+ generic.1.d_bad:0 "For a long time the [From.GetAdjective] government has sought to align the path of our countries, and has often tried to meddle in [Root.GetName]'s politics. Recently this has intensified, as [From.GetRulingParty] started pushing their [From.GetRulingIdeology] propaganda with no respect for [Root.GetAdjective] political traditions. A number of speeches and other [From.GetRulingIdeology] material is already being distributed to the [Root.GetAdjective] people. It seems that even a number of politicians and other officials are being swayed by the [From.GetAdjective] propaganda and have begun advocating for [From.GetRulingIdeologyNoun] in [Root.GetName]."
+ generic.1.a:0 "Intersting"
+ generic.1.b:0 "How dare they!"
+ country_capitulated.0.t:0 "[Root.GetName] has capitulated"
+ country_capitulated.0.d_positive_both_no_faction:0 "[From.From.GetLeader] has announced that the cowardly [Root.GetAdjective] nation could no longer withstand the pressure from the overwhelming presence of [From.From.GetAdjective] forces throughout the country. The [Root.GetAdjective] government chose to flee the country and has gone into exile. Their main forces have capitulated, and [From.From.GetName] is now in control of their home area.\nThough the war continues elsewhere, this is a great victory for [From.From.GetName]."
+ country_capitulated.0.d_positive_prev_no_faction:0 "[From.From.GetLeader] has announced that the cowardly [Root.GetAdjective] nation could no longer withstand the pressure from the overwhelming presence of [From.From.GetAdjective] forces throughout the country. The [Root.GetAdjective] government chose to flee the country and has gone into exile. Their main forces have capitulated, and [From.From.GetName] is now in control of their home area.\nThough the war against what remains of the [Root.GetFactionName] continues elsewhere this is a great victory for [From.From.GetName]."
+ country_capitulated.0.d_positive_prev_faction:0 "[From.From.GetLeader] has announced that the cowardly [Root.GetAdjective] nation could no longer withstand the pressure from the overwhelming presence of [From.From.GetAdjective] forces throughout the country. The [Root.GetAdjective] government chose to flee the country and has gone into exile. Their main forces have capitulated, and [From.From.GetName] is now in control of their home area.\nThough the war against what remains of the [Root.GetFactionName] continues elsewhere this is a great victory for all of the [From.From.GetFactionName]."
+ country_capitulated.0.d_negative_both_no_faction:0 "[Root.GetLeader] has announced that the [Root.GetAdjective] nation can no longer withstand the pressure from the occupying [From.From.GetAdjective] forces, committing travesties throughout the country. The [Root.GetAdjective] government has gone into exile. Their main forces have capitulated, and [From.From.GetName] is now in control of their home area.\nDespite this devastating loss the war against [From.From.GetName] is far from over."
+ country_capitulated.0.d_negative_prev_no_faction:0 "[Root.GetLeader] has announced that the [Root.GetAdjective] nation can no longer withstand the pressure from the occupying [From.From.GetAdjective] forces, committing travesties throughout the country. The [Root.GetAdjective] government has gone into exile. Their main forces have capitulated, and [From.From.GetName] is now in control of their home area.\nThough the war against [From.From.GetName] continues, this is an unfortunate setback for all of the [Root.GetFactionName]."
+ country_capitulated.0.d_negative_prev_faction:0 "[Root.GetLeader] has announced that the [Root.GetAdjective] nation can no longer withstand the pressure from the occupying [From.From.GetAdjective] forces, committing travesties throughout the country. The [Root.GetAdjective] government has gone into exile. Their main forces have capitulated, and [From.From.GetName] is now in control of their home area.\nThough the war against [From.From.GetName] and the rest of the [From.From.GetFactionName] continues, this is an unfortunate setback for all of the [Root.GetFactionName]."
+ country_capitulated.0.d_neutral_both_no_faction:0 "The [Root.GetAdjective] government has gone into exile and their main forces have capitulated to [From.From.GetName], who is now in control of their home area.\nAlthough the struggles between [From.From.GetName] and [Root.GetName] are over, [From.From.GetName] is still at all-out war, and the fighting continues elsewhere."
+ country_capitulated.0.d_neutral_prev_no_faction:0 "The [Root.GetAdjective] government has gone into exile and their main forces have capitulated to [From.From.GetName], who is now in control of their home area.\nThe struggles in [Root.GetName] was only a small part of the conflict. The war between [From.From.GetName] and what remains of [Root.GetFactionName] continues elsewhere."
+ country_capitulated.0.d_neutral_prev_faction:0 "The [Root.GetAdjective] government has gone into exile and their main forces have capitulated to [From.From.GetName], who is now in control of their home area.\nThe struggles between [From.From.GetName] and [Root.GetName] was only a small part of the conflict. The war between [From.From.GetFactionName] and what remains of [Root.GetFactionName] continues elsewhere."
+ country_capitulated.0.a:0 "Great news!"
+ country_capitulated.0.b:0 "These are dark times"
+ country_capitulated.0.c:0 "Uncertain times"
+ GAME_OVER_TT:0 "§RThe game will end for you.§!"
+ 
+ #MW Spicy events...
+ 
+ news.0.t:0 "The Longplayer begins!"
+ news.0.d:0 "Longplayer is a one thousand year long musical composition. It began playing at midnight on the 31st of December 1999, and will continue to play without repetition until the last moment of 2999, at which point it will complete its cycle and begin again."
+ news.4.a:0 "Interesting."
+  
+ news.1.t:0 "The Pyrenean ibex becomes extinct"
+ news.1.d:0 "One of the four subspecies of the Spanish ibex or Iberian wild goat, a species endemic to the Iberian Peninsula. Pyrenean ibex were most common in the Cantabrian Mountains, Southern France, and the northern Pyrenees.The last natural Pyrenean ibex is found dead, apparently killed by a falling tree."
+ news.1.a:0 "Oh."
+ 
+ news.2.t:0 "Kenya Airways Flight 431 crash"
+ news.2.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.2.a:0 "Send our condolences."
+ 
+ news.3.t:0 "Kenya Airways Flight 431 crash"
+ news.3.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.3.a:0 "Send our condolences."
+ 
+ news.4.t:0 "PS2 released"
+ news.4.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.4.a:0 "Interesting."
+
+ news.5.t:0 "Øresund Bridge opens"
+ news.5.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.5.a:0 "Good for them."
+
+ news.6.t:0 "Air France Flight 4590 crash"
+ news.6.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.6.a:0 "Send our condolences."
+ 
+ news.7.t:0 "USS Cole bombing"
+ news.7.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.7.a:0 "Terrorism should be fought on all fronts!"
+
+ news.8.t:0 " ISS officially operational"
+ news.8.d:0 "Kenya Airways Flight 431 was an international scheduled Abidjan–Lagos–Nairobi passenger service, operated with an Airbus A310-300,yesterday we recieved news that it crashed into the sea off the coast of Côte d'Ivoire on 30 January 2000, shortly after takeoff from Félix Houphouët-Boigny International Airport, Abidjan.There were 179 people on board, of whom 169 were passengers. Only ten people survived the accident, this remains the first fatal one for Kenya Airways.."
+ news.8.a:0 "This shall bring hulanity together."
+
+ 
+ news.10.t:0 "11th of September attacks!"
+ news.10.d:0 "Terrorists win."
+ news.10.a:0 "Oops!"
+ 
+################################################################################################################################
+# ------------------------------------------------------------------------------- US Events ---------------------------------------------------------------------------------------------
+###############################################################################################################################
+
+################################
+# 9/11
+ usa.5.t:0 "September 11 Terrorist attacks"
+ usa.5.d:0 "The September 11 attacks were a series of four coordinated suicide attacks upon the United States in New York City and the Washington, D.C. areas on September 11, 2001. On that Tuesday morning, 19 terrorists from the Islamist militant group al-Qaeda hijacked four passenger jets. The hijackers intentionally crashed two planes, American Airlines Flight 11 and United Airlines Flight 175 into the Twin Towers of the World Trade Center in New York City, both towers collapsed within two hours.The September 11 attacks were a series of four coordinated suicide attacks upon the United States in New York City and the Washington, D.C. areas on September 11, 2001. On that Tuesday morning, 19 terrorists from the Islamist militant group al-Qaeda hijacked four passenger jets. The hijackers intentionally crashed two planes, American Airlines Flight 11 and United Airlines Flight 175 into the Twin Towers of the World Trade Center in New York City, both towers collapsed within two hours."
+ usa.5.a:0 "Ground all planes!"
+
+ news_usa.1.t:0 "September 11 Terrorist attacks"
+ news_usa.1.d:0 "The September 11 attacks were a series of four coordinated suicide attacks upon the United States in New York City and the Washington, D.C. areas on September 11, 2001. On that Tuesday morning, 19 terrorists from the Islamist militant group al-Qaeda hijacked four passenger jets. The hijackers intentionally crashed two planes, American Airlines Flight 11 and United Airlines Flight 175 into the Twin Towers of the World Trade Center in New York City, both towers collapsed within two hours.The September 11 attacks were a series of four coordinated suicide attacks upon the United States in New York City and the Washington, D.C. areas on September 11, 2001. On that Tuesday morning, 19 terrorists from the Islamist militant group al-Qaeda hijacked four passenger jets. The hijackers intentionally crashed two planes, American Airlines Flight 11 and United Airlines Flight 175 into the Twin Towers of the World Trade Center in New York City, both towers collapsed within two hours."
+ news_usa.1.a:0 "Send our condolences"
+
+
+ ###############################
+ #Amerithrax
+ usa.6.t:0 "Anthrax attacks"
+ usa.6.d:0 "The 2001 anthrax attacks in the United States occurred over the course of several weeks beginning on Tuesday, September 18, 2001. Letters containing anthrax spores were mailed to several news media offices and two Democratic U.S. Senators, killing five people and infecting 17 others. According to the FBI, the ensuing investigation became "one of the largest and most complex in the history of law enforcement." The anthrax attacks came in two waves. The first set of anthrax letters had a Trenton, New Jersey postmark dated September 18, 2001. Five letters are believed to have been mailed at this time to: ABC News, CBS News, NBC News and the New York Post, all located in New York City and to the National Enquirer at American Media, Inc. Robert Stevens, the first person who died from the mailings, worked at a tabloid called Sun. Two more anthrax letters, bearing the same Trenton postmark, were dated October 9, three weeks after the first mailing"
+ usa.6.a:0 "Find out who is responsible for this!"
+
+ news_usa.2.t:0 "Amerithrax attacks"
+ news_usa.2.d:0 "The 2001 anthrax attacks in the United States occurred over the course of several weeks beginning on Tuesday, September 18, 2001. Letters containing anthrax spores were mailed to several news media offices and two Democratic U.S. Senators, killing five people and infecting 17 others. According to the FBI, the ensuing investigation became "one of the largest and most complex in the history of law enforcement." The anthrax attacks came in two waves. The first set of anthrax letters had a Trenton, New Jersey postmark dated September 18, 2001. Five letters are believed to have been mailed at this time to: ABC News, CBS News, NBC News and the New York Post, all located in New York City and to the National Enquirer at American Media, Inc. Robert Stevens, the first person who died from the mailings, worked at a tabloid called Sun. Two more anthrax letters, bearing the same Trenton postmark, were dated October 9, three weeks after the first mailing"
+ news_usa.2.a:0 "Whoever is behind this should be punished"
+
+
+
+ ###############################
+ # USS Cole Bombing
+ usa.8.t:0 "USS Cole bombed and heavily damaged"
+ usa.8.d:0 "The USS Cole bombing was a suicide attack against the United States Navy guided-missile destroyer USS Cole (DDG-67) on 12 October 2000 while it was harbored and being refueled in the Yemeni port of Aden. 17 sailors were killed and 39 were injured in the blast. The injured sailors were taken to the United States Army's Landstuhl Regional Medical Center near Ramstein and later.back to the United States.The attack was the deadliest against a U.S. naval vessel since the Iraqi attack on the USS Stark on 17 May 1987. The terrorist organization al-Qaeda claimed responsibility for the attack. The American Navy has reconsidered their rules of engagement in response to this attack. We can either repair the USS Cole or we can scrap it to save the resources and money required for the repairs"
+ usa.8.a:0 "Scrap the USS Cole"
+
+
+ news_usa.3.t:0 "USS Cole bombed!"
+ news_usa.3.d:0 "The USS Cole bombing was a suicide attack against the United States Navy guided-missile destroyer USS Cole (DDG-67) on 12 October 2000 while it was harbored and being refueled in the Yemeni port of Aden. 17 sailors were killed and 39 were injured in the blast. The injured sailors were taken to the United States Army's Landstuhl Regional Medical Center near Ramstein and later.back to the United States.The attack was the deadliest against a U.S. naval vessel since the Iraqi attack on the USS Stark on 17 May 1987. The terrorist organization al-Qaeda claimed responsibility for the attack. The American Navy has reconsidered their rules of engagement in response to this attack."
+ news_usa.3.a:0 "These barbarians should be stopped"
+
+
+
+ #########################################
+ # US elections 
+ us_elections.1.t:0 "US elections 2000"
+ us_elections.1.d:0 "Placeholder"
+ us_elections.1.a:0 "George Walker Bush (Conservative)"
+ us_elections.1.b:0 "Al Gore (Liberal)"
+
+ us_elections.2.t:0 "US elections 2004"
+ us_elections.2.d:0 "Placeholder"
+ us_elections.2.a:0 "George Walker Bush (Conservative)"
+ us_elections.2.b:0 "John Kerry (Liberal)"
+ us_elections.2.c:0 "Al Gore (Liberal)"
+ us_elections.2.e:0 "Rudy Giuliani (Conservative)"
+
+ us_elections.3.t:0 "US elections 2008"
+ us_elections.3.d:0 "Placeholder"
+ us_elections.3.a:0 "Barack Obama"
+ us_elections.3.b:0 "John McCain"
+ us_elections.3.c:0 "John Kerry"
+ us_elections.3.e:0 "Dick Cheney"
+ us_elections.3.f:0 "Joe Biden"
+ us_elections.3.g:0 "Mike Huckabee"
+ us_elections.3.h:0 "Rudy Giuliani"
+ us_elections.3.i:0 "Hillary Clinton"
+
+
+ ###############################
+ # US issues an ultimatium to Taliban
+ usa.8.t:0 "US issues an ultimatium to Taliban"
+ usa.8.d:0 "The USS Cole bombing was a suicide attack against the United States Navy guided-missile destroyer USS Cole (DDG-67) on 12 October 2000 while it was harbored and being refueled in the Yemeni port of Aden. 17 sailors were killed and 39 were injured in the blast. The injured sailors were taken to the United States Army's Landstuhl Regional Medical Center near Ramstein and later.back to the United States.The attack was the deadliest against a U.S. naval vessel since the Iraqi attack on the USS Stark on 17 May 1987. The terrorist organization al-Qaeda claimed responsibility for the attack. The American Navy has reconsidered their rules of engagement in response to this attack. We can either repair the USS Cole or we can scrap it to save the resources and money required for the repairs"
+ usa.8.a:0 "Prepare the invasion plans"
+
+
+ news_usa.3.t:0 "US issues an ultimatium to Taliban"
+ news_usa.3.d:0 "Placeholder."
+ news_usa.3.a:0 "Interesting times!"
+
+ ###############################
+ # US issues an ultimatium to Taliban
+ usa.9.t:0 "US issues an ultimatium to Taliban"
+ usa.9.d:0 "The USS Cole bombing was a suicide attack against the United States Navy guided-missile destroyer USS Cole (DDG-67) on 12 October 2000 while it was harbored and being refueled in the Yemeni port of Aden. 17 sailors were killed and 39 were injured in the blast. The injured sailors were taken to the United States Army's Landstuhl Regional Medical Center near Ramstein and later.back to the United States.The attack was the deadliest against a U.S. naval vessel since the Iraqi attack on the USS Stark on 17 May 1987. The terrorist organization al-Qaeda claimed responsibility for the attack. The American Navy has reconsidered their rules of engagement in response to this attack. We can either repair the USS Cole or we can scrap it to save the resources and money required for the repairs"
+ usa.9.a:0 "Prepare the invasion plans"
+
+ ###############################
+ # Operation Enduring Freedom
+ usa.10.t:0 "Operation Enduring Freedom"
+ usa.10.d:0 "Placeholder."
+ usa.10.a:0 "Godspeed"
+
+ ###############################
+ # Elián González affair
+ usa.11.t:0 "Elián González affair"
+ usa.11.d:0 "Placeholder."
+ usa.11.a:0 "Keep the child "
+ usa.11.b:0 "Return him to Cuba"
+
+ ###############################
+ # Human Genome Draft Completed
+ usa.11.t:0 "Human Genome Draft Completed"
+ usa.11.d:0 "Placeholder."
+ usa.11.a:0 "This will benefit all of mankind"
+
+ ###############################
+ # NASA loses contact with Pioneer 10
+ usa.12.t:0 "NASA loses contact with Pioneer 10"
+ usa.12.d:0 "Placeholder."
+ usa.12.a:0 "Okay."
+
+ ###############################
+ # Space Shuttle Columbia disintegrates during reentry over Texas
+ usa.13.t:0 "Space Shuttle Columbia disintegrates in the atmosphere"
+ usa.13.d:0 "Placeholder."
+ usa.13.a:0 "May their souls rest in peace."
+
+ ###############################
+ #Opearation Iraqi Freedom
+ usa.14.t:0 "Operation Iraqi Freedom"
+ usa.14.d:0 "'My fellow citizens, at this hour American and coalition forces are in the early stages of military operations to disarm Iraq, to free its people and to defend the world from grave danger.On my orders, coalition forces have begun striking selected targets of military importance to undermine Saddam Hussein's ability to wage war. These are opening stages of what will be a broad and concerted campaign.' - George W. Bush"
+ usa.14.a:0 "Hoorah!"
+
+################################################################################################################################
+# ------------------------------------------------------------------------------- Russian Events ---------------------------------------------------------------------------------------------
+################################################################################################################################
+ 
+#########################################
+# Kursk incident
+#########################################
+ kursk.1.t:0 "Summer-X naval exercises"
+ kursk.1.d:0 "Placeholder"
+ kursk.1.a:0 "Let the exercises starts"
+
+
+ kursk.2.t:0 "K-141 disappears!"
+ kursk.2.d:0 "Placeholder"
+ kursk.2.a:0 "Tell the public there is no reason to worry"
+
+
+ kursk.3.t:0 "Foreign Assistance For Kursk Rescue"
+ kursk.3.d:0 "Placeholder"
+ kursk.3.a:0 "Allow foreign aid to rescue the Kursk"
+ kursk.3.b:0 "We will rescue the Kursk by ourselves"
+
+
+ kursk.4.t:0 "Recovery attempt failed"
+ kursk.4.d:0 "Placeholder"
+ kursk.4.a:0 "It seems we have no choice"
+
+
+ kursk.5.t:0 "Recovery attempt was a sucess"
+ kursk.5.d:0 "Placeholder"
+ kursk.5.a:0 "Get them back home!"
+
+
+ kursk.6.t:0 "Kursk Crew dead"
+ kursk.6.d:0 "Placeholder"
+ kursk.6.a:0 "Keep the Kursk at sea (ahistorical)"
+ kursk.6.b:0 "We will recover the Kursk"
+
+
+ news_kursk.2.t:0 "Russian sub gone"
+ news_kursk.2.d:0 "Placeholder"
+ news_kursk.2.a:0 "RIP"
+
+
+ #########################################
+ # Russian elections 
+ russian_elections.1.t:0 "Russian elections 2000"
+ russian_elections.1.d:0 "Placeholder"
+ russian_elections.1.a:0 "Vladimir Putin (Reactionary)"
+ russian_elections.1.b:0 "Gennady Zyuganov (Communist)"
+ russian_elections.1.c:0 "Grigory Yavlinsky (Liberal)"
+ 
+ 
+ 
+ ################################################################################################################################
+# ------------------------------------------------------------------------------- Israeli Events ---------------------------------------------------------------------------------------------
+################################################################################################################################
+
+
+###############################
+# The Versailles disaster
+israel.1.t:0 "The Versailles disaster"
+israel.1.d:0 "The Versailles wedding hall, located in Talpiot, Jerusalem, is the site of the worst civil disaster in Israel's history. At 22:43 on May 24, 2001, during the wedding of Keren and Asaf Dror, a large portion of the third floor of the four-story building collapsed. As a result, 23 people fell to their deaths through two stories, including the groom's 80-year-old grandfather and his three-year-old second cousin, the youngest victim. Another 380 were injured, including the bride who suffered serious pelvic injuries that required surgery. The disaster shocked the Israeli public not only because it was one of the worst building disasters in the country's history, but because the event was documented on a camcorder and broadcast on local and international television. Following the disaster, the "Versailles Law" was passed by the Parliament of Israel. This law established a special committee responsible for treating the people injured in the disaster."
+israel.1.a:0 "Send Help!"
+
+
+news_israel.1.t:0 "The Versailles disaster"
+news_israel.1.d:0 "The Versailles wedding hall, located in Talpiot, Jerusalem, is the site of the worst civil disaster in Israel's history. At 22:43 on May 24, 2001, during the wedding of Keren and Asaf Dror, a large portion of the third floor of the four-story building collapsed. As a result, 23 people fell to their deaths through two stories, including the groom's 80-year-old grandfather and his three-year-old second cousin, the youngest victim. Another 380 were injured, including the bride who suffered serious pelvic injuries that required surgery. The disaster shocked the Israeli public not only because it was one of the worst building disasters in the country's history, but because the event was documented on a camcorder and broadcast on local and international television. Following the disaster, the "Versailles Law" was passed by the Parliament of Israel. This law established a special committee responsible for treating the people injured in the disaster."
+news_israel.1.a:0 "Horrible"
+
+
+
+###############################
+# Dolphinarium discotheque massacre
+israel.2.t:0 "Dolphinarium discotheque massacre"
+israel.2.d:0 "The Dolphinarium discotheque suicide bombing was a terrorist attack on June 1, 2001 in which a suicide bomber named Saeed Hotari, a millitant linked to the Palestinian group Hamas, blew himself up outside a discotheque on a beachfront in Tel Aviv, Israel, killing 21 Israeli teenagers and injuring 132. Suicide bomber Saeed Hotari was standing in line on a Friday night in front of the Dolphinarium, when the area was packed with youngsters (most of them Russian new arrivals) waiting for admission. Survivors of the attack later described how the young Palestinian bomber appeared to taunt his victims before the explosion, wandering among them dressed in clothes that led some to mistake him for an orthodox Jew from Asia, and banging a drum packed with explosives and ball bearings, while repeating the words in Hebrew: "Something's going to happen"
+israel.2.a:0 "They will pay..."
+
+
+news_israel.2.t:0 "Dolphinarium discotheque massacre"
+news_israel.2.d:0 "The Dolphinarium discotheque suicide bombing was a terrorist attack on June 1, 2001 in which a suicide bomber named Saeed Hotari, a millitant linked to the Palestinian group Hamas, blew himself up outside a discotheque on a beachfront in Tel Aviv, Israel, killing 21 Israeli teenagers and injuring 132. Suicide bomber Saeed Hotari was standing in line on a Friday night in front of the Dolphinarium, when the area was packed with youngsters (most of them Russian new arrivals) waiting for admission. Survivors of the attack later described how the young Palestinian bomber appeared to taunt his victims before the explosion, wandering among them dressed in clothes that led some to mistake him for an orthodox Jew from Asia, and banging a drum packed with explosives and ball bearings, while repeating the words in Hebrew: "Something's going to happen."
+news_israel.2.a:0 "Horrible"
+
+###############################
+# Ariel Sharon visits Temple Mount
+israel.3.t:0 "Ariel Sharon visits Temple Mount"
+israel.3.d:0 "On September 28, Israeli opposition leader Ariel Sharon together with a Likud party delegation visited the Temple Mount. Sharon was only permitted to enter the compound after the Israeli Interior Minister had received assurances from the Palestinian Authority's security chief that no problems would arise if he made the visit. Shortly after Sharon left the site, angry demonstrations by Palestinian Jerusalemites outside erupted into rioting. Israeli police responded with tear gas and rubber bullets, while protesters hurled stones and other missiles, injuring 25 policemen, of whom one was seriously injured and had to be taken to hospital. At least three Palestinians were wounded by rubber bullets. The stated purpose for Sharon's visit of the compound was to assert the right of all Israelis to visit the Temple Mount, According to The New York Times, many in the Arab world point to Sharon's visit as the beginning of the Second Intifada and derailment of the peace process"
+israel.3.a:0 "An unnecessary provocation"
+
+
+news_israel.3.t:0 "Ariel Sharon visits Temple Mount"
+news_israel.3.d:0 "On September 28, Israeli opposition leader Ariel Sharon together with a Likud party delegation visited the Temple Mount. Sharon was only permitted to enter the compound after the Israeli Interior Minister had received assurances from the Palestinian Authority's security chief that no problems would arise if he made the visit. Shortly after Sharon left the site, angry demonstrations by Palestinian Jerusalemites outside erupted into rioting. Israeli police responded with tear gas and rubber bullets, while protesters hurled stones and other missiles, injuring 25 policemen, of whom one was seriously injured and had to be taken to hospital. At least three Palestinians were wounded by rubber bullets. The stated purpose for Sharon's visit of the compound was to assert the right of all Israelis to visit the Temple Mount, According to The New York Times, many in the Arab world point to Sharon's visit as the beginning of the Second Intifada and derailment of the peace process."
+news_israel.3.a:0 "An unnecessary provocation"
+
+###############################
+# The Second Intifada
+israel.4.t:0 "The Second Intifada"
+israel.4.d:0 "The Second Intifada, also known as the Al-Aqsa Intifada was the second Palestinian uprising against Israeli occupation – a period of intensified Israeli-Palestinian violence. It started in September 2000, when Ariel Sharon made a visit to the Temple Mount, seen by Palestinians as highly provocative. In protest Palestinian demonstrators, throwing stones at police, were dispersed by the Israeli army, using tear gas and rubber bullets. Both parties caused high numbers of casualties among civilians as well as combatants: the Palestinians by numerous suicide bombing and gunfire. The Israelis by tank and gunfire and air attacks, by numerous targeted killings, and by harsh reactions on demonstrations. The death toll, including both military and civilian, is estimated to be about 3,000 Palestinians and 1,000 Israelis, as well as 64 foreigners"
+israel.4.a:0 "Do whatever is possible to calm things down"
+
+
+news_israel.4.t:0 "The Second Intifada"
+news_israel.4.d:0 "The Second Intifada, also known as the Al-Aqsa Intifada was the second Palestinian uprising against Israeli occupation – a period of intensified Israeli-Palestinian violence. It started in September 2000, when Ariel Sharon made a visit to the Temple Mount, seen by Palestinians as highly provocative. In protest Palestinian demonstrators, throwing stones at police, were dispersed by the Israeli army, using tear gas and rubber bullets. Both parties caused high numbers of casualties among civilians as well as combatants: the Palestinians by numerous suicide bombing and gunfire. The Israelis by tank and gunfire and air attacks, by numerous targeted killings, and by harsh reactions on demonstrations. The death toll, including both military and civilian, is estimated to be about 3,000 Palestinians and 1,000 Israelis, as well as 64 foreigners."
+news_israel.4.a:0 "Ok."
+
+###############################
+# Space Shuttle Columbia Disaster
+israel.5.t:0 "Space Shuttle Columbia Disaster"
+israel.5.d:0 "The Space Shuttle Columbia disaster occurred on February 1, 2003, when the space shuttle Columbia disintegrated over Texas and Louisiana as it reentered Earth's atmosphere, killing all seven crew members including the first Israeli astronaut colonel Ilan Ramon. During the launch of STS-107, Columbia's 28th mission, a piece of foam insulation broke off from the Space Shuttle external tank and struck the left wing. A few previous shuttle launches had seen minor damage from foam shedding, but some engineers suspected that the damage to Columbia was more serious. NASA managers limited the investigation, reasoning that the crew could not have fixed the problem if it had been confirmed. When Columbia reentered the atmosphere of Earth, the damage allowed hot atmospheric gases to penetrate and destroy the internal wing structure, which caused the spacecraft to become unstable and slowly break apart"
+israel.5.a:0 "Ilan Ramon's legacy will not be forgotten"
+
+
+news_israel.5.t:0 "Space Shuttle Columbia Disaster"
+news_israel.5.d:0 "The Space Shuttle Columbia disaster occurred on February 1, 2003, when the space shuttle Columbia disintegrated over Texas and Louisiana as it reentered Earth's atmosphere, killing all seven crew members including the first Israeli astronaut colonel Ilan Ramon. During the launch of STS-107, Columbia's 28th mission, a piece of foam insulation broke off from the Space Shuttle external tank and struck the left wing. A few previous shuttle launches had seen minor damage from foam shedding, but some engineers suspected that the damage to Columbia was more serious. NASA managers limited the investigation, reasoning that the crew could not have fixed the problem if it had been confirmed. When Columbia reentered the atmosphere of Earth, the damage allowed hot atmospheric gases to penetrate and destroy the internal wing structure, which caused the spacecraft to become unstable and slowly break apart"
+news_israel.5.a:0 "May their souls rest in peace"
+
+
+
+###############################
+# Ariel Sharon falls into coma
+israel.6.t:0 "Ariel Sharon falls into coma"
+israel.6.d:0 "Ariel Sharon was hospitalized on December 18, 2005, after suffering a minor ischemic stroke. During his hospital stay, doctors discovered a heart defect requiring surgery and ordered bed rest pending a cardiac catheterization scheduled for January 5, 2006. Instead, Sharon immediately returned to work and suffered a hemorrhagic stroke on January 4, the day before surgery. After two surgeries lasting 7 and 14 hours, doctors stopped the bleeding in Sharon's brain, but were unable to prevent him from entering into a coma. Ehud Olmert became Acting Prime Minister the night of Sharon's second stroke, while Sharon was only officially in office. Knesset elections followed in March, with Olmert and Sharon's Kadima party winning a plurality. The next month, the Israeli Cabinet declared Sharon permanently incapacitated and Olmert officially became Interim Prime Minister in office on April 14, 2006 until his new established government made him Prime Minister in his own right on 4 May"
+israel.6.a:0 "May he recover quickly"
+
+
+news_israel.6.t:0 "Ariel Sharon falls into coma"
+news_israel.6.d:0 "Ariel Sharon was hospitalized on December 18, 2005, after suffering a minor ischemic stroke. During his hospital stay, doctors discovered a heart defect requiring surgery and ordered bed rest pending a cardiac catheterization scheduled for January 5, 2006. Instead, Sharon immediately returned to work and suffered a hemorrhagic stroke on January 4, the day before surgery. After two surgeries lasting 7 and 14 hours, doctors stopped the bleeding in Sharon's brain, but were unable to prevent him from entering into a coma. Ehud Olmert became Acting Prime Minister the night of Sharon's second stroke, while Sharon was only officially in office. Knesset elections followed in March, with Olmert and Sharon's Kadima party winning a plurality. The next month, the Israeli Cabinet declared Sharon permanently incapacitated and Olmert officially became Interim Prime Minister in office on April 14, 2006 until his new established government made him Prime Minister in his own right on 4 May."
+news_israel.6.a:0 "May he recover quickly"
+
+################################################################################################################################
+# ------------------------------------------------------------------------------- Earthquakes ---------------------------------------------------------------------------------------------
+################################################################################################################################
+
+###############################
+# 2000 Kipawa Earthquake
+earthquake.6.t:0 "Kipawa was hit by an earthquake"
+earthquake.6.d:0 "Placeholder"
+earthquake.6.a:0 "Search for survivors"
+
+
+news_earthquake.6.t:0 "Kipawa earthquake"
+news_earthquake.6.d:0 "Placeholder"
+news_earthquake.6.a:0 "Send them some help"
+
+###############################
+# 2001 Gujarat earthquake
+earthquake.1.t:0 "Gujarat was hit by an earthquake"
+earthquake.1.d:0 "Placeholder"
+earthquake.1.a:0 "Search for survivors!"
+
+news_earthquake.1.t:0 "Gujarat earthquake"
+news_earthquake.1.d:0 "Placeholder"
+news_earthquake.1.a:0 "Send them some help"
+
+###############################
+# 2003 Bam earthquake
+earthquake.2.t:0 "Bam was hit by an earthquake"
+earthquake.2.d:0 "Placeholder"
+earthquake.2.a:0 "Search for survivors"
+
+
+news_earthquake.2.t:0 "Bam earthquake"
+news_earthquake.2.d:0 "Placeholder"
+news_earthquake.2.a:0 "Send them some help"
+
+###############################
+# 2003 Boumerdès earthquake
+earthquake.3.t:0 "Boumerdès was hit by an earthquake"
+earthquake.3.d:0 "Placeholder"
+earthquake.3.a:0 "Search for survivors"
+
+
+news_earthquake.3.t:0 "Boumerdès earthquake"
+news_earthquake.3.d:0 "Placeholder"
+news_earthquake.3.a:0 "Send them some help"
+
+
+###############################
+# 2004 Indian Ocean earthquake and tsunami
+earthquake.4.t:0 "Major earthquake in the Indian Ocean"
+earthquake.4.d:0 "Placeholder"
+earthquake.4.a:0 "We need help immediately!"
+
+
+news_earthquake.4.t:0 "Major earthquake in the Indian Ocean"
+news_earthquake.4.d:0 "Placeholder"
+news_earthquake.4.a:0 "Send them some help"
+
+###############################
+# 2005 Kashmir earthquake
+earthquake.5.t:0 "Kashmir was hit by an earthquake"
+earthquake.5.d:0 "Placeholder"
+earthquake.5.a:0 "Search for survivors"
+
+
+news_earthquake.5.t:0 "Kashmir earthquake"
+news_earthquake.5.d:0 "Placeholder"
+news_earthquake.5.a:0 "Send them some help"
+
+################################################################################################################################
+# ------------------------------------------------------------------------------- Air crashes ---------------------------------------------------------------------------------------------
+################################################################################################################################
+
+###############################
+# Kenya Airways Flight 431 Crash
+crash.1.t:0 "Kenya Airways Flight 431 Crash"
+crash.1.d:0 "Placeholder"
+crash.1.a:0 "Start search and rescue operations"
+
+news_crash.1.t:0 "Kenya Airways Flight 431 Crash"
+news_crash.1.d:0 "Placeholder"
+news_crash.1.a:0 "Send our condolences"
+
+###############################
+# Air France Flight 4590 crash
+crash.2.t:0 "Air France Flight 4590 crash"
+crash.2.d:0 "Placeholder"
+crash.2.a:0 "Search for survivors"
+
+
+news_crash.2.t:0 "Air France Flight 4590 crash"
+news_crash.2.d:0 "Placeholder"
+news_crash.2.a:0 "Send our condolences"
+
+###############################
+# Alaska Airlines Flight 261
+crash.3.t:0 "Alaska Airlines Flight 261"
+crash.3.d:0 "Placeholder"
+crash.3.a:0 "Search for survivors"
+
+
+news_crash.3.t:0 "Alaska Airlines Flight 261"
+news_crash.3.d:0 "Placeholder"
+news_crash.3.a:0 "Send our condolences"
+
+
+###############################
+# Siberia Airlines Flight 1812
+crash.4.t:0 "Siberia Airlines Flight 1812"
+crash.4.d:0 "Placeholder"
+crash.4.a:0 "We need help immediately!"
+
+
+news_crash.4.t:0 "Siberia Airlines Flight 1812"
+news_crash.4.d:0 "Placeholder"
+news_crash.4.a:0 "Send our condolences"
+
+###############################
+# American Airlines Flight 587
+crash.5.t:0 "American Airlines Flight 587"
+crash.5.d:0 "Placeholder"
+crash.5.a:0 "Search for survivors"
+
+
+news_crash.5.t:0 "American Airlines Flight 587"
+news_crash.5.d:0 "Placeholder"
+news_crash.5.a:0 "Send our condolences"
+
+###############################
+# Sknyliv air show disaster (2002)
+crash.6.t:0 "Sknyliv air show disaster"
+crash.6.d:0 "Placeholder"
+crash.6.a:0 "Search for survivors"
+
+
+news_crash.6.t:0 "Sknyliv air show disaster"
+news_crash.6.d:0 "Placeholder"
+news_crash.6.a:0 "Send our condolences"
+
+
+###############################
+# Iran Ilyushin Il-76 crash
+crash.7.t:0 "Iran Ilyushin Il-76 crash"
+crash.7.d:0 "Placeholder"
+crash.7.a:0 "Search for survivors"
+
+
+news_crash.7.t:0 "Iran Ilyushin Il-76 crash"
+news_crash.7.d:0 "Placeholder"
+news_crash.7.a:0 "Send our condolences"
+
+###############################
+# Air Algérie Flight 6289
+crash.8.t:0 "Air Algérie Flight 6289 crash"
+crash.8.d:0 "Placeholder"
+crash.8.a:0 "Search for survivors"
+
+
+news_crash.8.t:0 "Air Algérie Flight 6289 crash"
+news_crash.8.d:0 "Placeholder"
+news_crash.8.a:0 "Send our condolences"
+
+###############################
+# China Airlines Flight 611
+crash.9.t:0 "China Airlines Flight 611 crash"
+crash.9.d:0 "Placeholder"
+crash.9.a:0 "Search for survivors"
+
+
+news_crash.9.t:0 "China Airlines Flight 611 crash"
+news_crash.9.d:0 "Placeholder"
+news_crash.9.a:0 "Send our condolences"
