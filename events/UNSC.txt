@@ -1,0 +1,91 @@
+﻿add_namespace = un_vote
+
+
+
+
+#########################################
+# Vote event
+#########################################
+
+country_event = {
+	id = un_vote.1
+	title = un_vote.1.t
+	desc = un_vote.1.d
+	picture = GFX_event_test
+	
+
+	is_triggered_only = yes	
+
+
+#Start the vote
+	option = {
+		name = un_vote.1.a
+		USA = { set_country_flag = { flag = un_vote_vote value = 5 }}
+		country_event = { hours = 2 id = un_vote.2 }
+	}
+	
+}	
+
+
+#########################################
+# Vote event
+#########################################
+
+country_event = {
+	id = un_vote.2
+	title = un_vote.2.t
+	desc = un_vote.2.d
+	picture = GFX_event_test
+	
+
+	is_triggered_only = yes	
+
+
+#Yes
+	option = {
+		name = un_vote.2.a
+		USA = { modify_country_flag = { flag = un_vote value = 1 }}
+		country_event = { hours = 4 id = un_vote.3 }
+	}
+
+#No
+	option = {
+		name = un_vote.2.b
+		USA = { modify_country_flag = { flag = un_vote value = -1 }}
+		country_event = { hours = 4 id = un_vote.3 }
+	}
+	
+}
+
+
+#########################################
+# Vote event
+#########################################
+
+country_event = {
+	id = un_vote.3
+	title = un_vote.3.t
+	desc = un_vote.3.d
+	picture = GFX_event_test
+	
+
+	is_triggered_only = yes	
+
+
+#Failed
+	option = {
+		name = un_vote.3.a
+		trigger = {
+		USA = { has_country_flag = { flag = un_vote_ value < 5 }}
+		}
+	}
+
+#Passed
+	option = {
+		name = un_vote.3.b
+		trigger = {
+		USA = { has_country_flag = { flag = un_vote value > 5 }}
+		}
+	}
+	
+}
