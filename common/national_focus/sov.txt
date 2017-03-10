@@ -36,6 +36,14 @@ focus_tree = {
 
 	}
 	focus = {
+		id = SOV_military
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 53
+		y = 0
+
+	}
+	focus = {
 		id = SOV_closer_to_west
 		icon = GFX_focus_generic_the_giant_wakes
 		cost = 10.00
@@ -822,7 +830,7 @@ focus_tree = {
 		prerequisite = {
 			focus = build_eco
 		}
-		x = 41
+		x = 40
 		y = 1
 
 	}
@@ -833,7 +841,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_mil_1
 		}
-		x = 41
+		x = 40
 		y = 2
 
 	}
@@ -844,7 +852,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_mil_2
 		}
-		x = 41
+		x = 40
 		y = 3
 
 	}
@@ -855,8 +863,41 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_mil_3
 		}
-		x = 39
+		x = 38
 		y = 4
+
+	}
+	focus = {
+		id = SOV_infra_1
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_build_eco
+		}
+		x = 42
+		y = 1
+
+	}
+	focus = {
+		id = SOV_infra_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_infra_1
+		}
+		x = 42
+		y = 2
+
+	}
+	focus = {
+		id = SOV_infra_3
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_infra_2
+		}
+		x = 42
+		y = 3
 
 	}
 	focus = {
@@ -866,7 +907,7 @@ focus_tree = {
 		prerequisite = {
 			focus = build_eco
 		}
-		x = 43
+		x = 44
 		y = 1
 
 	}
@@ -877,7 +918,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_civ_1
 		}
-		x = 43
+		x = 44
 		y = 2
 
 	}
@@ -888,7 +929,7 @@ focus_tree = {
 		prerequisite = {
 			focus = SOV_civ_2
 		}
-		x = 43
+		x = 44
 		y = 3
 
 	}
@@ -902,6 +943,236 @@ focus_tree = {
 		}
 		x = 42
 		y = 4
+
+	}
+	focus = {
+		id = SOV_civ_4
+		icon = GFX_goal_generic_consumer_goods
+		cost = 50.00
+		prerequisite = {
+			focus = SOV_civ_3
+		}
+		x = 45
+		y = 4
+
+	}
+	focus = {
+		id = SOV_space_program
+		icon = GFX_focus_rocketry
+		cost = 30.00
+		prerequisite = {
+			focus = SOV_new_research
+		}
+		x = 45
+		y = 5
+
+	}
+	focus = {
+		id = SOV_army
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_military
+		}
+		x = 48
+		y = 1
+
+	}
+	focus = {
+		id = SOV_armored
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_army
+		}
+		x = 47
+		y = 2
+
+	}
+	focus = {
+		id = SOV_armored_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_armored
+		}
+		x = 47
+		y = 3
+
+	}
+	focus = {
+		id = SOV_mobile_inf
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_army
+		}
+		x = 49
+		y = 2
+
+	}
+	focus = {
+		id = SOV_movile_inf_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_mobile_inf
+		}
+		x = 49
+		y = 3
+
+	}
+	focus = {
+		id = SOV_airforce
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_military
+		}
+		x = 53
+		y = 1
+
+	}
+	focus = {
+		id = SOV_paratroopers
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_army
+		}
+		prerequisite = {
+			focus = SOV_airforce
+		}
+		x = 51
+		y = 2
+
+	}
+	focus = {
+		id = SOV_cas
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_airforce
+		}
+		x = 53
+		y = 2
+
+	}
+	focus = {
+		id = SOV_cas_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_cas
+		}
+		x = 53
+		y = 3
+
+	}
+	focus = {
+		id = SOV_bomber
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_airforce
+		}
+		x = 55
+		y = 2
+
+	}
+	focus = {
+		id = SOV_bomber_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_bomber
+		}
+		x = 55
+		y = 3
+
+	}
+	focus = {
+		id = SOV_fighter
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_airforce
+		}
+		x = 57
+		y = 2
+
+	}
+	focus = {
+		id = SOV_fighter_2
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_fighter
+		}
+		x = 57
+		y = 3
+
+	}
+	focus = {
+		id = SOV_navy
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_military
+		}
+		x = 62
+		y = 1
+
+	}
+	focus = {
+		id = SOV_marine
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_navy
+		}
+		x = 59
+		y = 2
+
+	}
+	focus = {
+		id = SOV_blue_sea
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_navy
+		}
+		mutually_exclusive = {
+			focus = SOV_green_sea
+		}
+		x = 61
+		y = 2
+
+	}
+	focus = {
+		id = SOV_green_sea
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_navy
+		}
+		mutually_exclusive = {
+			focus = SOV_blue_sea
+		}
+		x = 63
+		y = 2
+
+	}
+	focus = {
+		id = SOV_carrier
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_blue_sea
+			focus = SOV_green_sea
+		}
+		x = 62
+		y = 3
 
 	}
 	focus = {
@@ -971,17 +1242,6 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOV_civ_4
-		icon = GFX_goal_generic_consumer_goods
-		cost = 50.00
-		prerequisite = {
-			focus = SOV_civ_3
-		}
-		x = 45
-		y = 4
-
-	}
-	focus = {
 		id = SOV_nuclear_program
 		icon = GFX_focus_wonderweapons
 		cost = 40.00
@@ -993,24 +1253,13 @@ focus_tree = {
 
 	}
 	focus = {
-		id = SOV_space_program
-		icon = GFX_focus_rocketry
-		cost = 30.00
-		prerequisite = {
-			focus = SOV_new_research
-		}
-		x = 45
-		y = 5
-
-	}
-	focus = {
 		id = SOV_ballistic_mis_program
 		icon = GFX_focus_rocketry
 		cost = 30.00
 		prerequisite = {
 			focus = SOV_new_research
 		}
-		x = 39
+		x = 38
 		y = 5
 
 	}
@@ -1046,6 +1295,28 @@ focus_tree = {
 		}
 		x = 3
 		y = 7
+
+	}
+	focus = {
+		id = SOV_sub
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_navy
+		}
+		x = 65
+		y = 2
+
+	}
+	focus = {
+		id = SOV_nuc_sub
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = SOV_sub
+		}
+		x = 65
+		y = 3
 
 	}
 }

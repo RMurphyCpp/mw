@@ -1,0 +1,490 @@
+focus_tree = {
+	id = france
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = FRA
+		}
+	}
+	default = no
+	focus = {
+		id = FRA_diplo
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 16
+		y = 0
+
+	}
+	focus = {
+		id = FRA_vive_la_france
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_diplo
+		}
+		x = 12
+		y = 1
+
+	}
+	focus = {
+		id = FRA_post_colonial
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_vive_la_france
+		}
+		x = 8
+		y = 2
+
+	}
+	focus = {
+		id = FRA_africa
+		icon = GFX_goal_generic_navy_doctrines_tactics
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_post_colonial
+		}
+		x = 5
+		y = 3
+
+	}
+	focus = {
+		id = FRA_invest_chad
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_africa
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = FRA_invest_algeria
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_africa
+		}
+		mutually_exclusive = {
+			focus = FRA_invest_morocco
+		}
+		x = 3
+		y = 4
+
+	}
+	focus = {
+		id = FRA_invest_central_africa
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_africa
+		}
+		x = 7
+		y = 4
+
+	}
+	focus = {
+		id = FRA_invest_western_africa
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_africa
+		}
+		x = 9
+		y = 4
+
+	}
+	focus = {
+		id = FRA_asia
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_post_colonial
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = FRA_invest_vietnam
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_asia
+		}
+		x = 11
+		y = 4
+
+	}
+	focus = {
+		id = FRA_invest_laos
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_asia
+		}
+		x = 13
+		y = 4
+
+	}
+	focus = {
+		id = FRA_glorify_colonialism
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_vive_la_france
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = FRA_return_immigrants
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_glorify_colonialism
+		}
+		x = 17
+		y = 3
+
+	}
+	focus = {
+		id = FRA_berbers
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_return_immigrants
+		}
+		x = 15
+		y = 4
+
+	}
+	focus = {
+		id = FRA_pied_noire
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_return_immigrants
+		}
+		x = 17
+		y = 4
+
+	}
+	focus = {
+		id = FRA_embargo_algeria
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_pied_noire
+		}
+		x = 17
+		y = 5
+
+	}
+	focus = {
+		id = FRA_avenge_indo_china
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_return_immigrants
+		}
+		x = 19
+		y = 4
+
+	}
+	focus = {
+		id = FRA_support_french
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_vive_la_france
+		}
+		x = 22
+		y = 2
+
+	}
+	focus = {
+		id = FRA_negociate_quebec
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_support_french
+		}
+		x = 21
+		y = 3
+
+	}
+	focus = {
+		id = FRA_arm_the_french
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_support_french
+		}
+		x = 23
+		y = 3
+
+	}
+	focus = {
+		id = FRA_intervention_quebec
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_negociate_quebec
+			focus = FRA_arm_the_french
+		}
+		x = 22
+		y = 4
+
+	}
+	focus = {
+		id = FRA_demend_louisiana
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_intervention_quebec
+		}
+		x = 22
+		y = 5
+
+	}
+	focus = {
+		id = FRA_west
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_diplo
+		}
+		x = 29
+		y = 1
+
+	}
+	focus = {
+		id = FRA_europe
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_west
+		}
+		x = 26
+		y = 2
+
+	}
+	focus = {
+		id = FRA_keep_opts_out
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_europe
+		}
+		x = 25
+		y = 3
+
+	}
+	focus = {
+		id = FRA_euro
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_europe
+		}
+		x = 29
+		y = 3
+
+	}
+	focus = {
+		id = FRA_follow_germany
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_euro
+		}
+		x = 28
+		y = 4
+
+	}
+	focus = {
+		id = FRA_expend_rhein
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_follow_germany
+		}
+		x = 28
+		y = 5
+
+	}
+	focus = {
+		id = FRA_propose_union
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_expend_rhein
+		}
+		x = 28
+		y = 6
+
+	}
+	focus = {
+		id = FRA_question_german
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_euro
+		}
+		x = 31
+		y = 4
+
+	}
+	focus = {
+		id = FRA_suivez_moi
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_question_german
+		}
+		x = 30
+		y = 5
+
+	}
+	focus = {
+		id = FRA_reform_eu
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_suivez_moi
+		}
+		x = 30
+		y = 6
+
+	}
+	focus = {
+		id = FRA_invest_morocco
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_africa
+		}
+		mutually_exclusive = {
+			focus = FRA_invest_algeria
+		}
+		x = 5
+		y = 4
+
+	}
+	focus = {
+		id = FRA_intervention
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_berbers
+		}
+		x = 15
+		y = 5
+
+	}
+	focus = {
+		id = FRA_french_algeria
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_intervention
+			focus = FRA_embargo_algeria
+		}
+		x = 16
+		y = 6
+
+	}
+	focus = {
+		id = FRA_french_commonwealth
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_invest_morocco
+			focus = FRA_invest_algeria
+		}
+		prerequisite = {
+			focus = FRA_invest_chad
+		}
+		prerequisite = {
+			focus = FRA_invest_vietnam
+		}
+		prerequisite = {
+			focus = FRA_invest_laos
+			focus = FRA_invest_central_africa
+			focus = FRA_invest_western_africa
+		}
+		x = 7
+		y = 6
+
+	}
+	focus = {
+		id = FRA_referendum
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_keep_opts_out
+		}
+		x = 25
+		y = 4
+
+	}
+	focus = {
+		id = FRA_oui_out
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_referendum
+		}
+		x = 25
+		y = 5
+
+	}
+	focus = {
+		id = FRA_republique_euro
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_reform_eu
+		}
+		x = 30
+		y = 7
+
+	}
+	focus = {
+		id = FRA_eu_split
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_question_german
+		}
+		x = 32
+		y = 5
+
+	}
+	focus = {
+		id = FRA_rebuild_maginot
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_eu_split
+		}
+		x = 32
+		y = 6
+
+	}
+	focus = {
+		id = FRA_third_great_war
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = FRA_rebuild_maginot
+		}
+		x = 32
+		y = 7
+
+	}
+}

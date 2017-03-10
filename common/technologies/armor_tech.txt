@@ -1,18 +1,23 @@
-@mbt_line = -8
-@ifv_line = -6
-@apc_line = -4
-@imv_line = -2
-@truck_line = 0
+@mbt_line = -4
+@spg_line = -2
+@apc_line = 0
+@ifv_line = 2
+@imv_line = 4
+@truck_line = 6
 
-
-
-
+@50s_line = 0
+@60s_line = 3
+@70s_line = 6
+@80s_line = 9
+@90s_line = 12
+@2000s_line = 15
+@2010s_line = 18
 
 technologies = {
 ####################################################################### MBTs #######################################################################################	
 	
-## First Gen Tanks T-54,M48...	
-	first_gen_mbt = {
+## First Gen Tanks T-55 , M48  (50s)
+	main_battle_tanks = {
 		
 		enable_equipments = {
 			mbt_0
@@ -23,7 +28,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = @mbt_line y = 0 }
+			position = { x = @mbt_line y = @50s_line }
 		}
 		
 		ai_will_do = {
@@ -35,25 +40,41 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = second_gen_mbt
+			leads_to_tech = infantry_fighting_vehicles
 			research_cost_coeff = 1
 		}
-				
+		path = {
+			leads_to_tech = main_battle_tanks_1
+			research_cost_coeff = 1
+		}
+		path = {
+			leads_to_tech = armored_personel_carriers
+			research_cost_coeff = 1
+		}		
+		path = {
+			leads_to_tech = self_propelled_howitzers
+			research_cost_coeff = 1
+		}		
+		
+		sub_technologies = {
+			self_propelled_aaa
+		}
+		
 	}
 	
-## Second Gen Tanks T-62,M60                                       	
-	second_gen_mbt = {
+## Second Gen Tanks T-62, M60      (60s)                    	
+	main_battle_tanks_1 = {
 		
 		enable_equipments = {
 			mbt_1
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1965
 		
 		folder = {
 			name = armour_folder
-			position = { x = @mbt_line y = 3 }
+			position = { x = @mbt_line y = @60s_line }
 		}
 		
 		ai_will_do = {
@@ -65,25 +86,27 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = adv_second_gen_mbt
+			leads_to_tech = main_battle_tanks_2
 			research_cost_coeff = 1
 		}
-				
+		sub_technologies = {
+			self_propelled_aaa_1
+		}				
 	}
 
-## Advanced Second Gen Tanks T-72 M60A2
-	adv_second_gen_mbt = {
+## Advanced Second Gen Tanks T-72 MBT-70           (70s)
+	main_battle_tanks_2 = {
 		
 		enable_equipments = {
 			mbt_2
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1975
 		
 		folder = {
 			name = armour_folder
-			position = { x = @mbt_line y = 6 }
+			position = { x = @mbt_line y = @70s_line }
 		}
 		
 		ai_will_do = {
@@ -95,25 +118,27 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = third_gen_mbt
+			leads_to_tech = main_battle_tanks_3
 			research_cost_coeff = 1
 		}
-				
+		sub_technologies = {
+			self_propelled_aaa_2
+		}					
 	}
-
-## Third Gen Tanks T-80,M1 Abrams
-	third_gen_mbt = {
+ 
+## Third Gen Tanks T-80,M1 Abrams            (80s)
+	main_battle_tanks_3 = {
 		
 		enable_equipments = {
 			mbt_3
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1985
 		
 		folder = {
 			name = armour_folder
-			position = { x = @mbt_line y = 9 }
+			position = { x = @mbt_line y = @80s_line }
 		}
 		
 		ai_will_do = {
@@ -125,25 +150,27 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = adv_third_gen_mbt
+			leads_to_tech = main_battle_tanks_4
 			research_cost_coeff = 1
 		}
-				
+		sub_technologies = {
+			self_propelled_aaa_3
+		}					
 	}
 
-## Advanced Third Gen Tanks T-90,M1A1
-	adv_third_gen_mbt = {
+## Advanced Third Gen Tanks T-90,M1A1       (90s)
+	main_battle_tanks_4 = {
 		
 		enable_equipments = {
 			mbt_4
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1995
 		
 		folder = {
 			name = armour_folder
-			position = { x = @mbt_line y = 12 }
+			position = { x = @mbt_line y = @90s_line }
 		}
 		
 		ai_will_do = {
@@ -155,25 +182,27 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = forth_gen_mbt
+			leads_to_tech = main_battle_tanks_5
 			research_cost_coeff = 1
 		}
-				
+		sub_technologies = {
+			self_propelled_aaa_4
+		}					
 	}	
 	
-## Forth Gen Gen Tanks T-14,M1A3
-	forth_gen_mbt = {
+## Forth Gen Gen Tanks T-14,M1A3         (2013)
+	main_battle_tanks_5 = {
 		
 		enable_equipments = {
 			mbt_5
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 2013
 		
 		folder = {
 			name = armour_folder
-			position = { x = @mbt_line y = 18 }
+			position = { x = @mbt_line y = @2010s_line }
 		}
 		
 		ai_will_do = {
@@ -187,24 +216,29 @@ technologies = {
 		path = {
 			research_cost_coeff = 1
 		}
-				
+		sub_technologies = {
+			self_propelled_aaa_5
+		}					
 	}
-		
+
+
+
+	
 ######################################################################### IFVs ######################################################################################
 	
-## First Gen IFVs M113, MTLB, BTR-60...	
-	first_gen_ifv = {
+## First Gen IFVs BMP-1 (70s)
+	infantry_fighting_vehicles = {
 		
 		enable_equipments = {
 			ifv_0
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1975
 		
 		folder = {
 			name = armour_folder
-			position = { x = @ifv_line y = 0 }
+			position = { x = @ifv_line y = @70s_line }
 		}
 		
 		ai_will_do = {
@@ -216,29 +250,30 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = second_gen_ifv
+			leads_to_tech = infantry_fighting_vehicles_1
 			research_cost_coeff = 1
 		}
-
+		
 		sub_technologies = {
-			first_gen_airborne_ifv
-		}	
+			self_propelled_howitzers
+			medium_sam
+		}
 		
 	}	
 
-## Second Gen IFVs BTR-80...	
-	second_gen_ifv = {
+## Second Gen IFVs BMP-2, M2 Bradley (80s)
+	infantry_fighting_vehicles_1 = {
 		
 		enable_equipments = {
 			ifv_1
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1985
 		
 		folder = {
 			name = armour_folder
-			position = { x = @ifv_line y = 4 }
+			position = { x = @ifv_line y = @80s_line }
 		}
 		
 		ai_will_do = {
@@ -249,19 +284,19 @@ technologies = {
 			ifv
 		}
 
-		sub_technologies = {
-			second_gen_airborne_ifv
-		}
-		
 		path = {
-			leads_to_tech = third_gen_ifv
+			leads_to_tech = infantry_fighting_vehicles_2
 			research_cost_coeff = 1
 		}
-				
+		sub_technologies = {
+			self_propelled_howitzers_1
+			multiple_rocket_launcher
+			medium_sam_1
+		}				
 	}
 	
-## Third Gen IFVs BTR-90...	
-	third_gen_ifv = {
+## Third Gen IFVs BMP-3             (90s)
+	infantry_fighting_vehicles_2 = {
 		
 		enable_equipments = {
 			ifv_2
@@ -272,7 +307,7 @@ technologies = {
 		
 		folder = {
 			name = armour_folder
-			position = { x = @ifv_line y = 8 }
+			position = { x = @ifv_line y = @90s_line }
 		}
 		
 		ai_will_do = {
@@ -284,30 +319,30 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = forth_gen_ifv
+			leads_to_tech = infantry_fighting_vehicles_3
 			research_cost_coeff = 1
 		}
-
 		sub_technologies = {
-			third_gen_airborne_ifv
+			self_propelled_howitzers_2
+			medium_sam_2
 		}
-		
+
 	}	
 
 	
-## forth Gen IFVs Bumerang...	
-	forth_gen_ifv = {
+## forth Gen IFVs Bumerang...	(2010s)
+	infantry_fighting_vehicles_3 = {
 		
 		enable_equipments = {
 			ifv_3
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 2013
 		
 		folder = {
 			name = armour_folder
-			position = { x = @ifv_line y = 12 }
+			position = { x = @ifv_line y = @2010s_line }
 		}
 		
 		ai_will_do = {
@@ -323,112 +358,28 @@ technologies = {
 		}
 
 		sub_technologies = {
-			forth_gen_airborne_ifv
-		}
-		
+			self_propelled_howitzers_3
+			multiple_rocket_launcher_1
+			medium_sam_3
+		}		
 	}
 
-	
-	
-	
-######################################################################### Airborne IFVs ######################################################################################	
-	
-# BMD-1
-	first_gen_airborne_ifv = {
 
-		enable_equipments = {
-			airborne_ifv_1
-		}
-	
-		research_cost = 0.01 #Carrier Variant
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-# BMD-2
-	second_gen_airborne_ifv = {
-
-		enable_equipments = {
-			airborne_ifv_2
-		}
-	
-		research_cost = 0.01 #Carrier Variant
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-	
-# BMD-3
-	third_gen_airborne_ifv = {
-
-		enable_equipments = {
-			airborne_ifv_3
-		}
-	
-		research_cost = 0.01 #Carrier Variant
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-# BMD-4
-	forth_gen_airborne_ifv = {
-
-		enable_equipments = {
-			airborne_ifv_4
-		}
-	
-		research_cost = 0.01 #Carrier Variant
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
 ######################################################################### APCs ######################################################################################
 	
-## First Gen IFVs M113, MTLB, BTR-60...	
-	first_gen_apc = {
+## First Gen APCs BTR-60  (60s)
+	armored_personel_carriers = {
 		
 		enable_equipments = {
 			apc_0
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1965
 		
 		folder = {
 			name = armour_folder
-			position = { x = @apc_line y = 0 }
+			position = { x = @apc_line y = @60s_line }
 		}
 		
 		ai_will_do = {
@@ -440,30 +391,28 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = second_gen_apc
+			leads_to_tech = armored_personel_carriers_1
 			research_cost_coeff = 1
 		}
-
 		sub_technologies = {
-			first_gen_atgm_apc
-		}
-
-		
+			wheeled_antitank
+			
+		}		
 	}	
 
-## Second Gen IFVs BTR-80...	
-	second_gen_apc = {
+## Second Gen APCs MTLB (70s)
+	armored_personel_carriers_1 = {
 		
 		enable_equipments = {
 			apc_1
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1975
 		
 		folder = {
 			name = armour_folder
-			position = { x = @apc_line y = 4 }
+			position = { x = @apc_line y = @70s_line }
 		}
 		
 		ai_will_do = {
@@ -475,30 +424,27 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = third_gen_apc
+			leads_to_tech = armored_personel_carriers_2
 			research_cost_coeff = 1
 		}
-
 		sub_technologies = {
-			second_gen_atgm_apc
-		}
-
-				
+			wheeled_antitank_1
+		}				
 	}
 	
-## Third Gen IFVs BTR-90...	
-	third_gen_apc = {
+## Third Gen APCs BTR-80...	(80s)
+	armored_personel_carriers_2 = {
 		
 		enable_equipments = {
 			apc_2
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1985
 		
 		folder = {
 			name = armour_folder
-			position = { x = @apc_line y = 8 }
+			position = { x = @apc_line y = @80s_line }
 		}
 		
 		ai_will_do = {
@@ -510,30 +456,61 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = forth_gen_apc
+			leads_to_tech = armored_personel_carriers_3
 			research_cost_coeff = 1
 		}
-
 		sub_technologies = {
-			third_gen_atgm_apc
-		}
-
-				
+			wheeled_antitank_2
+		}				
 	}	
 	
-## forth Gen IFVs Bumerang...	
-	forth_gen_apc = {
+## forth Gen APCs BTR-80 (90s)
+	armored_personel_carriers_3 = {
 		
 		enable_equipments = {
 			apc_3
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1995
 		
 		folder = {
 			name = armour_folder
-			position = { x = @apc_line y = 12 }
+			position = { x = @apc_line y = @90s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			apc
+		}
+		
+		path = {
+			leads_to_tech = armored_personel_carriers_4			
+			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			wheeled_antitank_3
+		}	
+		
+	}
+
+	
+## Kurganets-25 (2012s)
+	armored_personel_carriers_4 = {
+		
+		enable_equipments = {
+			apc_4
+		}
+		
+		research_cost = 1
+		start_year = 2013
+		
+		folder = {
+			name = armour_folder
+			position = { x = @apc_line y = @2010s_line }
 		}
 		
 		ai_will_do = {
@@ -547,115 +524,26 @@ technologies = {
 		path = {
 			research_cost_coeff = 1
 		}
-
 		sub_technologies = {
-			forth_gen_atgm_apc
-		}
-
-				
-	}
-
-	
-	
-######################################################################### ATGM APCs ######################################################################################	
-	
-# BMD-1
-	first_gen_atgm_apc = {
-
-		enable_equipments = {
-			atgm_apc_1
-		}
-	
-		research_cost = 0.01 
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
+			wheeled_antitank_4
+		}			
 	}	
-	
-# BMD-2
-	second_gen_atgm_apc = {
 
-		enable_equipments = {
-			atgm_apc_2
-		}
+ ######################################################################### IMVs ######################################################################################
 	
-		research_cost = 0.01 
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-	
-# BMD-3
-	third_gen_atgm_apc = {
-
-		enable_equipments = {
-			atgm_apc_3
-		}
-	
-		research_cost = 0.01 
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-# BMD-4
-	forth_gen_atgm_apc = {
-
-		enable_equipments = {
-			atgm_apc_4
-		}
-	
-		research_cost = 0.01 
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-	
-######################################################################### IMVs ######################################################################################
-	
-## First Gen IFVs M113, MTLB, BTR-60...	
-	first_gen_imv = {
+## M151 Mutt , GAZ-69
+	infantry_mobility_vehicles = {
 		
 		enable_equipments = {
 			imv_0
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1965
 		
 		folder = {
 			name = armour_folder
-			position = { x = @imv_line y = 0 }
+			position = { x = @imv_line y = @60s_line }
 		}
 		
 		ai_will_do = {
@@ -667,25 +555,25 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = second_gen_imv
+			leads_to_tech = infantry_mobility_vehicles_1
 			research_cost_coeff = 1
 		}
 				
 	}	
 
-## Second Gen IFVs BTR-80...	
-	second_gen_imv = {
+## M998 HMMWV, UAZ-3151
+	infantry_mobility_vehicles_1 = {
 		
 		enable_equipments = {
 			imv_1
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1985
 		
 		folder = {
 			name = armour_folder
-			position = { x = @imv_line y = 4 }
+			position = { x = @imv_line y = @80s_line }
 		}
 		
 		ai_will_do = {
@@ -697,25 +585,25 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = third_gen_imv
+			leads_to_tech = infantry_mobility_vehicles_2
 			research_cost_coeff = 1
 		}
 				
 	}
 	
-## Third Gen IFVs BTR-90...	
-	third_gen_imv = {
+## M1114 HMMWV ,BPM-97
+	infantry_mobility_vehicles_2 = {
 		
 		enable_equipments = {
 			imv_2
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 2000
 		
 		folder = {
 			name = armour_folder
-			position = { x = @imv_line y = 8 }
+			position = { x = @imv_line y = @90s_line }
 		}
 		
 		ai_will_do = {
@@ -727,25 +615,55 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = forth_gen_imv
+			leads_to_tech = infantry_mobility_vehicles_3
 			research_cost_coeff = 1
 		}
 				
 	}	
 	
-## forth Gen IFVs Bumerang...	
-	forth_gen_imv = {
+## GAZ Vodnik, RG-33
+	infantry_mobility_vehicles_3 = {
 		
 		enable_equipments = {
 			imv_3
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 2005
 		
 		folder = {
 			name = armour_folder
-			position = { x = @imv_line y = 12 }
+			position = { x = @imv_line y = @2000s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			imv
+		}
+		
+		path = {
+			leads_to_tech = infantry_mobility_vehicles_4
+			research_cost_coeff = 1
+		}
+				
+	}
+	
+## GAZ Tigr, 
+	infantry_mobility_vehicles_4 = {
+		
+		enable_equipments = {
+			imv_4
+		}
+		
+		research_cost = 1
+		start_year = 2013
+		
+		folder = {
+			name = armour_folder
+			position = { x = @imv_line y = @2010s_line }
 		}
 		
 		ai_will_do = {
@@ -762,23 +680,56 @@ technologies = {
 				
 	}
 	
-
-
-######################################################################### IMVs ######################################################################################
+ 	
+ ######################################################################### trucks ######################################################################################
 	
-## First Gen IFVs M113, MTLB, BTR-60...	
-	first_gen_truck = {
+## 70s Ural-4320, M813 Truck
+	trucks = {
+		
+		enable_equipments = {
+			truck_0
+		}
+		
+		research_cost = 1
+		start_year = 1975
+		
+		folder = {
+			name = armour_folder
+			position = { x = @truck_line y = @70s_line }
+		}
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			imv
+		}
+		
+		path = {
+			leads_to_tech = trucks_1
+			research_cost_coeff = 1
+		}
+		sub_technologies = {
+			wheeled_multiple_rocket_launcher
+			tactical_ballistic_missile
+			heavy_sam
+		}				
+	}	
+
+## 80s KamAZ-4310 M924 Truck
+	trucks_1 = {
 		
 		enable_equipments = {
 			truck_1
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 1985
 		
 		folder = {
 			name = armour_folder
-			position = { x = @truck_line y = 0 }
+			position = { x = @truck_line y = @80s_line }
 		}
 		
 		ai_will_do = {
@@ -786,33 +737,33 @@ technologies = {
 		}
 		
 		categories = {
-			truck
+			imv
 		}
 		
 		path = {
-			leads_to_tech = second_gen_truck
+			leads_to_tech = trucks_2
 			research_cost_coeff = 1
 		}
-
 		sub_technologies = {
-			first_gen_heavy_sam
-		}
-				
-	}	
-
-## Second Gen IFVs BTR-80...	
-	second_gen_truck = {
+			wheeled_multiple_rocket_launcher_1
+			tactical_ballistic_missile_1
+			heavy_sam_1
+		}				
+	}
+	
+## 90s
+	trucks_2 = {
 		
 		enable_equipments = {
 			truck_2
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 2000
 		
 		folder = {
 			name = armour_folder
-			position = { x = @truck_line y = 4 }
+			position = { x = @truck_line y = @90s_line }
 		}
 		
 		ai_will_do = {
@@ -820,33 +771,33 @@ technologies = {
 		}
 		
 		categories = {
-			truck
+			imv
 		}
 		
 		path = {
-			leads_to_tech = third_gen_truck
+			leads_to_tech = trucks_3
 			research_cost_coeff = 1
 		}
-		
 		sub_technologies = {
-			second_gen_heavy_sam
-		}
-		
-	}
+			wheeled_multiple_rocket_launcher_2
+			tactical_ballistic_missile_2
+			heavy_sam_2
+		}				
+	}	
 	
-## Third Gen IFVs BTR-90...	
-	third_gen_truck = {
+## 2010s
+	trucks_3 = {
 		
 		enable_equipments = {
 			truck_3
 		}
 		
 		research_cost = 1
-		start_year = 1955
+		start_year = 2008
 		
 		folder = {
 			name = armour_folder
-			position = { x = @truck_line y = 8 }
+			position = { x = @truck_line y = @2010s_line }
 		}
 		
 		ai_will_do = {
@@ -854,166 +805,24 @@ technologies = {
 		}
 		
 		categories = {
-			truck
-		}
-		
-		path = {
-			leads_to_tech = forth_gen_truck
-			research_cost_coeff = 1
-		}
-		
-		sub_technologies = {
-			third_gen_heavy_sam
-		}
-						
-	}	
-	
-## forth Gen IFVs Bumerang...	
-	forth_gen_truck = {
-		
-		enable_equipments = {
-			truck_4
-		}
-		
-		research_cost = 1
-		start_year = 1955
-		
-		folder = {
-			name = armour_folder
-			position = { x = @truck_line y = 12 }
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-		
-		categories = {
-			truck
+			imv
 		}
 		
 		path = {
 			research_cost_coeff = 1
 		}
-		
 		sub_technologies = {
-			forth_gen_heavy_sam
-		}
-						
+			wheeled_multiple_rocket_launcher_3
+			tactical_ballistic_missile_3
+			heavy_sam_3
+		}				
 	}
 	
 	
 	
-######################################################################### ATGM APCs ######################################################################################	
-	
-# 
-	first_gen_heavy_sam = {
-
-		enable_equipments = {
-			heavy_sam_1
-		}
-	
-		research_cost = 0.01 
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-# 
-	second_gen_heavy_sam = {
-
-		enable_equipments = {
-			heavy_sam_2
-		}
-	
-		research_cost = 0.01 
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-	
-# 
-	third_gen_heavy_sam = {
-
-		enable_equipments = {
-			heavy_sam_3
-		}
-	
-		research_cost = 0.01 
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}
-	}	
-	
-# 
-	forth_gen_heavy_sam = {
-
-		enable_equipments = {
-			heavy_sam_4
-		}
-	
-		research_cost = 0.01 
-		start_year = 1960
-		
-		categories = {
-			naval_air
-			air_equipment
-		}
-		
-		ai_will_do = {
-			factor = 1
-		}	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 }
+	
+
+
+
 

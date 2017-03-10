@@ -381,14 +381,14 @@ technologies = {
 	#Infantry AT
 	
 	
-	infantry_at = {
+	infantry_anti_tank = {
 	
 		enable_equipments = {
 			infantry_at_0
 		}
 		
 		path = {
-			leads_to_tech = infantry_at_1
+			leads_to_tech = infantry_anti_tank_1
 			research_cost_coeff = 1
 		}
 
@@ -410,14 +410,14 @@ technologies = {
 		
 	}
 	
-	infantry_at_1 = {
+	infantry_anti_tank_1 = {
 	
 		enable_equipments = {
 			infantry_at_1
 		}
 		
 		path = {
-			leads_to_tech = infantry_at_2
+			leads_to_tech = infantry_anti_tank_2
 			research_cost_coeff = 1
 		}
 
@@ -439,19 +439,19 @@ technologies = {
 		
 	}
 	
-	infantry_at_2 = {
+	infantry_anti_tank_2 = {
 	
 		enable_equipments = {
 			infantry_at_2
 		}
 		
 		path = {
-			leads_to_tech = infantry_at_3
+			leads_to_tech = infantry_anti_tank_3
 			research_cost_coeff = 1
 		}
 
 		research_cost = 1
-		start_year = 2000 #SMAW-D, MATADOR, no russian variant
+		start_year = 2000 #SMAW-D
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 8 } #go right by 4 everytime on y
@@ -468,14 +468,16 @@ technologies = {
 		
 	}
 	
-	infantry_at_3 = {
+	infantry_anti_tank_3 = {
 	
 		enable_equipments = {
 			infantry_at_3
 		}
+		
+
 
 		research_cost = 1
-		start_year = 2010 #MBT LAW, MATADOR-AS
+		start_year = 2010 #SMAW II
 		folder = {
 			name = infantry_folder
 			position = { x = 0 y = 12 } #go right by 4 everytime on y
@@ -490,9 +492,7 @@ technologies = {
 			factor = 1
 		}
 		
-	}
-	
-	
+	}	
 	####################ATGM #####################
 	
 	infantry_atgm = {
@@ -548,12 +548,7 @@ technologies = {
 		
 	}
 	
-	######### ATGM missile ###########
-	
-	
-	#Possibly in future
-	
-	
+		
 	########## MANPADs ###########
 	
 	infantry_manpad = {

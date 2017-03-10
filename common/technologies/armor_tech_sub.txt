@@ -1,0 +1,652 @@
+technologies = {
+
+####################################################################### SPGs #######################################################################################	
+
+## First Gen SPGs 70s
+	self_propelled_howitzers = {
+
+		enable_equipments = {
+			spg_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  SPGs (80s)  	
+	self_propelled_howitzers_1 = {
+
+		enable_equipments = {
+			spg_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+## Advanced Second Gen SPGs           (90s)
+	self_propelled_howitzers_2 = {
+
+		enable_equipments = {
+			spg_2
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	
+## Third Gen SPGs         (2010s)	
+	self_propelled_howitzers_3 = {
+
+		enable_equipments = {
+			spg_3
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+####################################################################### SPGs #######################################################################################	
+
+## First Gen SPGs 50s
+	self_propelled_aaa = {
+
+		enable_equipments = {
+			spaaa_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  SPGs 60s
+	self_propelled_aaa_1 = {
+
+		enable_equipments = {
+			spaaa_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+## Advanced Second Gen SPGs           70s
+	self_propelled_aaa_2 = {
+
+		enable_equipments = {
+			spaaa_2
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+	
+## Third Gen SPGs         80s
+	self_propelled_aaa_3 = {
+
+		enable_equipments = {
+			spaaa_3
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+## Third Gen SPAAs         90s
+	self_propelled_aaa_4 = {
+
+		enable_equipments = {
+			spaaa_4
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+
+## Third Gen SPAAAs         (2010s)	
+	self_propelled_aaa_5 = {
+
+		enable_equipments = {
+			spaaa_5
+		}
+	
+		research_cost = 0.5
+		start_year = 1934
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}		
+####################################################################### MRLs  #######################################################################################	
+
+## First Gen MRLs (80s)
+	multiple_rocket_launcher = {
+
+		enable_equipments = {
+			mrl_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1985
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	multiple_rocket_launcher_1 = {
+
+		enable_equipments = {
+			mrl_1
+		}
+	
+		research_cost = 0.5
+		start_year = 2005
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+####################################################################### Wheeled MRLs #######################################################################################	
+
+## First Gen MRLs (80s)
+	wheeled_multiple_rocket_launcher = {
+
+		enable_equipments = {
+			wheeled_mrl_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1975
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	wheeled_multiple_rocket_launcher_1 = {
+
+		enable_equipments = {
+			wheeled_mrl_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1985
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+## Second Gen  MRLs (2010s)
+	wheeled_multiple_rocket_launcher_2 = {
+
+		enable_equipments = {
+			wheeled_mrl_2
+		}
+	
+		research_cost = 0.5
+		start_year = 1995
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	wheeled_multiple_rocket_launcher_3 = {
+
+		enable_equipments = {
+			wheeled_mrl_3
+		}
+	
+		research_cost = 0.5
+		start_year = 2005
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+
+####################################################################### Heavy SAMs #######################################################################################	
+
+## First Gen MRLs (80s)
+	heavy_sam = {
+
+		enable_equipments = {
+			hsam_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1975
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	heavy_sam_1 = {
+
+		enable_equipments = {
+			hsam_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1985
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+## Second Gen  MRLs (2010s)
+	heavy_sam_2 = {
+
+		enable_equipments = {
+			hsam_2
+		}
+	
+		research_cost = 0.5
+		start_year = 1995
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	heavy_sam_3 = {
+
+		enable_equipments = {
+			hsam_3
+		}
+	
+		research_cost = 0.5
+		start_year = 2005
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+####################################################################### Medium SAMs #######################################################################################	
+
+## First Gen MRLs (80s)
+	medium_sam = {
+
+		enable_equipments = {
+			msam_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1975
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	medium_sam_1 = {
+
+		enable_equipments = {
+			msam_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1985
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+## Second Gen  MRLs (2010s)
+	medium_sam_2 = {
+
+		enable_equipments = {
+			msam_2
+		}
+	
+		research_cost = 0.5
+		start_year = 1995
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	medium_sam_3 = {
+
+		enable_equipments = {
+			msam_3
+		}
+	
+		research_cost = 0.5
+		start_year = 2005
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+	
+####################################################################### Tactical Ballistic Missiles #######################################################################################	
+
+## First Gen MRLs (80s)
+	tactical_ballistic_missile = {
+
+		enable_equipments = {
+			tbm_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1975
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	tactical_ballistic_missile_1 = {
+
+		enable_equipments = {
+			tbm_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1985
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+## Second Gen  MRLs (2010s)
+	tactical_ballistic_missile_2 = {
+
+		enable_equipments = {
+			tbm_2
+		}
+	
+		research_cost = 0.5
+		start_year = 1995
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	tactical_ballistic_missile_3 = {
+
+		enable_equipments = {
+			tbm_3
+		}
+	
+		research_cost = 0.5
+		start_year = 2005
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+####################################################################### Wheeled Anti tank vehicles #######################################################################################	
+
+## First Gen MRLs (80s)
+	wheeled_antitank = {
+
+		enable_equipments = {
+			atgm_apc_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1965
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	wheeled_antitank_1 = {
+
+		enable_equipments = {
+			atgm_apc_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1975
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+## Second Gen  MRLs (2010s)
+	wheeled_antitank_2 = {
+
+		enable_equipments = {
+			atgm_apc_2
+		}
+	
+		research_cost = 0.5
+		start_year = 1985
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	wheeled_antitank_3 = {
+
+		enable_equipments = {
+			atgm_apc_3
+		}
+	
+		research_cost = 0.5
+		start_year = 1990
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	wheeled_antitank_4 = {
+
+		enable_equipments = {
+			atgm_apc_4
+		}
+	
+		research_cost = 0.5
+		start_year = 2005
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
+}
+
+
+

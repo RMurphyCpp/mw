@@ -1,0 +1,243 @@
+focus_tree = {
+	id = china
+	country = {
+		factor = 0
+		modifier = {
+			add = 10
+			tag = PRC
+		}
+	}
+	default = no
+	focus = {
+		id = PRC_diplo
+		icon = GFX_goal_unknown
+		cost = 0.00
+		x = 13
+		y = 0
+
+	}
+	focus = {
+		id = PRC_were_not_in_a_hurry
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_diplo
+		}
+		x = 8
+		y = 1
+
+	}
+	focus = {
+		id = PRC_pressure_taipei
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_were_not_in_a_hurry
+		}
+		mutually_exclusive = {
+			focus = PRC_confirm_censensus
+		}
+		x = 1
+		y = 2
+
+	}
+	focus = {
+		id = PRC_last_attempt
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_pressure_taipei
+		}
+		x = 1
+		y = 3
+
+	}
+	focus = {
+		id = PRC_confirm_censensus
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_were_not_in_a_hurry
+		}
+		mutually_exclusive = {
+			focus = PRC_pressure_taipei
+		}
+		x = 4
+		y = 2
+
+	}
+	focus = {
+		id = PRC_negociate_taiwan
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_confirm_censensus
+		}
+		x = 4
+		y = 3
+
+	}
+	focus = {
+		id = PRC_org_uprising
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_last_attempt
+			focus = PRC_negociate_taiwan
+		}
+		x = 1
+		y = 4
+
+	}
+	focus = {
+		id = PRC_retake_taiwan
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_last_attempt
+			focus = PRC_negociate_taiwan
+		}
+		x = 4
+		y = 4
+
+	}
+	focus = {
+		id = PRC_shangai_treaty
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_were_not_in_a_hurry
+		}
+		x = 9
+		y = 2
+
+	}
+	focus = {
+		id = PRC_seoul_partenship
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_shangai_treaty
+		}
+		mutually_exclusive = {
+			focus = PRC_nk_alliance
+		}
+		x = 7
+		y = 3
+
+	}
+	focus = {
+		id = PRC_nk_alliance
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_shangai_treaty
+		}
+		mutually_exclusive = {
+			focus = PRC_seoul_partenship
+		}
+		x = 9
+		y = 3
+
+	}
+	focus = {
+		id = PRC_sino_russian_friendship
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_were_not_in_a_hurry
+		}
+		x = 12
+		y = 2
+
+	}
+	focus = {
+		id = PRC_ru_partenship
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_sino_russian_friendship
+		}
+		x = 12
+		y = 3
+
+	}
+	focus = {
+		id = PRC_propose_csto_sco_merge
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_ru_partenship
+		}
+		x = 12
+		y = 4
+
+	}
+	focus = {
+		id = PRC_chinese_dream
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_were_not_in_a_hurry
+		}
+		x = 17
+		y = 2
+
+	}
+	focus = {
+		id = PRC_diaoyudao
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_chinese_dream
+		}
+		x = 14
+		y = 3
+
+	}
+	focus = {
+		id = PRC_south_tibet
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_chinese_dream
+		}
+		x = 16
+		y = 3
+
+	}
+	focus = {
+		id = PRC_com_india
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_south_tibet
+		}
+		x = 16
+		y = 4
+
+	}
+	focus = {
+		id = PRC_final_unification
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_org_uprising
+			focus = PRC_retake_taiwan
+		}
+		x = 3
+		y = 5
+
+	}
+	focus = {
+		id = PRC_infra_central_asia
+		icon = GFX_goal_unknown
+		cost = 0.00
+		prerequisite = {
+			focus = PRC_chinese_dream
+		}
+		x = 18
+		y = 3
+
+	}
+}

@@ -131,7 +131,7 @@ technologies = {
 	third_gen_mpa = {
 
 		enable_equipments = {
-			mpa_1
+			mpa_0
 		}
 	
 		path = {
@@ -162,7 +162,7 @@ technologies = {
 	forth_gen_mpa = {
 
 		enable_equipments = {
-			mpa_2
+			mpa_1
 		}
 	
 		path = {
@@ -192,7 +192,7 @@ technologies = {
 	fifth_gen_mpa = {
 
 		enable_equipments = {
-			mpa_3
+			mpa_2
 		}
 			
 		research_cost = 2
@@ -232,7 +232,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = heavy_air_techs_folder
-			position = { x = @strategic_airlift_line y = 4 }
+			position = { x = @strategic_airlift_line y = 2 }
 		}
 		
 		categories = {
@@ -290,7 +290,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = heavy_air_techs_folder
-			position = { x = @tactical_airlift_line y = 4 }
+			position = { x = @tactical_airlift_line y = 2 }
 		}
 		
 		categories = {
@@ -316,7 +316,7 @@ technologies = {
 		start_year = 2003
 		folder = {
 			name = heavy_air_techs_folder
-			position = { x = @tactical_airlift_line y = 8 }
+			position = { x = @tactical_airlift_line y = 10 }
 		}
 		
 		categories = {
@@ -349,7 +349,7 @@ technologies = {
 		start_year = 1970
 		folder = {
 			name = heavy_air_techs_folder
-			position = { x = @medium_airlift_line y = 4 }
+			position = { x = @medium_airlift_line y = 2 }
 		}
 		
 		categories = {
@@ -375,7 +375,7 @@ technologies = {
 		start_year = 2003
 		folder = {
 			name = heavy_air_techs_folder
-			position = { x = @medium_airlift_line y = 12 }
+			position = { x = @medium_airlift_line y = 10 }
 		}
 		
 		categories = {

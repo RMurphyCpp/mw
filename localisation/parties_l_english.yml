@@ -1,102 +1,62 @@
 ﻿l_english:
  ########## IDEOLOGY ##########
- democratic_nationalism:0 "Nationalist" 
- democratic_nationalism_noun:0 "Nationalism"
- democratic_nationalism_desc:0 "Democratic Regime"
- nationalism:0 "Nationalist"
- nationalism_desc:0 "Nationalists are people or a group of people who aspire to reverse political changes and seeks to restore society to a state believed to have existed before. It is usually used pejoratively to describe a radical conservative opposed to modernity."
- democratic_reactionary:0 "Reactionary"
- democratic_reactionary_noun:0 "Reactionarism"
- democratic_reactionary_desc:0 "Democratic Regime"
- monarchism:0 "Monarchism"
- monarchism_desc:0 "Monarchism is the advocacy of a monarch or monarchical rule.. Depending on the country, a monarchist may advocate for the rule of the person who sits on the throne, a pretender, or someone who would otherwise occupy the throne but has been deposed."
- democratic_conservative:0 "Conservative"
- democratic_conservative_noun:0 "Conservatism" 
- democratic_conservative_desc:0 "Democratic Regime" 
+ far_right_wing:0 "Far right wing"
+ far_right_wing_noun:0 "Far Right Wing"
+ far_right_wing_desc:0 "Autocratic Regime"
+ fascism:0 "Fascism"
+ fascism_desc:0 "."
+ neo_nazism:0 "Neo Nazism"
+ neo_nazism_desc:0 "." 
+ 
+ right_wing:0 "Right Wing" 
+ right_wing_noun:0 "Right Wing"
+ right_wing_desc:0 "Democratic Regime"
  conservatism:0 "Conservatism"
- conservatism_desc:0 "Considering rapid changes to society to be potentially harmful, conservatism espouses tradition and moderate reforms, sometimes advocating a return to old moral values.
- democratic_center:0 "Center" 
- democratic_center_noun:0 "Centrism"
- democratic_center_desc:0 "Democratic Regime" 
- centrer_right:0 "Centrism"
- centrer_right_desc:0 "In politics, centrism or the centre is a political outlook or specific position that involves acceptance or support of a balance of a degree of social equality and a degree of social hierarchy while opposing political changes which would result in a significant shift of society either strongly to the left or the right." 
- centrer_left:0 "Centrism"
- centrer_left_desc:0 "In politics, centrism or the centre is a political outlook or specific position that involves acceptance or support of a balance of a degree of social equality and a degree of social hierarchy while opposing political changes which would result in a significant shift of society either strongly to the left or the right."  
- democratic_liberal:0 "Liberal" 
- democratic_liberal_noun:0 "Liberalism"
- democratic_liberal_desc:0 "Democratic Regime" 
+ conservatism_desc:0 "Conservatism is a political and social philosophy that promotes retaining traditional social institutions in the context of culture and civilization. Conservatives seek to preserve institutions like religion, monarchy and the social hierarchy as they are, emphasizing stability and continuity."
+ reactionarism:0 "Reactionarism"
+ reactionarism_desc:0 "." 
+ 
+ center:0 "Center"
+ center_noun:0 "Centerism"
+ center_desc:0 "Democratic Regime"
+ center_right:0 "Center Right"
+ center_right_desc:0 "."
+ center_left:0 "Center Left"
+ center_left_desc:0 "." 
+ 
+ left_wing:0 "Left Wing"
+ left_wing_noun:0 "Left Wing" 
+ left_wing_desc:0 "Democratic Regime" 
  liberalism:0 "Liberalism"
- liberalism_desc:0 "Liberalism is a political philosophy or worldview founded on ideas of liberty and equality.  Liberals espouse a wide array of views depending on their understanding of these principles, but generally they support ideas and programmes such as freedom of speech, freedom of the press, freedom of religion, free markets, civil rights, democratic societies, secular governments, and international cooperation." 
- democratic_green:0 "Green" 
- democratic_green_noun:0 "Ecopolitics"
- democratic_green_desc:0 "Democratic Regime" 
- greens:0 "Ecopolitics"
- green_desc:0 "Green politics is a political ideology that aims to create an ecologically sustainable society rooted in environmentalism, nonviolence, social justice, and grassroots democracy. Supporters of green politics share many ideas with the ecology, conservation, environmentalism, feminism, and peace movements. \n \nIn addition to democracy and ecological issues, green politics is concerned with civil liberties, social justice, nonviolence, sometimes variants of localism, and tends to support social progressivism." 
- democratic_socialism:0 "Socialist" 
- democratic_socialism_noun:0 "Socialism"
- democratic_socialism_desc:0 "Democratic Regime"
+ liberalism_desc:0 "."
+ social_democrat:0 "Social Democrat"
+ social_democrat_desc:0 "." 
+ 
+ far_left_wing:0 "Far Left wing"
+ far_left_wing_noun:0 "Far Left Wing"
+ far_left_wing_desc:0 "Autocratic Regime"
  socialism:0 "Socialism"
- socialism_desc:0 "Striving for equality and a socialist state by reformist means, democratic socialism aims to abolish or mitigate the effects of capitalism with public mandate." 
- moderate_islam:0 "Moderate Islam" 
- moderate_islam_noun:0 "Islamic"
- moderate_islam_desc:0 "Democratic Regime" 
- islam_moderate:0 "Moderate Islam"
- islam_moderate_desc:0 "Islamic democracy is a political ideology that seeks to apply Islamic principles to public policy within a democratic framework. Islamic political theory specifies three basic features of an Islamic democracy: leaders must be elected by the people, subject to sharia and committed to practicing "shura", a special form of consultation practiced by Prophet Muhammad, which one can find in various hadiths, with their community." 
- communism:0 "Communist"
- communism_noun:0 "Communism"
- communism_desc:0 "Communist Regime" 
- marxism:0 "Marxism"
- marxism_desc:0 "Encompassing a broad spectrum of economic and historical views, Marxist politics seek to apply the theories of Karl Marx to political practice. Class struggle and the need for transition to a society based on common ownership of the means of production characterize these ideologies."
- new_nazism:0 "Neo-Nazi" 
- new_nazism_noun:0 "Neo-Nazism"
- new_nazism_desc:0 "Totalitarian Government" 
- nazism:0 "Neo-Nazism"
- nazism_desc:0 "Neo-Nazism borrows elements from Nazi doctrine, including ultranationalism, racism, ableism, xenophobia, homophobia, antiziganism, antisemitism, and initiating the Fourth Reich. Holocaust denial is a common feature, as is incorporation of Nazi symbols and admiration of Adolf Hitler." 
- fascism:0 "Fascist" 
- fascism_noun:0 "Fascism"
- fascism_desc:0 "Autocratic Regime" 
- fascism_ideology:0 "Fascism"
- fascism_ideology_desc:0 "Encompassing a variety of ultra-nationalist movements, fascism typically venerates devotion to the state and uniting the people under a strong leader." 
- autocracy:0 "Dictatorship" 
- autocracy_noun:0 "Dictatorship"
- autocracy_desc:0 "Dictatorial Regime" 
- dictatorship:0 "Despotism"
- dictatorship_desc:0 "Dictatorship is a form of government where a country (or group of countries) is ruled by one person or political entity, and exercised through various mechanisms to ensure the entity's power remains strong. 
- oligarchism:0 "Oligarchic"
- oligarchism_desc:0 "Oligarchy is a form of government in which a group of people rule with absolute power." 
- despotism:0 "Despotism"
- despotism_desc:0 "An autocracy is a system of government in which supreme power is concentrated in the hands of one person, whose decisions are subject to neither external legal restraints nor regularized mechanisms of popular control (except perhaps for the implicit threat of a coup d'état or mass insurrection)."  
- baathism_autocratic:0 "Ba'athism"
- baathism_autocratic_desc:0 "Ba'athism is an ideology mixing Arab nationalist, pan-Arabism, Arab socialist and anti-imperialist interests. Ba'athism calls for unification of the Arab world into a single state. Its motto, "Unity, Liberty, Socialism", refers to Arab unity, and freedom from non-Arab control and interference."  
- iraq_split:0 "The Iraqi Split"
- iraq_split_desc:0 "Since the establishment of Iraq following the Sykes–Picot Agreement the country has had constan tension between its Sunni, Shia and Kurdish populations."
- military:0 "Military" 
- military_noun:0 "Militirized"
- military_desc:0 "Military Regime"
- militarism:0 "Despotism"
- militarism_desc:0 "A military dictatorship is a form of government different from civilian dictatorship for a number of reasons: their motivations for seizing power, the institutions through which they organize their rule, and the ways in which they leave power." 
- sunni_islam:0 "Sunni Theocracy"
- sunni_islam_noun:0 "Sunna"
- sunni_islam_desc:0 "Hereditery Sharia State" 
- radical_islam_sunna:0 "Sunni Islam"
- radical_islam_sunna_desc:0 "Sunnis regard themselves as the orthodox branch of Islam. The name "Sunni" is derived from the phrase "Ahl al-Sunnah", or "People of the Tradition". The tradition in this case refers to practices based on what the Prophet Muhammad said, did, agreed to or condemned. \n \nAccording to the Basic Law of a Sharia State, the ruler must comply with Sharia (Islamic law) and the Quran, while the Quran and the Sunnah (the traditions of Muhammad) are declared to be the country's constitution." 
- shia_islam:0 "Shia Theocracy" 
- shia_islam_noun:0 "Shia"
- shia_islam_desc:0 "Islamic Republic" 
- radical_islam_shia:0 "Shia Islam "
- radical_islam_shia_desc:0 "Shia, is a branch of Islam which holds that the Islamic prophet Muhammad designated Ali ibn Abi Talib as his successor (Caliph). Shia Islam primarily contrasts with Sunni Islam, whose adherents believe that Muhammad did not appoint a successor. \n \nAccording to the Basic Law of a Sharia State, the ruler must comply with Sharia (Islamic law) and the Quran, while the Quran and the Sunnah (the traditions of Muhammad) are declared to be the country's constitution." 
- fundamentalist_islam:0 "Fundamental Islam" 
- fundamentalist_islam_noun:0 "Fundamentalist"
- fundamentalist_islam_desc:0 "Islamic Caliphate" 
- radical_islam_salafi:0 "Shia Islam"
- radical_islam_salafi_desc:0 "Salafis are fundamentalists who believe in a return to the original ways of Islam. The word 'Salafi' comes from the Arabic phrase, 'as-salaf as-saliheen', which refers to the first three generations of Muslims (starting with the Companions of the Prophet), otherwise known as the Pious Predecessors." 
- radical_islam_pashtunwali:0 "Pashtunwali"
- radical_islam_pashtunwali_desc:0 "Pashtunwali or Pakhtunwali is a non-written ethical code and traditional lifestyle which the indigenous Pashtun people follow. It is a system of law and governance that began during prehistoric times and is preserved and still in use today, mostly in the rural tribal areas." 
- radica_islam_wahhabism:0 "Wahhabism"
- radica_islam_wahhabism_desc:0 "Wahhabism has been accused of being "a source of global terrorism", and for causing disunity in Muslim communities by labelling Muslims who disagreed with the Wahhabi definition of monotheism as apostates (takfir), thus paving the way for their execution for apostasy. It has also been criticized for the destruction of historic mazaars, mausoleums, and other Muslim and non-Muslim buildings and artifacts."
+ socialism_desc:0 "."
+ communism:0 "Communism"
+ communism_desc:0 "." 
+ 
+ 
+ 
+ 
  ########## PARTIES ##########
  
  #Generic
+ _far_right_wing_party:0 ""
+ _right_wing_party:0 ""
+ _center_party:0 ""
+ _left_wing_party:0 ""
+ _far_left_wing_party:0 ""
+ _military_party:0 ""
+ _moderate_islam_party:0 ""  
+ _fundamentalist_islam_party:0 "" 
+ 
+ 
+ #Old Generic
  _democratic_reactionary_party:0 ""
  _democratic_nationalism_party:0 ""
  _democratic_conservative_party:0 ""
@@ -112,147 +72,283 @@
  _shia_islam_party:0 ""  
  _sunni_islam_party:0 "" 
  _fundamentalist_islam_party:0 "" 
+ _moderate_islam_party:0 ""   
+
+ ############################################################################################################################### 
+ #---------------------------------------------------------------------------------   North America ---------------------------------------------------------
  
  #United States of America
- USA_democratic_nationalism_party:0 "America First"
- USA_democratic_conservative_party:0 "Republican Party"
- USA_democratic_center_party:0 "The Centrist Party"
- USA_democratic_liberal_party:0 "Democratic Party"
- USA_democratic_green_party:0 "Green Party of the USA"
- USA_democratic_socialism_party:0 "Socialist Party of the USA"
- USA_communism_party:0 "Communist party of the USA"
- USA_new_nazism_party:0 "National Socialist Movement"
- USA_fascism_party:0 "American Front"
- USA_autocracy_party:0 "American Freedom Party"
- USA_military_party:0 "US Army
+ USA_far_right_wing_party:0 "American Front"
+ USA_right_wing_party:0 "Republican Party"
+ USA_center_party:0 "The Centrist Party"
+ USA_left_wing_party:0 "Democratic Party"
+ USA_far_left_wing_party:0 "Communist party of the USA"
+ USA_military_party:0 "US Army"
  
- #The Russian Federation
- SOV_democratic_reactionary_party:0 "Unity"
- SOV_democratic_reactionary_party:1 "United Russia" 
- SOV_democratic_conservative_party:0 "Union of Right Forces "
- SOV_democratic_center_party:0 "Democratic Party of Russia"
- SOV_democratic_liberal_party:0 "Yabloko"
- SOV_democratic_green_party:0 "The Greens"
- SOV_democratic_socialism_party:0 "Social Democratic Party of Russia"
- SOV_communism_party:0 "Communist Party of Russian Federation "
- SOV_fascism_party:0 "Liberal Democratic Party of Russia"
- SOV_new_nazism_party:0 "Russian National Unity"
- SOV_autocracy_party:0 "Autocratic Russian Party"
- SOV_military_party:0 "Russian Armed Forces" 
+ #Canada
+ CAN_right_wing_party:0 "Reform Party"
+ CAN_center_party:0 "New Democratic Party"
+ CAN_left_wing_party:0 "Liberal Party"
+ CAN_far_left_wing_party:0 "Communist Party of Canada"
+ CAN_military_party:0 "Canadian Armed Forces"
  
- #People's Republic of China (PRC)
- PRC_democratic_nationalism_party:0 "Union of Chinese Nationalists"
- PRC_democratic_conservative_party:0 "Democratic Party of China "
- PRC_democratic_center_party:0 "Association for Promoting Democracy"
- PRC_democratic_liberal_party:0 "China Democratic League"
- PRC_democratic_green_party:0 "China Green Party"
- PRC_democratic_socialism_party:0 "The Revolutionary Committee of the Chinese Kuomintang"
- PRC_communism_party:0 "Communist Party of China"
- PRC_military_party:0 "People's Liberation Army" 
-
- #Taiwan / ROC
- TWN_democratic_nationalism_party:0 "Kuomintang"
- TWN_democratic_conservative_party:0 "New Party"
- TWN_democratic_center_party:0 "People First Party or Qinmindang"
- TWN_democratic_liberal_party:0 "Democratic Progressive Party"
- TWN_democratic_green_party:0 "Green Party of Taiwan "
- TWN_democratic_socialism_party:0 "China Democratic Socialist Party "
- TWN_communism_party:0 "Labor Party "
- TWN_military_party:0 "Republic of China Armed Forces" 
-
+ 
+###############################################################################################################################
+#---------------------------------------------------------------------------------   Western Europe ---------------------------------------------------------
  
  #United Kingdom
- ENG_democratic_reactionary_party:0 "UK Independence Party" 
- ENG_democratic_nationalism_party:0 "English democrats"
- ENG_democratic_conservative_party:0 "Conservative Party"
- ENG_democratic_center_party:0 "Liberal Party"
- ENG_democratic_liberal_party:0 "Liberal Democrats"
- ENG_democratic_green_party:0 "Green Party of England and Wales"
- ENG_democratic_socialism_party:0 "Labour Party"
- ENG_communism_party:0 "Communist Party of Britain"
- ENG_new_nazism_party:0 "British Movement"
- ENG_fascism_party:0 "British National Party"
- ENG_autocracy_party:0 "Autocratic Party of UK"
+ ENG_far_right_wing_party:0 "British National Party (BNP)"
+ ENG_right_wing_party:0 "Conservative Party"
+ ENG_center_party:0 "Liberal Party"
+ ENG_left_wing_party:0 "Labour Party"
+ ENG_far_left_wing_party:0 "Socialist Labour Party (SLP)"
  ENG_military_party:0 "British Armed Forces"
+ 
 
  #Germany
- GER_democratic_reactionary_party:0 "UK Independence Party" 
- GER_democratic_nationalism_party:0 ""
- GER_democratic_conservative_party:0 "Christian Democratic Union"
- GER_democratic_center_party:0 "German Centre Party"
- GER_democratic_liberal_party:0 "Free Democratic Party"
- GER_democratic_green_party:0 "The Greens"
- GER_democratic_socialism_party:0 "Social Democratic Party of Germany"
- GER_communism_party:0 "Communist Party of Germany"
- GER_new_nazism_party:0 "National Democratic Party of Germany"
- GER_fascism_party:0 "German People's Union"
- GER_autocracy_party:0 ""
+ GER_far_right_wing_party:0 "National Democratic Party"
+ GER_right_wing_party:0 "Christian Democratic Union"
+ GER_center_party:0 "German Centre Party"
+ GER_left_wing_party:0 "Social Democratic Party"
+ GER_far_left_wing_party:0 "Party of Democratic Socialism"
  GER_military_party:0 "Bundeswehr"
 
  #France
- FRA_democratic_reactionary_party:0 "" 
- FRA_democratic_nationalism_party:0 "National Front"
- FRA_democratic_conservative_party:0 "The Republicans"
- FRA_democratic_center_party:0 "Centrist Alliance"
- FRA_democratic_liberal_party:0 "Radical Party"
- FRA_democratic_green_party:0 "The Greens"
- FRA_democratic_socialism_party:0 "Socialist Party"
- FRA_communism_party:0 "French Communist Party"
- FRA_new_nazism_party:0 ""
- FRA_fascism_party:0 "French Action"
- FRA_new_nazism_party:0 "Monarchists"
+ FRA_far_right_wing_party:0 "National Front "
+ FRA_right_wing_party:0 "Rally for the Republic "
+ FRA_center_party:0 "Union for French Democracy "
+ FRA_left_wing_party:0 "Socialist Party"
+ FRA_far_left_wing_party:0 "French Communist Party "
  FRA_military_party:0 "Armée de terre"
-
+ 
+ #Spain
+ SPR_far_right_wing_party:0 "Falange Española"
+ SPR_right_wing_party:0 " People's Party"
+ SPR_center_party:0 "Democratic and Social Centre"
+ SPR_left_wing_party:0 "Spanish Socialist Workers' Party"
+ SPR_far_left_wing_party:0 "United Left"
+ SPR_military_party:0 "Spanish Armed Forces"
+ 
+ #Austria
+ AUS_far_right_wing_party:0 "Freedom Party of Austria "
+ AUS_right_wing_party:0 "Austrian People's Party"
+ AUS_center_party:0 "Liberal Forum"
+ AUS_left_wing_party:0 "Social Democratic Party of Austria"
+ AUS_far_left_wing_party:0 "Communist Party of Austria"
+ AUS_military_party:0 "Armed Forces of Austria" 
+ 
+ #Belgium
+ BEL_far_right_wing_party:0 "Vlaams Blok"
+ BEL_right_wing_party:0 "Open Flemish Liberals and Democrats "
+ BEL_center_party:0 "Christian Democratic and Flemish"
+ BEL_left_wing_party:0 "Socialist Party"
+ BEL_far_left_wing_party:0 "Workers' Party of Belgium"
+ BEL_military_party:0 "Armed Forces of Belgium" 
+ 
+ 
+ #Czech Rep.
+ CZR_far_right_wing_party:0 "Republican Party of Czechoslovakia"
+ CZR_right_wing_party:0 "Civic Democratic Party"
+ CZR_center_party:0 "Christian and Democratic Union"
+ CZR_left_wing_party:0 "Czech Social Democratic Party"
+ CZR_far_left_wing_party:0 "Communist Party of Bohemia and Moravia"
+ CZR_military_party:0 "Czech Armed Forces"  
+ 
+ 
+ ############################################################################################################################### 
+ #---------------------------------------------------------------------------------   Eastern Europe ---------------------------------------------------------
+ 
+ #Russian Federation
+ SOV_far_right_wing_party:0 "Liberal Democratic Party of Russia"
+ SOV_right_wing_party:0 "Union of Right Forces "
+ SOV_center_party:0 "Unity"
+ SOV_left_wing_party:0 "Yabloko"
+ SOV_far_left_wing_party:0 "Communist Party of Russian Federation"
+ SOV_military_party:0 "Russian Armed Forces"
  
  #Ukraine
- UKR_democratic_reactionary_party:0 "Party of Regions" 
- UKR_democratic_nationalism_party:0 "People’s Movement of Ukraine "
- UKR_democratic_conservative_party:0 "All-Ukrainian Union"
- UKR_democratic_center_party:0 " For United Ukraine!"
- UKR_democratic_liberal_party:0 "Reforms and Order"
- UKR_democratic_green_party:0 "Party of Greens of Ukraine"
- UKR_democratic_socialism_party:0 "Socialist Party of Ukraine "
- UKR_communism_party:0 "Communist Party of Ukraine "
- UKR_new_nazism_party:0 ""
- UKR_fascism_party:0 "Svoboda"
- UKR_military_party:0 "Armed Forces of Ukraine"
+ UKR_far_right_wing_party:0 "Svoboda"
+ UKR_right_wing_party:0 "People’s Movement of Ukraine"
+ UKR_center_party:0 "For United Ukraine!"
+ UKR_left_wing_party:0 "Socialist Party of Ukraine"
+ UKR_far_left_wing_party:0 "Communist Party of Ukraine"
+ UKR_military_party:0 "Ukrainian Armed Forces"
 
  #Belarus
- BLR_democratic_reactionary_party:0 "Belarusian Patriotic Party" 
- BLR_democratic_nationalism_party:0 "Conservative Christian Party"
- BLR_democratic_conservative_party:0 "BPF Party"
- BLR_democratic_center_party:0 "Belarusian Social Democratic Assembly"
- BLR_democratic_liberal_party:0 "United Civic Party"
- BLR_democratic_green_party:0 "The Greens"
- BLR_democratic_socialism_party:0 "Belarusian Social Democratic Party"
- BLR_communism_party:0 "Communist Party of Belarus"
- BLR_new_nazism_party:0 ""
- BLR_fascism_party:0 "Belarusian Freedom Party"
+ BLR_far_right_wing_party:0 "Belarusian Party of Freedom"
+ BLR_right_wing_party:0 "Belarusian People’s Front "
+ BLR_center_party:0 "Belaya Rus"
+ BLR_left_wing_party:0 "United Civic Party"
+ BLR_far_left_wing_party:0 "Communist Party of Belarus"
  BLR_military_party:0 "Armed Forces of Belarus"
 
-#Yugo 
- SRM_democratic_nationalism_party:0 "Socialist Party of Serbia"
- SRM_democratic_conservative_party:0 "Democratic Party of Serbia"
- SRM_democratic_center_party:0 "Civic Alliance of Serbia"
- SRM_democratic_liberal_party:0 "DHSS"
- SRM_democratic_green_party:0 "Green Party of Serbia"
- SRM_democratic_socialism_party:0 "Social Democracy"
- SRM_communism_party:0 "Communist Party of Serbia"
- SRM_new_nazism_party:0 "Nazi Party of Serbia"
- SRM_fascism_party:0 "Serbian Radical Party"
- SRM_autocracy_party:0 "Serbian Renewal Movement" #Monarchist
- SRM_military_party:0 "Serbian Armed Forces"
-
-#Serbia 
- SER_democratic_nationalism_party:0 "Party of Serbian Unity"
- SER_democratic_conservative_party:0 "Democratic Party of Serbia"
- SER_democratic_center_party:0 "Civic Alliance of Serbia"
- SER_democratic_liberal_party:0 "DHSS"
- SER_democratic_green_party:0 "Green Party of Serbia"
- SER_democratic_socialism_party:0 "Socialist Party of Serbia"
- SER_communism_party:0 "Communist Party of Serbia"
- SER_new_nazism_party:0 "Nazi Party of Serbia"
- SER_fascism_party:0 "Serbian Radical Party"
- SER_autocracy_party:0 "Autocratic Party of Serbia"
- SER_military_party:0 "Serbian Armed Forces" 
+ #Poland
+ POL_far_right_wing_party:0 "National Rebirth of Poland"
+ POL_right_wing_party:0 "Law and Justice"
+ POL_center_party:0 "Freedom Union"
+ POL_left_wing_party:0 "Democratic Left Alliance"
+ POL_far_left_wing_party:0 "Polish Labor Party "
+ POL_military_party:0 "Polish Armed Forces" 
  
+ #Lithuania
+ LIT_democratic_reactionary_party:0 "Order and Justice"
+ LIT_democratic_nationalism_party:0 "Nationalist Union"
+ LIT_democratic_conservative_party:0 "Homeland Union"
+ LIT_democratic_center_party:0 "New Union"
+ LIT_democratic_liberal_party:0 "Liberal Union of Lithuania"
+ LIT_democratic_green_party:0 "Lithuanian Green Party"
+ LIT_democratic_socialism_party:0 "Social Democratic Party of Lithuania"
+ LIT_communism_party:0 "Socialist Party of Lithuania"
+ LIT_new_nazism_party:0 "Lithuanian National Union"
+ LIT_fascism_party:0 "Unified Lithuanian National Workers Movement"
+ LIT_autocracy_party:0 "House of Urach" 
+ LIT_military_party:0 "Lithuanian Armed Forces"  
+ 
+ #Estonia
+ EST_far_right_wing_party:0 "Estonian Independence Party"
+ EST_right_wing_party:0 "Pro Patria Union"
+ EST_center_party:0 "Estonian Centre Party"
+ EST_left_wing_party:0 "Estonian Reform Party"
+ EST_far_left_wing_party:0 "Communist Party of Estonia"
+ EST_military_party:0 "Estonian Armed Forces"  
+ 
+ 
+ 
+ 
+###############################################################################################################################  
+#---------------------------------------------------------------------------------   Balkans ---------------------------------------------------------
+
+ #Yugoslavia
+ SRM_far_right_wing_party:0 "Serbian Radical Party" #15%
+ SRM_right_wing_party:0 "Serbian Renewal Movement" #6%
+ SRM_center_party:0 "Democratic Opposition of Serbia" #41%
+ SRM_left_wing_party:0 "Socialist party of Serbia" # 38%
+ SRM_far_left_wing_party:0 "Yugoslav Left"
+ SRM_military_party:0 "Yugoslav Armed Forces"
+ SRM_moderate_islam_party:0 "Party of Democratic Action of Sandžak"
+ SRM_fundamentalist_islam_party:0 "Bosniak Democratic Union of Sandžak"
+ 
+
+ 
+ MTN_far_right_wing_party:0 "Serbian Radical Party" #-1%
+ MTN_right_wing_party:0 "Liberal Alliance of Montenegro" #- 1%
+ MTN_center_party:0 "Democratic Party of Socialists" #- 50%
+ MTN_left_wing_party:0 "Socialist People's Party" #- 38%
+ MTN_far_left_wing_party:0 "Communist Party of Montenegro" #- 1%
+ MTN_military_party:0 "Yugoslav Army"     # NA
+ MTN_moderate_islam_party:0 "Democratic Union of Albanians" #- 1%
+
+ ALB_far_right_wing_party:0 "National Unity Party"
+ ALB_right_wing_party:0 "Democratic Party" 
+ ALB_center_party:0 "Democratic Alliance Party" 
+ ALB_left_wing_party:0 "Socialist Party" 
+ ALB_far_left_wing_party:0 "Communist Party of Albania" 
+ ALB_military_party:0 "Armed Forces of Albania" 
+
+ 
+ CRO_far_right_wing_party:0 "Croatian Party of Rights" 
+ CRO_right_wing_party:0 "Croatian Democratic Union" 
+ CRO_center_party:0 "Croatian Peasant Party" 
+ CRO_left_wing_party:0 "Social Democratic Party" 
+ CRO_far_left_wing_party:0 "Socialist Labour Party"
+ CRO_military_party:0 "Croatian Armed Forces"    
+
+ 
+ ###############################################################################################################################  
+#---------------------------------------------------------------------------------   Caucasus ---------------------------------------------------------
+
+ #Armenia
+ ARM_right_wing_party:0 "Republican Party of Armenia"
+ ARM_center_party:0 "Rule of Law" 
+ ARM_left_wing_party:0 "Dashnaktsutyun" # 38%
+ ARM_far_left_wing_party:0 "Armenian Communist Party"
+ ARM_military_party:0 "Armenian Armed Forces"
+
+ #Armenia
+ AZB_far_right_wing_party:0 "National Democrat Party "
+ AZB_right_wing_party:0 "Popular Front of Azerbaijan"
+ AZB_center_party:0 "New Azerbaijan Party" 
+ AZB_left_wing_party:0 "Musavat" 
+ AZB_far_left_wing_party:0 "Azerbaijan Communist Party"
+ AZB_military_party:0 "Azeri Armed Forces"
+ 
+ 
+ 
+############################################################################################################################### 
+#---------------------------------------------------------------------------------   Asia ---------------------------------------------------------
+ #People's Republic of China (PRC)
+ PRC_right_wing_party:0 "Union of Chinese Nationalists"
+ PRC_center_party:0 "Democracy Party of China"
+ PRC_left_wing_party:0 "Revolutionary Committee of the Chinese Kuomintang "
+ PRC_far_left_wing_party:0 "Communist Party of China"
+ PRC_military_party:0 "People's Liberation Army"
+
+
+ #Taiwan / ROC
+ TWN_far_right_wing_party:0 "Liberal Democratic Party of Russia"
+ TWN_right_wing_party:0 "Kuomintang"
+ TWN_center_party:0 "People First Party or Qinmindang"
+ TWN_left_wing_party:0 "Democratic Progressive Party"
+ TWN_far_left_wing_party:0 "Labor Party"
+ TWN_military_party:0 "Republic of China Armed Forces"
+ 
+############################################################################################################################### 
+ #---------------------------------------------------------------------------------   Middle East ---------------------------------------------------------
+ #Kuweit
+ KWT_far_right_wing_party:0 "Popular Action Bloc"
+ KWT_right_wing_party:0 "Hadas"
+ KWT_moderate_islam_party:0 "House of Jaber" 
+ KWT_left_wing_party:0 "National Democratic Alliance"
+ KWT_military_party:0 "Kuwaiti Armed Forces"
+
+ 
+ #Syria
+ SYR_far_right_wing_party:0 "Syrian Social Nationalist Party"
+ SYR_right_wing_party:0 "Democratic Socialist Arab Ba'ath Party"
+ SYR_left_wing_party:0 "Syrian Democratic People's Party"
+ SYR_far_left_wing_party:0 "Syrian Communist Party"
+ SYR_military_party:0 "Syrian Arab Army"
+ SYR_fundamentalist_islam_party:0 "Syrian Islamic Front"
+ 
+ ############################################################################################################################### 
+ #---------------------------------------------------------------------------------   North Africa ---------------------------------------------------------
+ 
+
+ #Algeria
+ ALG_right_wing_party:0 "National Democratic Party"
+ ALG_center_party:0 "National Rally for Democracy"
+ ALG_left_wing_party:0 "National Liberation Front"
+ ALG_far_left_wing_party:0 "Workers' Party"
+ ALG_military_party:0 "People's National Army"
+ ALG_moderate_islam_party:0 "Hamas"  
+ ALG_fundamentalist_islam_party:0 "Islamic Salvation Front"  
+ 
+ #Egypt
+ EGY_right_wing_party:0 "Rally for Culture and Democracy"
+ EGY_center_party:0 "New Wafd Party"
+ EGY_left_wing_party:0 "Free Egyptians Party"
+ EGY_far_left_wing_party:0 "Egyptian Communist Party"
+ EGY_military_party:0 "Egyptian Armed Forces"
+ EGY_moderate_islam_party:0 "Freedom and Justice Party"  
+ EGY_fundamentalist_islam_party:0 "Ansar Bit el-Maqdis"  
+ 
+ #Morocco
+ MOR_right_wing_party:0 "Istiqlal Party"
+ MOR_left_wing_party:0 "Socialist Union of Popular Forces"
+ MOR_far_left_wing_party:0 "Unified Socialist Party"
+ MOR_military_party:0 "Royal Moroccan Armed Forces"
+ MOR_moderate_islam_party:0 "Justice and Development Party"  
+ MOR_fundamentalist_islam_party:0 "Hizb ut-Tahrir"
+ 
+ #Tunisia
+ TUN_right_wing_party:0 "Democratic Constitutional Rally"
+ TUN_center_party:0 "Free Patriotic Union"
+ TUN_left_wing_party:0 "Progressive Democratic Party"
+ TUN_far_left_wing_party:0 "Workers' Party"
+ TUN_military_party:0 "Tunisian Armed Forces"
+ TUN_moderate_islam_party:0 "Ennahda Movement"
+ TUN_fundamentalist_islam_party:0 "Hizb ut-Tahrir"
+ 
+ #Libya
+ LBY_right_wing_party:0 "Gaddafi"
+ LBY_fundamentalist_islam_party:0 "Hizb ut-Tahrir"

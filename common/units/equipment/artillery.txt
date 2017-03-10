@@ -1,0 +1,554 @@
+equipments = {
+
+	artillery_equipment = {
+		is_archetype = yes
+		picture = archetype_artillery_equipment		
+		type = {
+			artillery
+			infantry #adding infantry type
+			#motorized #Removing motorized type
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 10
+		breakthrough = 6
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 24
+		hard_attack = 2
+		ap_attack = 5
+		air_attack = 0
+
+		#Space taken in convoy
+		lend_lease_cost = 4
+		
+		build_cost_ic = 3.5
+		resources = {
+			tungsten = 1
+			steel = 2
+		}
+	}
+
+	artillery_equipment_1 = {
+		archetype = artillery_equipment
+		priority = 50
+		visual_level = 0
+	}
+	
+	artillery_equipment_2 = {
+		archetype = artillery_equipment
+		parent = artillery_equipment_1
+		priority = 50
+		visual_level = 1
+
+		defense = 15
+		breakthrough = 7
+		soft_attack = 32
+		
+		build_cost_ic = 4
+		resources = {
+			tungsten = 1
+			steel = 2
+		}
+	}
+	
+	artillery_equipment_3 = {
+		archetype = artillery_equipment
+		parent = artillery_equipment_2
+		priority = 50
+		visual_level = 2
+		
+		defense = 18
+		breakthrough = 8
+		soft_attack = 40
+		
+		build_cost_ic = 4.5
+		resources = {
+			tungsten = 1
+			steel = 3
+		}
+	}
+	
+	
+######################################### MRLs ########################################################################################
+
+	
+	#Katyusha 
+	mrl_equipment = {
+		is_archetype = yes
+		picture = archetype_motorized_rocket_equipment			
+		type = { 
+			artillery
+			motorized
+			rocket
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 12
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 50
+		hard_attack = 1
+		ap_attack = 2
+		air_attack = 0
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 1
+			rubber = 1
+			steel = 1
+		}
+	}
+	
+	mrl_0 = {
+		archetype = mrl_equipment
+		priority = 70
+		visual_level = 0
+	}
+	
+	mrl_1 = {
+		archetype = mrl_equipment
+		priority = 80
+		visual_level = 0
+	}	
+
+######################################### Wheeled MRLs ########################################################################################
+
+	
+	#Katyusha 
+	wheeled_mrl_equipment = {
+		is_archetype = yes
+		picture = archetype_motorized_rocket_equipment			
+		type = { 
+			artillery
+			motorized
+			rocket
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 12
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 50
+		hard_attack = 1
+		ap_attack = 2
+		air_attack = 0
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 1
+			rubber = 1
+			steel = 1
+		}
+	}
+	
+	wheeled_mrl_0 = {
+		archetype = wheeled_mrl_equipment
+		priority = 70
+		visual_level = 0
+	}
+	
+	wheeled_mrl_1 = {
+		archetype = wheeled_mrl_equipment
+		priority = 80
+		visual_level = 0
+	}
+	
+	wheeled_mrl_2 = {
+		archetype = wheeled_mrl_equipment
+		priority = 80
+		visual_level = 0
+	}
+	
+	wheeled_mrl_3 = {
+		archetype = wheeled_mrl_equipment
+		priority = 80
+		visual_level = 0
+	}
+
+######################################### Tactical Ballistic Missiles ########################################################################################
+
+	
+	#Katyusha 
+	tbm_equipment = {
+		is_archetype = yes
+		picture = archetype_motorized_rocket_equipment			
+		type = { 
+			artillery
+			motorized
+			rocket
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 12
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 50
+		hard_attack = 1
+		ap_attack = 2
+		air_attack = 0
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 1
+			rubber = 1
+			steel = 1
+		}
+	}
+	
+	tbm_0 = {
+		archetype = tbm_equipment
+		priority = 70
+		visual_level = 0
+	}
+	
+	tbm_1 = {
+		archetype = tbm_equipment
+		priority = 80
+		visual_level = 0
+	}
+	
+	tbm_2 = {
+		archetype = tbm_equipment
+		priority = 80
+		visual_level = 0
+	}
+	
+	tbm_3 = {
+		archetype = tbm_equipment
+		priority = 80
+		visual_level = 0
+	}
+
+######################################### Heavy SAMs ########################################################################################
+
+	
+	#Katyusha 
+	hsam_equipment = {
+		is_archetype = yes
+		picture = archetype_motorized_rocket_equipment			
+		type = { 
+			artillery
+			motorized
+			rocket
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 12
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 50
+		hard_attack = 1
+		ap_attack = 2
+		air_attack = 0
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 1
+			rubber = 1
+			steel = 1
+		}
+	}
+	
+	hsam_0 = {
+		archetype = hsam_equipment
+		priority = 70
+		visual_level = 0
+	}
+	
+	hsam_1 = {
+		archetype = hsam_equipment
+		priority = 80
+		visual_level = 0
+	}
+	
+	hsam_2 = {
+		archetype = hsam_equipment
+		priority = 80
+		visual_level = 0
+	}
+	
+	hsam_3 = {
+		archetype = hsam_equipment
+		priority = 80
+		visual_level = 0
+	}	
+	
+######################################### Medium SAMs ########################################################################################
+
+	
+	#Katyusha 
+	msam_equipment = {
+		is_archetype = yes
+		picture = archetype_motorized_rocket_equipment			
+		type = { 
+			artillery
+			motorized
+			rocket
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_land
+		
+		#Misc Abilities
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 15
+		breakthrough = 12
+		hardness = 0
+		armor_value = 0
+
+		#Offensive Abilities
+		soft_attack = 50
+		hard_attack = 1
+		ap_attack = 2
+		air_attack = 0
+		
+		build_cost_ic = 12
+		resources = {
+			oil = 1
+			rubber = 1
+			steel = 1
+		}
+	}
+	
+	msam_0 = {
+		archetype = msam_equipment
+		priority = 70
+		visual_level = 0
+	}
+	
+	msam_1 = {
+		archetype = msam_equipment
+		priority = 80
+		visual_level = 0
+	}
+	
+	msam_2 = {
+		archetype = msam_equipment
+		priority = 80
+		visual_level = 0
+	}
+	
+	msam_3 = {
+		archetype = msam_equipment
+		priority = 80
+		visual_level = 0
+	}	
+######################################### SPHs ########################################################################################
+		
+	spg_equipment = {
+		is_archetype = yes
+		picture = archetype_medium_tank_equipment		
+		is_buildable = no
+		family = medium_tank_equipment
+		type = { 
+			armor
+			artillery
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_art_upgrade
+		}
+				
+		#Misc Abilities
+		maximum_speed = 8
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 5
+		breakthrough = 3
+		hardness = 0.65
+		armor_value = 45
+
+		#Offensive Abilities
+		soft_attack = 56
+		hard_attack = 1
+		ap_attack = 5
+		air_attack = 0
+
+		build_cost_ic = 12
+		
+		resources = {
+			oil = 1
+			tungsten = 3
+			steel = 2
+		}
+	}
+
+	spg_0 = {
+		archetype = spg_equipment	
+		priority = 60
+		visual_level = 0
+
+	}	
+	
+	spg_1 = {
+		archetype = spg_equipment
+		parent = spg_0		
+		priority = 60
+		visual_level = 0
+
+	}
+
+	spg_2 = {
+		archetype = spg_equipment
+		parent = spg_1
+		priority = 60
+		visual_level = 1
+
+
+		
+		build_cost_ic = 13
+		
+		resources = {
+			steel = 3
+			tungsten = 3
+			oil = 1
+		}
+	}
+
+	spg_3 = {
+		archetype = spg_equipment
+		parent = spg_2
+		priority = 60
+		visual_level = 2
+
+		
+		build_cost_ic = 14
+		
+		resources = {
+			steel = 4
+			tungsten = 3
+			oil = 2
+		}
+	}			
+
+######################################### SPAAGs ########################################################################################
+	spaaa_equipment = {
+		is_archetype = yes
+		picture = archetype_modern_tank_equipment			
+		is_buildable = no
+		family = mbt_equipment
+		type = { 
+			armor
+			anti_air
+		}
+		group_by = archetype
+		
+		interface_category = interface_category_armor
+		
+		upgrades = {
+			tank_reliability_upgrade
+			tank_engine_upgrade
+			tank_armor_upgrade
+			tank_aa_upgrade
+		}
+
+		#Misc Abilities
+		maximum_speed = 10
+		reliability = 0.8
+
+		#Defensive Abilities
+		defense = 4
+		breakthrough = 4
+		hardness = 0.85
+		armor_value = 90
+
+		#Offensive Abilities
+		soft_attack = 9
+		hard_attack = 7.5
+		ap_attack = 100
+		air_attack = 50
+		
+		build_cost_ic = 28
+		
+		resources = {
+			oil = 1
+			steel = 3
+			chromium = 4
+		}
+	}
+
+	spaaa_0 = {
+		archetype = spaaa_equipment
+		priority = 150
+		visual_level = 0
+	}
+	spaaa_1 = {
+		archetype = spaaa_equipment
+		priority = 160
+		visual_level = 0
+	}
+	spaaa_2 = {
+		archetype = spaaa_equipment
+		priority = 170
+		visual_level = 0
+	}
+	spaaa_3 = {
+		archetype = spaaa_equipment
+		priority = 180
+		visual_level = 0
+	}
+	spaaa_4 = {
+		archetype = spaaa_equipment
+		priority = 190
+		visual_level = 0
+	}
+	spaaa_5 = {
+		archetype = spaaa_equipment
+		priority = 200
+		visual_level = 0
+	}	
+}

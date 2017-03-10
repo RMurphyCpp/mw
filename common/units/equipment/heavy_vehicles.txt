@@ -48,42 +48,42 @@ equipments = {
 	
 	
 #	1G MBT
-	mbt_1 = {
+	mbt_0 = {
 		archetype = main_battle_tank_equipment
 		priority = 50
 		visual_level = 0
 	}
 	
 #	2G MBT
-	mbt_2 = {
+	mbt_1 = {
 		archetype = main_battle_tank_equipment
 		priority = 60
 		visual_level = 0
 	}
 	
 #	Adv 2G MBT
-	mbt_3 = {
+	mbt_2 = {
 		archetype = main_battle_tank_equipment
 		priority = 70
 		visual_level = 0
 	}	
 	
 #	3G MBT
-	mbt_4 = {
+	mbt_3 = {
 		archetype = main_battle_tank_equipment
 		priority = 80
 		visual_level = 0
 	}	
 
 #	Adv 3G MBT
-	mbt_5 = {
+	mbt_4 = {
 		archetype = main_battle_tank_equipment
 		priority = 90
 		visual_level = 0
 	}	
 
 #	4G MBT
-	mbt_6 = {
+	mbt_5 = {
 		archetype = main_battle_tank_equipment
 		priority = 100
 		visual_level = 0
@@ -131,95 +131,30 @@ equipments = {
 	}
 
 	# ~1941
-	ifv_1 = {
+	ifv_0 = {
 		archetype = ifv_equipment
 		priority = 40
+		visual_level = 0
+	}		
+		
+	ifv_1 = {
+		archetype = ifv_equipment
+		priority = 50
 		visual_level = 0
 	}		
 		
 	ifv_2 = {
 		archetype = ifv_equipment
-		priority = 50
+		priority = 60
 		visual_level = 0
 	}		
 		
 	ifv_3 = {
 		archetype = ifv_equipment
-		priority = 60
-		visual_level = 0
-	}		
-		
-	ifv_4 = {
-		archetype = ifv_equipment
 		priority = 100
 		visual_level = 0
 	}		
 		
-		
-		
-###############################################
-		
-	airborne_ifv_equipment = {
-		is_archetype = yes
-		picture = archetype_motorized_equipment		
-		is_buildable = no
-		type = {
-			#infantry #Removing inf type 
-			mechanized
-		}
-		group_by = archetype
-		
-		interface_category = interface_category_land
-		
-		#Misc Abilities
-		maximum_speed = 8
-		reliability = 0.8
-		
-		#Defensive Abilities
-		defense = 26
-		breakthrough = 4
-		hardness = 0.5
-		armor_value = 10
-
-		#Offensive Abilities
-		ap_attack = 11
-		air_attack = 0
-
-		#Space taken in convoy
-		lend_lease_cost = 5
-		
-		build_cost_ic = 12 
-		resources = {
-			steel = 2
-			oil = 1
-			rubber = 1
-		}
-	}
-
-	# ~1941
-	airborne_ifv_1 = {
-		archetype = airborne_ifv_equipment
-		priority = 40
-		visual_level = 0
-	}		
-		
-	airborne_ifv_2 = {
-		archetype = airborne_ifv_equipment
-		priority = 50
-		visual_level = 0
-	}		
-		
-	airborne_ifv_3 = {
-		archetype = airborne_ifv_equipment
-		priority = 60
-		visual_level = 0
-	}		
-		
-	airborne_ifv_4 = {
-		archetype = airborne_ifv_equipment
-		priority = 100
-		visual_level = 0
-	}			
 		
 		
 ################################################################################################################################################
@@ -330,36 +265,36 @@ equipments = {
 	}
 
 	# ~1941
-	atgm_apc_1 = {
+	atgm_apc_0 = {
 		archetype = atgm_apc_equipment
 		priority = 40
 		visual_level = 0
 	}		
 		
-	atgm_apc_2 = {
+	atgm_apc_1 = {
 		archetype = atgm_apc_equipment
 		priority = 50
 		visual_level = 0
 	}		
 		
-	atgm_apc_3 = {
+	atgm_apc_2 = {
 		archetype = atgm_apc_equipment
 		priority = 60
 		visual_level = 0
 	}		
 		
+	atgm_apc_3 = {
+		archetype = atgm_apc_equipment
+		priority = 100
+		visual_level = 0
+	}		
+				
 	atgm_apc_4 = {
 		archetype = atgm_apc_equipment
 		priority = 100
 		visual_level = 0
 	}		
-		
-		
-		
-		
-		
-		
-		
+				
 		
 		
 		

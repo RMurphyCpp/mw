@@ -109,7 +109,7 @@ guiTypes = {
 			
 			#Anti-tank tree
 			gridboxtype = {
-				name = "infantry_at_tree"
+				name = "infantry_anti_tank_tree"
 				position = { x = 180 y = 997 }
 				#size = { width = 420 height = 500 }
 				slotsize = { width = 70 height = 70 }
@@ -497,45 +497,29 @@ guiTypes = {
 
 				
 		   gridboxtype = {
-				name = "first_gen_mbt_tree"
-				position = { x = 10% y = 172 }
+				name = "main_battle_tanks_tree"
+				position = { x = 0% y = 250 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 		   }
 		   gridboxtype = {
-				name = "first_gen_ifv_tree"
-				position = { x = 10% y = 172 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-		   }   
-		   gridboxtype = {
-				name = "first_gen_apc_tree"
-				position = { x = 10% y = 172 }
-				size = { width = 80% height = 80% }
-				slotsize = { width = 70 height = 70 }
-				format = "LEFT"
-		   }
-		   gridboxtype = {
-				name = "first_gen_imv_tree"
-				position = { x = 10% y = 172 }
+				name = "infantry_mobility_vehicles_tree"
+				position = { x = 0% y = 250 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
 		   }		   
-		   
 		   gridboxtype = {
-				name = "first_gen_truck_tree"
-				position = { x = 10% y = 172 }
+				name = "trucks_tree"
+				position = { x = 0% y = 250 }
 				size = { width = 80% height = 80% }
 				slotsize = { width = 70 height = 70 }
 				format = "LEFT"
-		   }			   
+		   }		   		   
 		   
 		   
 		}
-
 		containerWindowType = {
 			name = "artillery_folder"
 			position = { x=0 y=47 }
@@ -4252,3 +4236,4 @@ guiTypes = {
 		size = { width=1 height=1 }
 	}	
 }
+

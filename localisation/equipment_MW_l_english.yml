@@ -1,7 +1,7 @@
 ﻿l_english:
 #####################################################                   Land Vehicles               ###################################################################################
 
-#tanks
+#--------------------------------------------------------------- MBTs ---------------------------------------------------------------
 
     mbt_0:0 "1G Main Battle tank"
     mbt_1:0 "2G Main Battle tank"
@@ -13,19 +13,47 @@
     
     USA_mbt_0:0 "M48 Patton"
     USA_mbt_1:0 "M60 Patton"
-    USA_mbt_2:0 "M60A2 Patton"
-    USA_mbt_3:0 "M1 Abrams"
-    USA_mbt_4:0 "M1A1 Abrams"
+    USA_mbt_2:0 "MBT-70"
+    USA_mbt_3:0 "M1A1 Abrams"
+    USA_mbt_4:0 "M1A2 Abrams"
     USA_mbt_5:0 "M1A3 Abrams"
 
+    GER_mbt_0:0 "M48 Patton"
+    GER_mbt_1:0 "Leopard 1"
+    GER_mbt_2:0 "Leopard 1A2"
+    GER_mbt_3:0 "Leopard 2"
+    GER_mbt_4:0 "Leopard 2A5"
+    GER_mbt_5:0 "Leopard 2A7+"
+ 
+    ENG_mbt_0:0 "Centurion Mk 3"
+    ENG_mbt_1:0 "Centurion Mk 10"
+    ENG_mbt_2:0 "Chieftain Mk 3"
+    ENG_mbt_3:0 "Challenger 1"
+    ENG_mbt_4:0 "Challenger 2"
+    ENG_mbt_5:0 "Challenger 2 LEP"
+ 
+    ISR_mbt_0:0 "Centurion Mk 3"
+    ISR_mbt_1:0 "Magach 3"
+    ISR_mbt_2:0 "Merkava Mk 1"
+    ISR_mbt_3:0 "Merkava Mk 2"
+    ISR_mbt_4:0 "Merkava Mk 3"
+    ISR_mbt_5:0 "Merkava Mk 4M"
     
     SOV_mbt_0:0 "T-55"
     SOV_mbt_1:0 "T-62"
     SOV_mbt_2:0 "T-72"
-    SOV_mbt_3:0 "T-80"
+    SOV_mbt_3:0 "T-80U"
     SOV_mbt_4:0 "T-90"
     SOV_mbt_5:0 "T-14"
     
+    PRC_mbt_0:0 "ZTZ-59"
+    PRC_mbt_1:0 "ZTZ-59-I"
+    PRC_mbt_2:0 "ZTZ-69"
+    PRC_mbt_3:0 "ZTZ-88"
+    PRC_mbt_4:0 "ZTZ-96"
+    PRC_mbt_5:0 "ZTZ-99A"   
+    
+       
     ENG_mbt_0:0 "FV4012 Centurion"
     ENG_mbt_1:0 "FV4201 Chieftain mk.3"
     ENG_mbt_2:0 "FV4201 Chieftain Mk.11"
@@ -33,103 +61,337 @@
     ENG_mbt_4:0 "Challenger 2"
     ENG_mbt_5:0 "Challenger 2 LEP"    
 
-    CAN_mbt_0:0 "Sherman M4A2"
-    CAN_mbt_1:0 "Centurion Mk.5"
-    CAN_mbt_2:0 "Centurion Mk.11"
-    CAN_mbt_3:0 "Leopard C1"
-    CAN_mbt_4:0 "Leopard C2"
-    CAN_mbt_5:0 "Leopard 2A7+"    
+#---------------------------------------------------------------      SPHs    ---------------------------------------------------------- 
+    spg_0:0 "Self-Propelled Howitzer I"
+    spg_1:0 "Self-Propelled Howitzer II"
+    spg_2:0 "Self-Propelled Howitzer III"
+    spg_3:0 "Self-Propelled Howitzer IV"
  
+    USA_spg_0:0 "M109A1 Paladin"
+    USA_spg_1:0 "M109A2 Paladin"
+    USA_spg_2:0 "M109A6 Paladin"
+    USA_spg_3:0 "M109A7 Paladin"
 
-    SRM_mbt_1:0 "M-84"
-    SRM_mbt_2:0 "M-84A"
-    SRM_mbt_3:0 "M-84AB"
-    SRM_mbt_4:0 "M-91 Vihor"
-    SRM_mbt_5:0 "M-20UP1"
-    SRM_mbt_6:0 "M-20UP2"   
+    GER_spg_0:0 "M109A1"
+    GER_spg_1:0 "M109A2"
+    GER_spg_2:0 "PzH 2000"
+    GER_spg_3:0 "Donar SPH" 
     
-    SER_mbt_1:0 "M-84"
-    SER_mbt_2:0 "M-84A"
-    SER_mbt_3:0 "M-84AB"
-    SER_mbt_4:0 "M-91 Vihor"
-    SER_mbt_5:0 "M-20UP1"
-    SER_mbt_6:0 "M-20UP2"  
+    ENG_spg_0:0 "L109 Abbot"
+    ENG_spg_1:0 "M109A2"
+    ENG_spg_2:0 "AS-90 Braveheart"
+    ENG_spg_3:0 ""     
+    
+    FRA_spg_0:0 "AMX-30 AUF1"
+    FRA_spg_1:0 "AMX-30 AUF1T"
+    FRA_spg_2:0 "CAESAR"
+    FRA_spg_3:0 ""     
+    
+    SOV_spg_0:0 "2S1 Gvozdika"
+    SOV_spg_1:0 "2S3M Akatsiya"
+    SOV_spg_2:0 "2S19 Msta-S"
+    SOV_spg_3:0 "2S35 Koalitsiya-SV"    
 
+    PRC_spg_0:0 ""
+    PRC_spg_1:0 "Type 83 SPH"
+    PRC_spg_2:0 "PLZ-45"
+    PRC_spg_3:0 "PLZ-05"  
     
-#IFVs    
+    JAP_spg_0:0 "Type 74 SPH"
+    JAP_spg_1:0 "Type 75 SPH"
+    JAP_spg_2:0 "Type 99 SPH"
+    JAP_spg_3:0 ""    
+    
+    ISR_spg_0:0 "L-33 Ro'em"
+    ISR_spg_1:0 "M109A2"
+    ISR_spg_2:0 "Sholef"
+    ISR_spg_3:0 "ATMOS 2000"    
+    
+#---------------------------------------------------------------      SPAAGs    ---------------------------------------------------------- 
+    spaaa_0:0 "Self-Propelled Howitzer I"
+    spaaa_1:0 "Self-Propelled Howitzer II"
+    spaaa_2:0 "Self-Propelled Howitzer III"
+    spaaa_3:0 "Self-Propelled Howitzer IV"
+    spaaa_4:0 "Self-Propelled Howitzer V"    
+    spaaa_5:0 "Self-Propelled Howitzer VI"
+     
+    USA_spaaa_0:0 "M42A1 Duster"
+    USA_spaaa_1:0 "M163 VADS"
+    USA_spaaa_2:0 "M247 Sergeant York"
+    USA_spaaa_3:0 "M163 PIVADS"
+    USA_spaaa_4:0 "M6 Linebacker"
+#    USA_spaaa_5:0 ""
+    
+    SOV_spaaa_0:0 "ZSU-57-2 Sparka"
+    SOV_spaaa_1:0 "ZSU-23-4 Shilka"
+    SOV_spaaa_2:0 "ZSU-23-4M3 Biryusa"
+    SOV_spaaa_3:0 "2K22 Tunguska"    
+    SOV_spaaa_4:0 "2K22M Tunguska-M"      
+    SOV_spaaa_5:0 "2K22 Pantsir-S1 "     
+ 
+#---------------------------------------------------------------      MRLs    ---------------------------------------------------------- 
+    mrl_0:0 "Multiple Rocket Launcher I"
+    mrl_1:0 "Multiple Rocket Launcher II"
+
+ 
+    SOV_mrl_0:0 "TOS-1 Buratino"
+    SOV_mrl_1:0 "TOS-1A Buratino"
+   
+    USA_mrl_0:0 "M270 MLRS"
+    USA_mrl_1:0 "M270A1 MLRS"
+
+#---------------------------------------------------------------   Wheeled  MRLs    ---------------------------------------------------------- 
+    wheeled_mrl_0:0 "Wheeled Multiple Rocket Launcher I"
+    wheeled_mrl_1:0 "Wheeled Multiple Rocket Launcher II"
+    wheeled_mrl_2:0 "Wheeled Multiple Rocket Launcher III"
+    wheeled_mrl_3:0 "Wheeled Multiple Rocket Launcher IV"
+    
+    SOV_wheeled_mrl_0:0 "BM-21 Grad"
+    SOV_wheeled_mrl_1:0 "BM-27 Uragan"
+    SOV_wheeled_mrl_2:0 "BM-30 Smerch"
+    SOV_wheeled_mrl_3:0 "9A52-4 Tornado"
+    
+#    USA_wheeled_mrl_0:0 ""
+#   USA_wheeled_mrl_1:0 ""
+#    USA_wheeled_mrl_2:0 ""
+    USA_wheeled_mrl_3:0 "M142 HIMARS"
+
+#---------------------------------------------------------------   TBMs    ---------------------------------------------------------- 
+    tbm_0:0 "Tactical Ballistic Missile I"
+    tbm_1:0 "Tactical Ballistic Missile II"
+    tbm_2:0 "Tactical Ballistic Missile III"
+    tbm_3:0 "Tactical Ballistic Missile IV"
+    
+    SOV_tbm_0:0 "2K6 Luna"
+    SOV_tbm_1:0 "OTR-21 Tochka"
+    SOV_tbm_2:0 "OTR-21 Tochka-U"
+    SOV_tbm_3:0 "9K720 Iskander"
+    
+    USA_tbm_0:0 "MGM-29 Sergeant"
+    USA_tbm_1:0 "MGM-52 Lance"
+    USA_tbm_2:0 "MGM-140 ATACMS"
+    USA_tbm_3:0 "MGM-168 ATACMS"
+    
+#---------------------------------------------------------------   Heavy SAMs    ---------------------------------------------------------- 
+    hsam_0:0 "Heavy SAM I"
+    hsam_1:0 "Heavy SAM II"
+    hsam_2:0 "Heavy SAM III"
+    hsam_3:0 "Heavy SAM IV"
+    
+    SOV_hsam_0:0 "2K12 Kub"
+    SOV_hsam_1:0 "9K37 Buk"
+    SOV_hsam_2:0 "9K331 Tor-M1"
+    SOV_hsam_3:0 "9K332 Tor-M2E"
+    
+    USA_hsam_0:0 "MIM-14 Nike Hercules"
+    USA_hsam_1:0 "MIM-104 Patriot"
+    USA_hsam_2:0 "MIM-104F Patriot"
+    USA_hsam_3:0 "MIM-104 Patriot PAAC-4"   
+
+#---------------------------------------------------------------   Medium SAMs    ---------------------------------------------------------- 
+    msam_0:0 "Heavy SAM I"
+    msam_1:0 "Heavy SAM II"
+    msam_2:0 "Heavy SAM III"
+    msam_3:0 "Heavy SAM IV"
+    
+    SOV_msam_0:0 "S-200D Dubna"
+    SOV_msam_1:0 "S-300P"
+    SOV_msam_2:0 "S-300PMU-1"
+    SOV_msam_3:0 "S-400 Triumf"
+    
+    USA_msam_0:0 "MIM-23 Hawk"
+    USA_msam_1:0 "MIM-23 I-Hawk"
+    USA_msam_2:0 "MIM-23 Hawk PIP-3"
+    USA_msam_3:0 "MIM-23 Hawk 21"   
+    
+#---------------------------------------------------------------      IFVs    ---------------------------------------------------------- 
     ifv_0:0 "1G Infantry Fighting vehicle"
     ifv_1:0 "2G Infantry Fighting vehicle"
     ifv_2:0 "3G Infantry Fighting vehicle"
     ifv_3:0 "4G Infantry Fighting vehicle"
  
-    USA_ifv_0:0 "AIFV"
+    USA_ifv_0:0 "M113 AIFV"
     USA_ifv_1:0 "M2 Bradley"
     USA_ifv_2:0 "M2A2 Bradley"
     USA_ifv_3:0 "M2A3 ERA Bradley"
 
+    GER_ifv_0:0 "Marder 1"
+    GER_ifv_1:0 "Marder 1A1"
+    GER_ifv_2:0 "Marder 1A3"
+    GER_ifv_3:0 "SPz Puma" 
+    
+    ENG_ifv_0:0 ""
+    ENG_ifv_1:0 ""
+    ENG_ifv_2:0 "FV 510 Warrior"
+    ENG_ifv_3:0 "FV 510 Warrior CSP"     
+    
+    FRA_ifv_0:0 "AMX-VCI M-56"
+    FRA_ifv_1:0 "AMX-10P"
+    FRA_ifv_2:0 "VBCI VCI"
+    FRA_ifv_3:0 "AMC IFV"     
     
     SOV_ifv_0:0 "BMP-1"
     SOV_ifv_1:0 "BMP-2"
     SOV_ifv_2:0 "BMP-3"
     SOV_ifv_3:0 "Kurganets-25"    
 
-
-#APC   
-    apc_0:0 "1G Armored Personal Carrier"
-    apc_1:0 "2G Armored Personal Carrier"
-    apc_2:0 "3G Armored Personal Carrier"
-    apc_3:0 "4G Armored Personal Carrier"
+    PRC_ifv_0:0 "Type 86"
+    PRC_ifv_1:0 "Type 86-I"
+    PRC_ifv_2:0 "Type 91"
+    PRC_ifv_3:0 "ZBD-04A"  
+    
+#--------------------------------------------------------------------      APC   ------------------------------------------
+    apc_0:0 "Armored Personal Carrier I"
+    apc_1:0 "Armored Personal Carrier II"
+    apc_2:0 "Armored Personal Carrier III"
+    apc_3:0 "Armored Personal Carrier IV"
+    apc_4:0 "Armored Personal Carrier V"
+    
+    
+    
+    USA_apc_0:0 "M113A1"
+    USA_apc_1:0 "M113A2"
+    USA_apc_2:0 "M113A3"
+    USA_apc_3:0 "M1126 Stryker"
+    USA_apc_4:0 "M1296 Dragoon"
+        
+    SOV_apc_0:0 "BTR-60"
+    SOV_apc_1:0 "MT-LB"
+    SOV_apc_2:0 "BTR-70"
+    SOV_apc_3:0 "BTR-80"     
+    SOV_apc_4:0 "Bumerang"  
+  
+    ENG_apc_0:0 "FV432"   
+    ENG_apc_1:0 "FV432 Mk 1"
+    ENG_apc_2:0 "FV432 Mk 2"
+    ENG_apc_3:0 "FV432 Mk 3"
+    ENG_apc_4:0 "FV432 Mk 3 Bulldog"   
  
-    USA_apc_0:0 "M113"
-    USA_apc_1:0 "M113A3"
-    USA_apc_2:0 "Stryker"
-    USA_apc_3:0 "Turrentless Bradley"
-
+    FRA_apc_0:0 "AMX-VTT"   
+    FRA_apc_1:0 "VAB VTT"
+    FRA_apc_2:0 "VAB TOP"
+    FRA_apc_3:0 "VBCI VTT"
+    FRA_apc_4:0 "AMC APC"   
     
-    SOV_apc_0:0 "MTLB"
-    SOV_apc_1:0 "Btr-80"
-    SOV_apc_2:0 "Btr-90"
-    SOV_apc_3:0 "Bumerang"  
-    
-    ENG_apc_0:0 "FV432"
-    ENG_apc_1:0 "FV510 Warrior"
-    ENG_apc_2:0 "FV103 Spartan"
-    ENG_apc_3:0 "Warthog (BATTC)"   
-#IMVs
-    imv_0:0 "1G Infantry Mobility Vehicle"
-    imv_1:0 "2G Infantry Mobility Vehicle"
-    imv_2:0 "3G Infantry Mobility Vehicle"
-    imv_3:0 "4G Infantry Mobility Vehicle"    
-
-    USA_imv_0:0 "M151A2 Mutt"
-    USA_imv_1:0 "M998 Humvee"
-    USA_imv_2:0 "M1097A2 Humvee"
-    USA_imv_3:0 "M1165 Humvee"    
-   
-    ENG_imv_0:0 "M151A2 Mutt"
-    ENG_imv_1:0 "Land Rover Wolf"
-    ENG_imv_2:0 "Snatch Land Rover"
-    ENG_imv_3:0 "M1165 Humvee" 
  
-    SOV_imv_0:0 "UAZ-469"
-    SOV_imv_1:0 "Land Rover Wolf"
-    SOV_imv_2:0 "Snatch Land Rover"
-    SOV_imv_3:0 "M1165 Humvee" 
+    ISR_apc_0:0 "M113A1"   
+    ISR_apc_1:0 "M113A2"
+    ISR_apc_2:0 "Nagmachon"
+    ISR_apc_3:0 "Nakpadon"
+    ISR_apc_4:0 "Namer"   
+    
+    PRC_apc_0:0 "Type 63"
+    PRC_apc_1:0 "Type 63-I "
+    PRC_apc_2:0 "ZSD-89"
+    PRC_apc_3:0 "ZSD-89-II"
+    PRC_apc_4:0 "ZBL-09"
+    
+#--------------------------------------------------------------------     Anti tank APC   ------------------------------------------
+    atgm_apc_0:0 "ATGM Vehicle I"
+    atgm_apc_1:0 "ATGM Vehicle II"
+    atgm_apc_2:0 "ATGM Vehicle III"
+    atgm_apc_3:0 "ATGM Vehicle IV"
+    atgm_apc_4:0 "ATGM Vehicle V"
+    
+    
+    
+#    USA_atgm_apc_0:0 ""
+    USA_atgm_apc_1:0 "M901 ITV"
+    USA_atgm_apc_2:0 "M901A1 ITV"
+    USA_atgm_apc_3:0 "M901A3 ITV"
+    USA_atgm_apc_4:0 "M1134 ATGM"
+        
+    SOV_atgm_apc_0:0 "9P122 Malyutka-M"
+    SOV_atgm_apc_1:0 "9M113 Konkurs"
+    SOV_atgm_apc_2:0 "9P149 Shturm-S"
+    SOV_atgm_apc_3:0 "MT-LBM 6МА3"     
+    SOV_atgm_apc_4:0 "9P157-2 Khrizantema-S"     
+    
+#--------------------------------------------------------------     IMVs        - ----------------------------------------------------
+    imv_0:0 "Infantry Mobility Vehicle I"
+    imv_1:0 "Infantry Mobility Vehicle II"
+    imv_2:0 "Infantry Mobility Vehicle III"
+    imv_3:0 "Infantry Mobility Vehicle IV"    
+    imv_4:0 "Infantry Mobility Vehicle V"    
+    
+    USA_imv_0:0 "M151 Mutt"
+    USA_imv_1:0 "M998 HMMWV"
+    USA_imv_2:0 "M1114 HMMWV"
+    USA_imv_3:0 "RG-33"    
+    USA_imv_4:0 "Oshkosh L-ATV"    
+    
+    ENG_imv_0:0 "Humber Pig"
+    ENG_imv_1:0 "Snatch Land Rover"
+    ENG_imv_2:0 "WMIK Jackal"
+    ENG_imv_3:0 "Ridgeback PPV" 
+    ENG_imv_4:0 "Foxhound LPPV" 
+ 
+    FRA_imv_0:0 "M3 VTT"
+    FRA_imv_1:0 "VAB VTT"
+    FRA_imv_2:0 "VBL"
+    FRA_imv_3:0 "VBL RECO 12.7" 
+    FRA_imv_4:0 "VAB Mk 2" 
+ 
+    GER_imv_0:0 "UR-416"
+    GER_imv_1:0 "TM-170"
+    GER_imv_2:0 "ATF Dingo"
+    GER_imv_3:0 "ATF Dingo 2" 
+    GER_imv_4:0 "Grizzly GFF4"
+
+    ISR_imv_0:0 "M151 Mutt"
+    ISR_imv_1:0 "AIL M462 Rhino"
+    ISR_imv_2:0 "AIL Storm"
+    ISR_imv_3:0 "MDT David" 
+    ISR_imv_4:0 "Wolf Armoured Vehicle" 
+    
+    SOV_imv_0:0 "GAZ-69"
+    SOV_imv_1:0 "UAZ-3151"
+    SOV_imv_2:0 "BPM-97"
+    SOV_imv_3:0 "GAZ Vodnik" 
+    SOV_imv_4:0 "GAZ Tigr" 
+    
+    PRC_imv_0:0 "GAZ-69"
+    PRC_imv_1:0 "WZ-523"
+    PRC_imv_2:0 "WZ-551"
+    PRC_imv_3:0 "ZFB-05" 
+    PRC_imv_4:0 "CS/VP4" 
+    
+
+    
+    
+
     
 #IMVs
-    truck_0:0 "1G Truck"
-    truck_1:0 "2G Truck"
-    truck_2:0 "3G Truck"
-    truck_3:0 "4G Truck"    
+    truck_0:0 "Truck I"
+    truck_1:0 "Truck II"
+    truck_2:0 "Truck III"
+    truck_3:0 "Truck IV"    
 
-    USA_truck_1:0 "M35"
-    USA_truck_1:0 "M809"
-    USA_truck_2:0 "M939"
-    USA_truck_3:0 "FMTV"
+    USA_truck_1:0 "M813"
+    USA_truck_1:0 "M924"
+    USA_truck_2:0 "FMTV A1"
+    USA_truck_3:0 "FMTV A2"
+    
+    SOV_truck_1:0 "Ural-4320"
+    SOV_truck_1:0 "KamAZ-4310"
+    SOV_truck_2:0 "KamAZ-5350"
+    SOV_truck_3:0 "KamAZ Typhoon"    
+    
+    PRC_truck_1:0 ""
+    PRC_truck_1:0 "Shaanxi SX2110"
+    PRC_truck_2:0 "SX2151"
+    PRC_truck_3:0 "FAW MV3"   
+    
+    GER_truck_1:0 "Unimog 435"
+    GER_truck_1:0 "Unimog 437"
+    GER_truck_2:0 "Unimog U5000"
+    GER_truck_3:0 "Zetros 2733"    
+    
 
  
 #####################################################                  Inf Equipment               ###################################################################################
-#Small Arms
+
+#------------------------------------------------------------         Small Arms        ----------------------------------------------------------------------------
     infantry_small_arms_0:0 "Small arms I"
     infantry_small_arms_1:0 "Small arms II"
     infantry_small_arms_2:0 "Small arms III"
@@ -140,25 +402,61 @@
     USA_infantry_small_arms_0:0 "M14"
     USA_infantry_small_arms_1:0 "M16A1"
     USA_infantry_small_arms_2:0 "M16A2"
-    USA_infantry_small_arms_3:0 "M4"
-    USA_infantry_small_arms_4:0 "M16A4"
-    USA_infantry_small_arms_5:0 "M4A1"   
+    USA_infantry_small_arms_3:0 "M16A4"
+    USA_infantry_small_arms_4:0 "M4A1"
+    USA_infantry_small_arms_5:0 "SCAR H"
 
-    SOV_infantry_small_arms_0:0 "AK-47"
+    SOV_infantry_small_arms_0:0 "AK"
     SOV_infantry_small_arms_1:0 "AKM"
     SOV_infantry_small_arms_2:0 "AK-74"
-    SOV_infantry_small_arms_3:0 "AN-92"
-    SOV_infantry_small_arms_4:0 "AK-74M"
-    SOV_infantry_small_arms_5:0 "AK-12"       
+    SOV_infantry_small_arms_3:0 "AK-74M"
+    SOV_infantry_small_arms_4:0 "AN-94"
+    SOV_infantry_small_arms_5:0 "AK-12"     
 
-    ENG_infantry_small_arms_0:0 "FN FAL"
+    ENG_infantry_small_arms_0:0 "L1A1 SLR"
     ENG_infantry_small_arms_1:0 "L64/65"
     ENG_infantry_small_arms_2:0 "L85A1"
     ENG_infantry_small_arms_3:0 "L22A1"
     ENG_infantry_small_arms_4:0 "L85A2"
-    ENG_infantry_small_arms_5:0 "L85A3"    
+    ENG_infantry_small_arms_5:0 "L85A3"  
     
-#Light machine guns    
+    PRC_infantry_small_arms_0:0 "Type 56"
+    PRC_infantry_small_arms_1:0 "Type 56-I"
+    PRC_infantry_small_arms_2:0 "Type 81"
+    PRC_infantry_small_arms_3:0 "QBZ-95"
+    PRC_infantry_small_arms_4:0 "QBZ-03"
+    PRC_infantry_small_arms_5:0 "ZH-05"    
+ 
+    GER_infantry_small_arms_0:0 "FN G1"
+    GER_infantry_small_arms_1:0 "H&K G3"
+    GER_infantry_small_arms_2:0 "H&K G41"
+    GER_infantry_small_arms_3:0 "H&K G36"
+    GER_infantry_small_arms_4:0 "H&K G36A1"
+    GER_infantry_small_arms_5:0 "H&K G36A2"
+
+    FRA_infantry_small_arms_0:0 "MAS-49"
+    FRA_infantry_small_arms_1:0 "FA-MAS Type 62"
+    FRA_infantry_small_arms_2:0 "SIG SG 540"
+    FRA_infantry_small_arms_3:0 "FAMAS F1"
+    FRA_infantry_small_arms_4:0 "FAMAS G2"
+    FRA_infantry_small_arms_5:0 "HK416F"
+    
+    ISR_infantry_small_arms_0:0 "FN FAL"
+    ISR_infantry_small_arms_1:0 "Galil AR"
+    ISR_infantry_small_arms_2:0 "M16A1"
+    ISR_infantry_small_arms_3:0 "M16A2"
+    ISR_infantry_small_arms_4:0 "TAR-21"
+    ISR_infantry_small_arms_5:0 "MTAR-21"   
+
+    JAP_infantry_small_arms_0:0 "M1 Garand"
+    JAP_infantry_small_arms_1:0 "Howa Type 64"
+    JAP_infantry_small_arms_2:0 "Howa Type 89"
+    JAP_infantry_small_arms_3:0 "M16A2"
+    JAP_infantry_small_arms_4:0 "M4A1"
+    JAP_infantry_small_arms_5:0 "FN SCAR"    
+    
+#-----------------------------------------------------------       Light machine guns     ---------------------------------------------------------
+
     infantry_lmg_0:0 "Light Machine Gun I"
     infantry_lmg_1:0 "Light Machine Gun II"
     infantry_lmg_2:0 "Light Machine Gun III"
@@ -179,7 +477,7 @@
     ENG_infantry_lmg_2:0 "FN Minimi Para"
     ENG_infantry_lmg_3:0 "FN Minimi mk3"    
     
-    #General Purpose Machine guns    
+#---------------------------------------------------------------          General Purpose Machine guns               ----------------------------------------------------------
     infantry_gpmg_0:0 "General Purpose Machine Gun I"
     infantry_gpmg_1:0 "General Purpose Machine Gun II"
     infantry_gpmg_2:0 "General Purpose Machine Gun III"   
@@ -196,7 +494,7 @@
     ENG_infantry_gpmg_1:0 "FN Minimi"
     ENG_infantry_gpmg_2:0 "FN Minimi Para"
     
-    #Anti Tank Rocket
+#-----------------------------------------------------------         Anti Tank Rocket               ------------------------------------------------------------------------
     infantry_at_0:0 "Anti-Tank Rocket Launcher I"
     infantry_at_1:0 "Anti-Tank Rocket Launcher II"
     infantry_at_2:0 "Anti-Tank Rocket Launcher III"
@@ -212,7 +510,7 @@
     SOV_infantry_at_2:0 "RPG-29"
     SOV_infantry_at_3:0 "RPG-30" 
     
-    #Anti Tank Rocket
+#---------------------------------------------------------              MANPADs                  -----------------------------------------------------------
     infantry_manpad_0:0 "MANPAD I"
     infantry_manpad_1:0 "MANPAD II"
     infantry_manpad_2:0 "MANPAD III"
