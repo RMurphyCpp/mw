@@ -28,10 +28,6 @@
 			    popularity = 55			
 		    }
 		
-		    military = {
-			    popularity = 10	
-		    }
-		
 		    democratic_liberal = { 
 			    popularity = 5		
 		    }
@@ -134,10 +130,6 @@
 
 		    autocracy = {
 			    popularity = 10			
-		    }
-		
-		    military = {
-			    popularity = 20	
 		    }
 		
 		    democratic_liberal = { 

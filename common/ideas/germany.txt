@@ -14,9 +14,7 @@ ideas = {
 			
 			modifier = {
 				fascism_acceptance = -10
-				fascism_drift = -0.05				
-				new_nazism_acceptance = -10
-				new_nazism_drift = -0.05
+				fascism_drift = -0.05
 			}
 		}
 	

@@ -8,7 +8,6 @@
 		infantry_small_arms = 1
 		infantry_lmg = 1
 		infantry_gpmg = 1
-		infantry_at = 1
 		infantry_atgm = 1
 		infantry_manpad = 1
  	}
@@ -19,7 +18,7 @@
     set_politics = {
 
 	    parties = {
-		    military = {
+		    autocracy = {
 			    popularity = 65			
 		    }
 		
@@ -32,7 +31,7 @@
 		    }
 	    }
 	
-	    ruling_party = military
+	    ruling_party = autocracy
 	    last_election = "1996.3.5"
 	    election_frequency = 48
 	    elections_allowed = no

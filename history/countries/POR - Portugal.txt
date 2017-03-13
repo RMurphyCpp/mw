@@ -25,7 +25,7 @@
 			    popularity = 75			
 		    }
 		
-		    military = {
+		    autocracy = {
 			    popularity = 5
 		    }
 	    }

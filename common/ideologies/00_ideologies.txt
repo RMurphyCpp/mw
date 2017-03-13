@@ -477,51 +477,15 @@ ideologies = {
 		}
 
 	}
-
-	new_nazism = {
-	
-		types = {
-		
-			nazism = {
-			}				
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-		
-		color = { 127 127 127 }
-		
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
-		
-		rules = {
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = no
-			can_guarantee_other_ideologies = yes
-			can_occupy_non_war = yes
-		}
-		
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-		}
-
-		ai_fascist = yes # uses the fascist AI behaviour
-	}
 	
 	fascism = {
 	
 		types = {
 		
 			fascism_ideology = {
+			}
+
+			nazism = {
 			}				
 		}
 		
@@ -574,6 +538,9 @@ ideologies = {
 			
 			baathism_autocratic ={
 			}
+
+			militarism = {
+			}
 		}
 		
 		dynamic_faction_names = {
@@ -604,50 +571,6 @@ ideologies = {
 			justify_war_goal_when_in_major_war_time = -0.80
 			enemy_justify_war_goal_time = -0.2			
 		}
-
-		ai_fascist = yes # uses the fascist AI behaviour
-	}
-	
-	military = {
-	
-		types = {
-		
-			militarism = {
-			}				
-		}
-		
-		dynamic_faction_names = {
-			"FACTION_NAME_FASCIST_1"
-			"FACTION_NAME_FASCIST_2"
-			"FACTION_NAME_FASCIST_3"
-			"FACTION_NAME_FASCIST_4"
-			"FACTION_NAME_FASCIST_5"
-		}
-		
-		color = { 128 100 162 }
-		
-		war_impact_on_world_tension = 1.0			#evil!
-		faction_impact_on_world_tension = 1.0
-		
-		rules = {
-			can_declare_war_on_same_ideology = yes
-			can_force_government = yes
-			can_send_volunteers = yes
-			can_puppet = yes
-			can_lower_tension = yes
-			can_only_justify_war_on_threat_country = yes
-			can_guarantee_other_ideologies = yes
-			can_occupy_non_war = yes
-		}
-		
-		modifiers = {
-			justify_war_goal_when_in_major_war_time = -0.80
-		}
-		
-		faction_modifiers = {
-		}
-
-		can_be_boosted = no		
 
 		ai_fascist = yes # uses the fascist AI behaviour
 	}
