@@ -25,7 +25,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = PRC_diplo
+		id = PRC_diplo1 #From Rory to Wari: This used to be named PRC_diplo. Since I dont know whether it is a duplicate or not I have renamed it to PRC_diplo1
 		icon = GFX_goal_unknown
 		cost = 0.00
 		x = 4
@@ -41,7 +41,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_0
+		id = newfocus_0 #Same shit with these 3
 		icon = GFX_goal_unknown
 		cost = 0.00
 		x = 2
@@ -49,7 +49,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_0
+		id = newfocus_1
 		icon = GFX_goal_unknown
 		cost = 0.00
 		x = 1
@@ -57,7 +57,7 @@ focus_tree = {
 
 	}
 	focus = {
-		id = newfocus_0
+		id = newfocus_2
 		icon = GFX_goal_unknown
 		cost = 0.00
 		x = 2
