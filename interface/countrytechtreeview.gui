@@ -950,7 +950,7 @@ guiTypes = {
 
 #Destroyers			
 			gridboxtype = {
-				name = "early_destroyer_tree"
+				name = "missile_destroyers_tree"
 				position = { x = 80 y = 150}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -959,7 +959,7 @@ guiTypes = {
 			
 #GM Cruisers
 			gridboxtype = {
-				name = "early_cruiser_tree"
+				name = "missile_cruisers_tree"
 				position = { x = 80 y = 150}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -969,7 +969,7 @@ guiTypes = {
 			
 #Carriers	
 			gridboxtype = {
-				name = "early_carrier_tree"
+				name = "aircraft_carriers_tree"
 				position = { x = 80 y = 150}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1020,7 +1020,7 @@ guiTypes = {
 
 #Frigates
 			gridboxtype = {
-				name = "early_frigate_tree"
+				name = "frigates_tree"
 				position = { x = 80 y = 150}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1029,7 +1029,7 @@ guiTypes = {
 
 #Corvettes
 			gridboxtype = {
-				name = "early_corvette_tree"
+				name = "corvettes_tree"
 				position = { x = 80 y = 150}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1047,7 +1047,7 @@ guiTypes = {
 			
 #Attack subs			
 			gridboxtype = {
-				name = "early_submarine_tree"
+				name = "attack_submarines_tree"
 				position = { x = 80 y = 150}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1056,7 +1056,7 @@ guiTypes = {
 
 #Nuclear attack sub	
 			gridboxtype = {
-				name = "early_nuclear_submarine_tree"
+				name = "nuclear_attack_submarines_tree"
 				position = { x = 80 y = 150}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }
@@ -1065,7 +1065,7 @@ guiTypes = {
 			
 #Nuclear missile attack sub	SSBN/SSGN
 			gridboxtype = {
-				name = "early_nuclear_missile_submarine_tree"
+				name = "nuclear_missile_submarines_tree"
 				position = { x = 80 y = 150}
 				size = { width = 100 height = 140 }
 				slotsize = { width = 70 height = 70 }

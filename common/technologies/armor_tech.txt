@@ -396,7 +396,8 @@ technologies = {
 		}
 		sub_technologies = {
 			wheeled_antitank
-			
+			light_sam
+			wheeled_mortar
 		}		
 	}	
 
@@ -429,6 +430,8 @@ technologies = {
 		}
 		sub_technologies = {
 			wheeled_antitank_1
+			light_sam_1
+			wheeled_mortar_1
 		}				
 	}
 	
@@ -461,6 +464,8 @@ technologies = {
 		}
 		sub_technologies = {
 			wheeled_antitank_2
+			light_sam_2
+			wheeled_mortar_2
 		}				
 	}	
 	
@@ -493,6 +498,8 @@ technologies = {
 		}
 		sub_technologies = {
 			wheeled_antitank_3
+			light_sam_3
+			wheeled_mortar_3
 		}	
 		
 	}
@@ -526,6 +533,8 @@ technologies = {
 		}
 		sub_technologies = {
 			wheeled_antitank_4
+			light_sam_4
+			wheeled_mortar_4
 		}			
 	}	
 

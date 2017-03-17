@@ -271,6 +271,12 @@ opinion_modifiers = {
 	large_increase = {
 		value = 50
 	}
+	
+		### Russia ###
+		
+	russian_diciple = {
+		value = 20
+	}	
 
 	##### TRADE MODIFIERS
 	embargo = {

@@ -472,6 +472,84 @@ technologies = {
 		}
 	}	
 	
+####################################################################### Light SAMs #######################################################################################	
+
+## First Gen MRLs (80s)
+	light_sam = {
+
+		enable_equipments = {
+			lsam_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1975
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	light_sam_1 = {
+
+		enable_equipments = {
+			lsam_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1985
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+## Second Gen  MRLs (2010s)
+	light_sam_2 = {
+
+		enable_equipments = {
+			lsam_2
+		}
+	
+		research_cost = 0.5
+		start_year = 1995
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	light_sam_3 = {
+
+		enable_equipments = {
+			lsam_3
+		}
+	
+		research_cost = 0.5
+		start_year = 2005
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+	
 ####################################################################### Tactical Ballistic Missiles #######################################################################################	
 
 ## First Gen MRLs (80s)
@@ -645,8 +723,107 @@ technologies = {
 			armor
 		}
 	}
+
+####################################################################### Mortar vehicles #######################################################################################	
+
+## First Gen MRLs (80s)
+	wheeled_mortar = {
+
+		enable_equipments = {
+			mortar_apc_0
+		}
+	
+		research_cost = 0.5
+		start_year = 1965
+		
+		ai_will_do = {
+			factor = 1
+
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	wheeled_mortar_1 = {
+
+		enable_equipments = {
+			mortar_apc_1
+		}
+	
+		research_cost = 0.5
+		start_year = 1975
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}	
+## Second Gen  MRLs (2010s)
+	wheeled_mortar_2 = {
+
+		enable_equipments = {
+			mortar_apc_2
+		}
+	
+		research_cost = 0.5
+		start_year = 1985
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	wheeled_mortar_3 = {
+
+		enable_equipments = {
+			mortar_apc_3
+		}
+	
+		research_cost = 0.5
+		start_year = 1990
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
+
+## Second Gen  MRLs (2010s)
+	wheeled_mortar_4 = {
+
+		enable_equipments = {
+			mortar_apc_4
+		}
+	
+		research_cost = 0.5
+		start_year = 2005
+		
+		ai_will_do = {
+			factor = 1
+		}
+		
+		categories = {
+			armor
+		}
+	}
 	
 }
 
+
+	
 
 

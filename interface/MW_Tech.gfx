@@ -4,8 +4,251 @@
 
 spriteTypes = {
 	
+##### Generic tech ######################################################################################################	
+#---------------------------------------------------------- MBTs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_main_battle_tanks_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic early mbt.dds"
+		alwaystransparent = yes
+	}
+	
+	SpriteType = {
+		name = "GFX_main_battle_tanks_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic CW MBT.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_main_battle_tanks_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic CW MBT.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_main_battle_tanks_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic late CW MBT.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_main_battle_tanks_4_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic late CW MBT.dds"
+		alwaystransparent = yes
+	}
 
 
+	SpriteType = {
+		name = "GFX_main_battle_tanks_5_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Modern MBT.dds"
+		alwaystransparent = yes
+	}	
+
+#---------------------------------------------------------- IFVs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_infantry_fighting_vehicles_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic IFV.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_infantry_fighting_vehicles_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic IFV.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_infantry_fighting_vehicles_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic IFV.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_infantry_fighting_vehicles_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic IFV.dds"
+		alwaystransparent = yes
+	}
+
+	
+#---------------------------------------------------------- APCs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_armored_personel_carriers_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic APC.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_armored_personel_carriers_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic APC.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_armored_personel_carriers_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic APC.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_armored_personel_carriers_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic APC.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_armored_personel_carriers_4_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic APC.dds"
+		alwaystransparent = yes
+	}
+#---------------------------------------------------------- SPHs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_self_propelled_howitzers_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPH.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_self_propelled_howitzers_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPH.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_self_propelled_howitzers_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPH.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_self_propelled_howitzers_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPH.dds"
+		alwaystransparent = yes
+	}	
+
+#---------------------------------------------------------- MRLs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_multiple_rocket_launcher_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic MRL.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_multiple_rocket_launcher_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic MRL.dds"
+		alwaystransparent = yes
+	}
+	
+
+#---------------------------------------------------------- Wheeled MRLs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_wheeled_multiple_rocket_launcher_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Wheeled MRL.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_wheeled_multiple_rocket_launcher_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Wheeled MRL.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_wheeled_multiple_rocket_launcher_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Wheeled MRL.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_wheeled_multiple_rocket_launcher_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Wheeled MRL.dds"
+		alwaystransparent = yes
+	}
+
+#---------------------------------------------------------- SPAAGs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_self_propelled_aaa_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPAAG.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_self_propelled_aaa_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPAAG.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_self_propelled_aaa_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPAAG.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_self_propelled_aaa_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPAAG.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_self_propelled_aaa_4_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPAAG.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_self_propelled_aaa_5_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic SPAAG.dds"
+		alwaystransparent = yes
+	}	
+	
+#---------------------------------------------------------- Heavy SAMs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_heavy_sam_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Heavy SAM.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_heavy_sam_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Heavy SAM.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_heavy_sam_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Heavy SAM.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_heavy_sam_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Heavy SAM.dds"
+		alwaystransparent = yes
+	}	
+	
+#---------------------------------------------------------- Heavy SAMs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_medium_sam_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Medium SAM.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_medium_sam_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Medium SAM.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_medium_sam_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Medium SAM.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_medium_sam_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Generic Medium SAM.dds"
+		alwaystransparent = yes
+	}	
 ##### US tech ######################################################################################################	
 
 #---------------------------------------------------------- MBTs ----------------------------------------------------------------------------------
@@ -45,7 +288,36 @@ spriteTypes = {
 		texturefile = "gfx/interface/technologies/hoi4mw/land/M1A3.dds"
 		alwaystransparent = yes
 	}	
+#---------------------------------------------------------- APCs ----------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_USA_armored_personel_carriers_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M113A1.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_USA_armored_personel_carriers_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M113A2.dds"
+		alwaystransparent = yes
+	}
 	
+		SpriteType = {
+		name = "GFX_USA_armored_personel_carriers_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/M113A3.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_USA_armored_personel_carriers_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Stryker.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_USA_armored_personel_carriers_4_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/Stryker.dds"
+		alwaystransparent = yes
+	}	
 #---------------------------------------------------------- Small arms ----------------------------------------------------------------------------------
 	SpriteType = {
 		name = "GFX_USA_infantry_small_arms_medium"
@@ -505,25 +777,25 @@ spriteTypes = {
 	
 #---------------------------------------------------------- IFVs ----------------------------------------------------------------------------------
 	SpriteType = {
-		name = "GFX_SOV_first_gen_ifv_medium"
+		name = "GFX_SOV_infantry_fighting_vehicles_medium"
 		texturefile = "gfx/interface/technologies/hoi4mw/land/BMP-1.dds"
 		alwaystransparent = yes
 	}
 
 	SpriteType = {
-		name = "GFX_SOV_second_gen_ifv_medium"
+		name = "GFX_SOV_infantry_fighting_vehicles_1_medium"
 		texturefile = "gfx/interface/technologies/hoi4mw/land/BMP-2.dds"
 		alwaystransparent = yes
 	}
 	
 		SpriteType = {
-		name = "GFX_SOV_third_gen_ifv_medium"
+		name = "GFX_SOV_infantry_fighting_vehicles_2_medium"
 		texturefile = "gfx/interface/technologies/hoi4mw/land/BMP-3.dds"
 		alwaystransparent = yes
 	}
 	
 		SpriteType = {
-		name = "GFX_SOV_forth_gen_ifv_medium"
+		name = "GFX_SOV_infantry_fighting_vehicles_3_medium"
 		texturefile = "gfx/interface/technologies/hoi4mw/land/T-15.dds"
 		alwaystransparent = yes
 	}
@@ -531,28 +803,29 @@ spriteTypes = {
 	
 #---------------------------------------------------------- APCs ----------------------------------------------------------------------------------
 	SpriteType = {
-		name = "GFX_SOV_first_gen_apc_medium"
-		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		name = "GFX_SOV_armored_personel_carriers_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BTR-60.dds"
 		alwaystransparent = yes
 	}
 
 	SpriteType = {
-		name = "GFX_SOV_second_gen_apc_medium"
-		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		name = "GFX_SOV_armored_personel_carriers_1_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BTR-70.dds"
 		alwaystransparent = yes
 	}
 	
 		SpriteType = {
-		name = "GFX_SOV_third_gen_apc_medium"
-		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		name = "GFX_SOV_armored_personel_carriers_2_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BTR-80.dds"
 		alwaystransparent = yes
 	}
 	
 		SpriteType = {
-		name = "GFX_SOV_forth_gen_apc_medium"
-		texturefile = "gfx/interface/technologies/hoi4mw/land/T-14.dds"
+		name = "GFX_SOV_armored_personel_carriers_3_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/land/BTR-90.dds"
 		alwaystransparent = yes
 	}
+
 
 #---------------------------------------------------------- Small arms ----------------------------------------------------------------------------------
 	SpriteType = {

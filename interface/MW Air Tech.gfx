@@ -1,10 +1,148 @@
 
 spriteTypes = {
 	
+##### Generic Tech ######################################################################################################	
 
+#3G
+	SpriteType = {
+		name = "GFX_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}		
+#Adv 3G	
+	SpriteType = {
+		name = "GFX_adv_third_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}	
+#4G MR	
+	SpriteType = {
+		name = "GFX_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}	
+#Adv 4G MR	
+	SpriteType = {
+		name = "GFX_adv_forth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}	
+#4G AS	
+	SpriteType = {
+		name = "GFX_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}		
+#Adv 4G AS	
+	SpriteType = {
+		name = "GFX_adv_forth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}	
+#5G MR		
+	SpriteType = {
+		name = "GFX_fifth_gen_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}
+#5G AS	
+	SpriteType = {
+		name = "GFX_fifth_gen_heavy_fighter_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}	
 
+#----------------------------------------------------------CAS-------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_third_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic CAS.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_forth_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic CAS.dds"
+		alwaystransparent = yes
+	}	
+	
+
+	SpriteType = {
+		name = "GFX_adv_forth_gen_cas_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic CAS.dds"
+		alwaystransparent = yes
+	}
+
+#----------------------------------------------------------Strike Fighters-------------------------------------------------------------------------------	
+	SpriteType = {
+		name = "GFX_third_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_adv_third_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_forth_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_adv_forth_gen_attacker_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic fighter.dds"
+		alwaystransparent = yes
+	}
+
+#----------------------------------------------------------Stragetic Bombers-------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_third_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic bomber.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_adv_third_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic bomber.dds"
+		alwaystransparent = yes
+	}	
+	
+	SpriteType = {
+		name = "GFX_forth_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic bomber.dds"
+		alwaystransparent = yes
+	}		
+	
+	SpriteType = {
+		name = "GFX_fifth_gen_bomber_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic bomber.dds"
+		alwaystransparent = yes
+	}
+	
+#----------------------------------------------------------Interceptor-------------------------------------------------------------------------------
+	SpriteType = {
+		name = "GFX_third_gen_interceptor_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic interceptor.dds"
+		alwaystransparent = yes
+	}
+	
+		SpriteType = {
+		name = "GFX_forth_gen_interceptor_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic interceptor.dds"
+		alwaystransparent = yes
+	}
+
+	SpriteType = {
+		name = "GFX_adv_forth_gen_interceptor_medium"
+		texturefile = "gfx/interface/technologies/hoi4mw/air/Generic interceptor.dds"
+		alwaystransparent = yes
+	}	
+	
 ##### US tech ######################################################################################################	
-
+	
 
 #----------------------------------------------------------Fighters-------------------------------------------------------------------------------
 

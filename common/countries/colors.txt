@@ -16,6 +16,10 @@ SOV = {
 	color = rgb { 0  102  0 }
 	color_ui = rgb { 163 17 31 }
 }
+ALG = {
+	color = rgb { 045 153 13 }
+	color_ui = rgb { 045 153 13 }
+}
 PRC = {
 	color = rgb { 255 0 0 }
 	color_ui = rgb { 163 17 31 }

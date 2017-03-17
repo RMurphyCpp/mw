@@ -25,6 +25,9 @@ focus_tree = {
 		cost = 0.00
 		x = 42
 		y = 0
+		completion_reward = {
+			add_political_power = 120
+		}
 
 	}
 	focus = {
@@ -33,6 +36,9 @@ focus_tree = {
 		cost = 40.00
 		x = 42
 		y = 0
+		completion_reward = {
+			add_political_power = 120
+		}
 
 	}
 	focus = {
@@ -41,6 +47,15 @@ focus_tree = {
 		cost = 0.00
 		x = 53
 		y = 0
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
 
 	}
 	focus = {
@@ -52,6 +67,11 @@ focus_tree = {
 		}
 		x = 5
 		y = 1
+		completion_reward = {
+			USA = {
+				add_opinion_modifier = {target = SOV modifier = russian_diciple}
+			}
+		}
 
 	}
 	focus = {
@@ -167,7 +187,7 @@ focus_tree = {
 							ideology = democratic_reactionary
 							popularity = 0.1
 						}
-					diplomatic_relation = {
+					add_opinion_modifier = {
 							country = USA
 							relation = protest_action_light
 						}
@@ -830,6 +850,15 @@ focus_tree = {
 		prerequisite = {
 			focus = build_eco
 		}
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+		}
 		x = 40
 		y = 1
 
@@ -840,6 +869,60 @@ focus_tree = {
 		cost = 40.00
 		prerequisite = {
 			focus = SOV_mil_1
+		}
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
 		}
 		x = 40
 		y = 2
@@ -854,6 +937,60 @@ focus_tree = {
 		}
 		x = 40
 		y = 3
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -865,6 +1002,60 @@ focus_tree = {
 		}
 		x = 38
 		y = 4
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = production_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = arms_factory
+						size < 1
+						include_locked = yes
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = arms_factory
+				level = 1
+				instant_build = yes
+			}
+		}		
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = arms_factory
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = arms_factory
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = arms_factory
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -876,6 +1067,87 @@ focus_tree = {
 		}
 		x = 42
 		y = 1
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -887,6 +1159,87 @@ focus_tree = {
 		}
 		x = 42
 		y = 2
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -898,6 +1251,87 @@ focus_tree = {
 		}
 		x = 42
 		y = 3
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = infrastructure_effort_tt
+				all_owned_state = {			
+					free_building_slots = {
+						building = infrastructure
+						size < 1
+					}
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+			add_building_construction = {
+				type = infrastructure
+				level = 1
+				instant_build = yes
+			}
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 0
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 0
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 1
+					instant_build = yes
+				}
+			}
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = infrastructure
+						size > 1
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = infrastructure
+										size > 1
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_building_construction = {
+					type = infrastructure
+					level = 2
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -909,6 +1343,60 @@ focus_tree = {
 		}
 		x = 44
 		y = 1
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -920,6 +1408,60 @@ focus_tree = {
 		}
 		x = 44
 		y = 2
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -931,6 +1473,60 @@ focus_tree = {
 		}
 		x = 44
 		y = 3
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -943,6 +1539,9 @@ focus_tree = {
 		}
 		x = 42
 		y = 4
+		completion_reward = {
+			add_research_slot = 1
+		}
 
 	}
 	focus = {
@@ -954,6 +1553,60 @@ focus_tree = {
 		}
 		x = 45
 		y = 4
+		bypass = {
+			custom_trigger_tooltip = {
+				tooltip = construction_effort_tt
+				all_owned_state = {
+					free_building_slots = {
+						building = industrial_complex
+						size < 1
+						include_locked = yes
+					}					
+				}
+			}
+		}
+
+		complete_tooltip = {
+			add_extra_state_shared_building_slots = 1
+			add_building_construction = {
+				type = industrial_complex
+				level = 1
+				instant_build = yes
+			}			
+		}
+
+		completion_reward = {
+			random_owned_controlled_state = {
+				limit = {
+					free_building_slots = {
+						building = industrial_complex
+						size > 0
+						include_locked = yes
+					}
+					OR = {
+						is_in_home_area = yes
+						NOT = {
+							owner = {
+								any_owned_state = {
+									free_building_slots = {
+										building = industrial_complex
+										size > 0
+										include_locked = yes
+									}
+									is_in_home_area = yes
+								}
+							}
+						}
+					}
+				}
+				add_extra_state_shared_building_slots = 1
+				add_building_construction = {
+					type = industrial_complex
+					level = 1
+					instant_build = yes
+				}
+			}
+		}
 
 	}
 	focus = {
@@ -976,6 +1629,22 @@ focus_tree = {
 		}
 		x = 48
 		y = 1
+		completion_reward = {
+			army_experience = 5
+			add_tech_bonus = {
+				name = land_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = land_doctrine
+			}
+			add_tech_bonus = {
+				name = infantry_artillery_bonus
+				bonus = 0.5
+				uses = 1
+				category = infantry_weapons
+				category = artillery
+			}
+		}
 
 	}
 	focus = {
@@ -987,6 +1656,14 @@ focus_tree = {
 		}
 		x = 47
 		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
+		}
 
 	}
 	focus = {
@@ -998,6 +1675,14 @@ focus_tree = {
 		}
 		x = 47
 		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = armor_bonus
+				bonus = 0.5
+				uses = 2
+				category = armor
+			}
+		}
 
 	}
 	focus = {
@@ -1009,6 +1694,14 @@ focus_tree = {
 		}
 		x = 49
 		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+		}
 
 	}
 	focus = {
@@ -1020,6 +1713,14 @@ focus_tree = {
 		}
 		x = 49
 		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = motorized_bonus
+				ahead_reduction = 0.5
+				uses = 1
+				category = motorized_equipment
+			}
+		}
 
 	}
 	focus = {
@@ -1031,6 +1732,75 @@ focus_tree = {
 		}
 		x = 53
 		y = 1
+		complete_tooltip = {
+			air_experience = 25
+				add_building_construction = {
+					type = air_base
+					level = 2
+					instant_build = yes
+				}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}			
+		}
+
+		completion_reward = {
+			air_experience = 25
+
+			if = {
+				limit = {
+					capital_scope = {
+						NOT = {
+							free_building_slots = {
+								building = air_base
+								size > 1
+							}
+						}
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			if = {
+				limit = {
+					capital_scope = {
+						free_building_slots = {
+							building = air_base
+							size > 1
+						}
+					}
+				}
+				capital_scope = {
+					add_building_construction = {
+						type = air_base
+						level = 2
+						instant_build = yes
+					}
+					ROOT = { set_country_flag = aviation_effort_AB }
+				}
+			}
+			add_tech_bonus = {
+				name = air_doc_bonus
+				bonus = 0.5
+				uses = 1
+				category = air_doctrine
+			}
+		}
 
 	}
 	focus = {
@@ -1045,6 +1815,15 @@ focus_tree = {
 		}
 		x = 51
 		y = 2
+		completion_reward = {
+			air_experience = 5
+			add_tech_bonus = {
+				name = paratrooper_bonus
+				bonus = 0.5
+				uses = 2
+				category = para_tech
+			}
+		}
 
 	}
 	focus = {
@@ -1053,6 +1832,16 @@ focus_tree = {
 		cost = 0.00
 		prerequisite = {
 			focus = SOV_airforce
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = cas_bonus
+				bonus = 0.5
+				uses = 1
+				technology = third_gen_cas
+				technology = forth_gen_cas
+				technology = adv_forth_gen_cas
+			}
 		}
 		x = 53
 		y = 2
@@ -1064,6 +1853,16 @@ focus_tree = {
 		cost = 0.00
 		prerequisite = {
 			focus = SOV_cas
+		}
+		completion_reward = {
+			add_tech_bonus = {
+				name = cas_bonus
+				bonus = 0.5
+				uses = 1
+				technology = third_gen_cas
+				technology = forth_gen_cas
+				technology = adv_forth_gen_cas
+			}
 		}
 		x = 53
 		y = 3
@@ -1078,6 +1877,17 @@ focus_tree = {
 		}
 		x = 55
 		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 2
+				technology = third_gen_ucav
+				technology = forth_gen_ucav
+				technology = adv_forth_gen_ucav
+				technology = fifth_gen_ucav
+			}
+		}
 
 	}
 	focus = {
@@ -1089,6 +1899,17 @@ focus_tree = {
 		}
 		x = 55
 		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = bomber_bonus
+				bonus = 0.5
+				uses = 2
+				technology = third_gen_ucav
+				technology = forth_gen_ucav
+				technology = adv_forth_gen_ucav
+				technology = fifth_gen_ucav
+			}
+		}
 
 	}
 	focus = {
@@ -1100,6 +1921,18 @@ focus_tree = {
 		}
 		x = 57
 		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 2
+				technology = third_gen_fighter
+				technology = adv_third_gen_fighter
+				technology = forth_gen_fighter
+				technology = adv_forth_gen_fighter
+				technology = fifth_gen_fighter
+			}
+		}
 
 	}
 	focus = {
@@ -1111,6 +1944,18 @@ focus_tree = {
 		}
 		x = 57
 		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = fighter_bonus
+				bonus = 0.5
+				uses = 2
+				technology = third_gen_fighter
+				technology = adv_third_gen_fighter
+				technology = forth_gen_fighter
+				technology = adv_forth_gen_fighter
+				technology = fifth_gen_fighter
+			}
+		}
 
 	}
 	focus = {
@@ -1122,6 +1967,60 @@ focus_tree = {
 		}
 		x = 62
 		y = 1
+		available = {
+			any_state = {
+				is_coastal = yes
+				is_controlled_by = ROOT
+			}
+		}
+
+		complete_tooltip = {
+			navy_experience = 25
+			add_extra_state_shared_building_slots = 3
+			add_building_construction = {
+				type = dockyard
+				level = 3
+				instant_build = yes
+			}
+		}
+	}
+		completion_reward = {
+			navy_experience = 25
+			if = {
+				limit = {
+					NOT = {
+						any_owned_state = {
+							dockyard > 0
+							free_building_slots = {
+								building = dockyard
+								size > 2
+								include_locked = yes
+							}
+						}
+					}
+					any_owned_state = {
+						is_coastal = yes
+					}
+				}
+				random_owned_controlled_state = {
+					limit = {
+						is_coastal = yes
+						free_building_slots = {
+							building = dockyard
+							size > 2
+							include_locked = yes
+						}
+					}
+					add_extra_state_shared_building_slots = 3
+					add_building_construction = {
+						type = dockyard
+						level = 3
+						instant_build = yes
+					}
+				}
+				set_country_flag = naval_effort_built
+			}
+		
 
 	}
 	focus = {
@@ -1133,6 +2032,14 @@ focus_tree = {
 		}
 		x = 59
 		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = marine_bonus
+				bonus = 0.5
+				uses = 2
+				category = marine_tech
+			}
+		}
 
 	}
 	focus = {
@@ -1147,6 +2054,17 @@ focus_tree = {
 		}
 		x = 61
 		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = dystroyer_bonus
+				bonus = 0.5
+				uses = 2
+				technology = missile_destroyers
+				technology = missile_destroyers_1
+				technology = missile_destroyers_2
+				technology = missile_destroyers_3
+			}
+		}
 
 	}
 	focus = {
@@ -1161,6 +2079,17 @@ focus_tree = {
 		}
 		x = 63
 		y = 2
+		completion_reward = {
+			add_tech_bonus = {
+				name = assault_ship_bonus
+				bonus = 0.5
+				uses = 2
+				technology = early_lpd
+				technology = basic_lpd
+				technology = improved_lpd
+				technology = modern_lpd
+			}
+		}
 
 	}
 	focus = {
@@ -1173,6 +2102,18 @@ focus_tree = {
 		}
 		x = 62
 		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = assault_ship_bonus
+				bonus = 0.5
+				uses = 2
+				technology = aircraft_carriers
+				technology = aircraft_carriers_1
+				technology = aircraft_carriers_2
+				technology = aircraft_carriers_3
+				technology = aircraft_carriers_4
+			}
+		}
 
 	}
 	focus = {
@@ -1317,6 +2258,18 @@ focus_tree = {
 		}
 		x = 65
 		y = 3
+		completion_reward = {
+			add_tech_bonus = {
+				name = submarine_bonus
+				bonus = 0.5
+				uses = 2
+				technology = nuclear_attack_submarines
+				technology = nuclear_attack_submarines_1
+				technology = nuclear_attack_submarines_2
+				technology = nuclear_attack_submarines_3
+				technology = nuclear_attack_submarines_4
+			}
+		}
 
 	}
 }

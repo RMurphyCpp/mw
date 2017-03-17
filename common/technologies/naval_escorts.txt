@@ -22,14 +22,14 @@ technologies = {
 #################################################################               Frigates                   ####################################################################################
 
 #mid 70's 
-	early_frigate = {
+	frigates = {
 
 		enable_equipments = {
 			frigate_1
 		}
 		
 		path = {
-			leads_to_tech = basic_frigate 
+			leads_to_tech = frigates_1 
 			research_cost_coeff = 1
 		}
 		
@@ -54,14 +54,14 @@ technologies = {
 
 
 #mid 80s 
-	basic_frigate = {
+	frigates_1 = {
 
 		enable_equipments = { 
 			frigate_2
 		}
 		
 		path = {
-			leads_to_tech = improved_frigate 
+			leads_to_tech = frigates_2 
 			research_cost_coeff = 1
 		}
 		
@@ -86,14 +86,14 @@ technologies = {
 	
 	
 #mid 90s 
-	improved_frigate = {
+	frigates_2 = {
 
 		enable_equipments = { 
 			frigate_3
 		}
 		
 		path = {
-			leads_to_tech = advanced_frigate 
+			leads_to_tech = frigates_3 
 			research_cost_coeff = 1
 		}
 		
@@ -118,7 +118,7 @@ technologies = {
 
 	
 # 2000s Arleigh Burke Flight IIA
-	advanced_frigate = {
+	frigates_3 = {
 
 		enable_equipments = { 
 			frigate_4
@@ -134,7 +134,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = modern_frigate
+			leads_to_tech = frigates_4
 			research_cost_coeff = 1
 		}	
 		
@@ -149,7 +149,7 @@ technologies = {
 	}
 	
 #Mid 2010s DD-1000, Lider Class
-	modern_frigate = {
+	frigates_4 = {
 
 		enable_equipments = { 
 			frigate_5
@@ -178,14 +178,14 @@ technologies = {
 #################################################################               Corvettes                   ####################################################################################
 
 #mid 70's 
-	early_corvette = {
+	corvettes = {
 
 		enable_equipments = {
 			corvette_1
 		}
 		
 		path = {
-			leads_to_tech = basic_corvette 
+			leads_to_tech = corvettes_1 
 			research_cost_coeff = 1
 		}
 		
@@ -210,14 +210,14 @@ technologies = {
 
 
 #mid 80s 
-	basic_corvette = {
+	corvettes_1 = {
 
 		enable_equipments = { 
 			corvette_2
 		}
 		
 		path = {
-			leads_to_tech = improved_corvette 
+			leads_to_tech = corvettes_2 
 			research_cost_coeff = 1
 		}
 		
@@ -242,14 +242,14 @@ technologies = {
 	
 	
 #mid 90s 
-	improved_corvette = {
+	corvettes_2 = {
 
 		enable_equipments = { 
 			corvette_3
 		}
 		
 		path = {
-			leads_to_tech = advanced_corvette 
+			leads_to_tech = corvettes_3 
 			research_cost_coeff = 1
 		}
 		
@@ -274,7 +274,7 @@ technologies = {
 
 	
 # 2000s 
-	advanced_corvette = {
+	corvettes_3 = {
 
 		enable_equipments = { 
 			corvette_4
@@ -290,7 +290,7 @@ technologies = {
 		}
 		
 		path = {
-			leads_to_tech = modern_corvette
+			leads_to_tech = corvettes_4
 			research_cost_coeff = 1
 		}	
 		
@@ -305,7 +305,7 @@ technologies = {
 	}
 	
 #Mid 2010s 
-	modern_corvette = {
+	corvettes_4 = {
 
 		enable_equipments = { 
 			corvette_5
@@ -487,19 +487,19 @@ technologies = {
 	
 #################################################################               Attack Submarines  (SSKs)                 ####################################################################################
 
-	early_submarine = {
+	attack_submarines = {
 
 		enable_equipments = { 
 			submarine_1
 		}
 		
 		path = {
-			leads_to_tech = basic_submarine 
+			leads_to_tech = attack_submarines_1 
 			research_cost_coeff = 1
 		}
 		
 		path = {
-			leads_to_tech = early_nuclear_submarine
+			leads_to_tech = nuclear_attack_submarines
 			research_cost_coeff = 1
 		}
 		
@@ -522,19 +522,19 @@ technologies = {
 		}
 	}
 	
-	basic_submarine = {
+	attack_submarines_1 = {
 
 		enable_equipments = { 
 			submarine_2
 		}
 		
 		path = {
-			leads_to_tech = improved_submarine 
+			leads_to_tech = attack_submarines_2 
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = basic_nuclear_submarine
+			leads_to_tech = nuclear_attack_submarines_1
 			research_cost_coeff = 1
 		}
 		
@@ -556,19 +556,19 @@ technologies = {
 		}
 	}
 	
-	improved_submarine = {
+	attack_submarines_2 = {
 
 		enable_equipments = { 
 			submarine_3
 		}
 		
 		path = {
-			leads_to_tech = advanced_submarine 
+			leads_to_tech = attack_submarines_3 
 			research_cost_coeff = 1
 		}
 
 		path = {
-			leads_to_tech = improved_nuclear_submarine
+			leads_to_tech = nuclear_attack_submarines_2
 			research_cost_coeff = 1
 		}
 		
@@ -591,19 +591,19 @@ technologies = {
 		}
 	}
 	
-	advanced_submarine = {
+	attack_submarines_3 = {
 
 		enable_equipments = { 
 			submarine_4
 		}
 		
 		path = {
-			leads_to_tech = modern_submarine 
+			leads_to_tech = attack_submarines_4 
 			research_cost_coeff = 1
 		}	
 
 		path = {
-			leads_to_tech = modern_nuclear_submarine 
+			leads_to_tech = nuclear_attack_submarines_4 
 			research_cost_coeff = 1
 		}
 		
@@ -626,14 +626,14 @@ technologies = {
 		}
 	}
 
-	modern_submarine = {
+	attack_submarines_4 = {
 
 		enable_equipments = { 
 			submarine_5
 		}
 		
 		path = {
-			leads_to_tech = modern_nuclear_submarine 
+			leads_to_tech = nuclear_attack_submarines_4 
 			research_cost_coeff = 1
 		}	
 		
@@ -659,14 +659,14 @@ technologies = {
 	
 #################################################################               Nuclear Attack Submarines    (SSNs)               ####################################################################################
 
-	early_nuclear_submarine = {
+	nuclear_attack_submarines = {
 
 		enable_equipments = { 
 			nuclear_submarine_1
 		}
 		
 		path = {
-			leads_to_tech = basic_nuclear_submarine 
+			leads_to_tech = nuclear_attack_submarines_1 
 			research_cost_coeff = 1
 		}
 		
@@ -689,14 +689,14 @@ technologies = {
 		}
 	}
 	
-	basic_nuclear_submarine = {
+	nuclear_attack_submarines_1 = {
 
 		enable_equipments = { 
 			nuclear_submarine_2
 		}
 		
 		path = {
-			leads_to_tech = improved_nuclear_submarine 
+			leads_to_tech = nuclear_attack_submarines_2 
 			research_cost_coeff = 1
 		}
 		
@@ -718,14 +718,14 @@ technologies = {
 		}
 	}
 	
-	improved_nuclear_submarine = {
+	nuclear_attack_submarines_2 = {
 
 		enable_equipments = { 
 			nuclear_submarine_3
 		}
 		
 		path = {
-			leads_to_tech = advanced_nuclear_submarine 
+			leads_to_tech = nuclear_attack_submarines_3 
 			research_cost_coeff = 1
 		}
 		
@@ -748,7 +748,7 @@ technologies = {
 		}
 	}
 	
-	advanced_nuclear_submarine = {
+	nuclear_attack_submarines_3 = {
 
 		enable_equipments = { 
 			nuclear_submarine_4
@@ -764,7 +764,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = modern_nuclear_submarine 
+			leads_to_tech = nuclear_attack_submarines_4 
 			research_cost_coeff = 1
 		}
 		
@@ -778,7 +778,7 @@ technologies = {
 		}
 	}
 
-	modern_nuclear_submarine = {
+	nuclear_attack_submarines_4 = {
 
 		enable_equipments = { 
 			nuclear_submarine_5
@@ -806,20 +806,20 @@ technologies = {
 #################################################################               Nuclear Attack Submarines    (SSNs)               ####################################################################################
 
 #mid 70s Benjamin Franklin-class
-	early_nuclear_missile_submarine = {
+	nuclear_missile_submarines = {
 
 		enable_equipments = { 
 			nuclear_missile_submarine_1
 		}
 		
 		path = {
-			leads_to_tech = basic_nuclear_missile_submarine 
+			leads_to_tech = nuclear_missile_submarines_1 
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 1.5
 
-		start_year = 1922
+		start_year = 1975
 		
 		folder = {
 			name = naval_escorts_folder
@@ -837,19 +837,19 @@ technologies = {
 	}
 
 #mid 80s Ohio-class	
-	basic_nuclear_missile_submarine = {
+	nuclear_missile_submarines_1 = {
 
 		enable_equipments = { 
 			nuclear_missile_submarine_2
 		}
 		
 		path = {
-			leads_to_tech = improved_nuclear_missile_submarine 
+			leads_to_tech = nuclear_missile_submarines_2 
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
-		start_year = 1936
+		start_year = 1985
 
 		folder = {
 			name = naval_escorts_folder
@@ -867,20 +867,20 @@ technologies = {
 	}
 
 #mid 90s 	Wyoming-class
-	improved_nuclear_missile_submarine = {
+	nuclear_missile_submarines_2 = {
 
 		enable_equipments = { 
 			nuclear_missile_submarine_3
 		}
 		
 		path = {
-			leads_to_tech = advanced_nuclear_missile_submarine 
+			leads_to_tech = nuclear_missile_submarines_2 
 			research_cost_coeff = 1
 		}
 		
 		research_cost = 2
 
-		start_year = 1940
+		start_year = 1995
 		
 		folder = {
 			name = naval_escorts_folder
@@ -898,7 +898,7 @@ technologies = {
 	}
 
 #mid 2000s	Louisiana-class SSGNs
-	advanced_nuclear_missile_submarine = {
+	nuclear_missile_submarines_2 = {
 
 		enable_equipments = { 
 			nuclear_missile_submarine_4
@@ -906,7 +906,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1944
+		start_year = 2005
 		
 		folder = {
 			name = naval_escorts_folder
@@ -914,7 +914,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = modern_nuclear_missile_submarine 
+			leads_to_tech = nuclear_missile_submarines_3 
 			research_cost_coeff = 1
 		}
 		
@@ -929,7 +929,7 @@ technologies = {
 	}
 
 #2010s Columbia-class
-	modern_nuclear_missile_submarine = {
+	nuclear_missile_submarines_3 = {
 
 		enable_equipments = { 
 			nuclear_missile_submarine_5
@@ -937,7 +937,7 @@ technologies = {
 		
 		research_cost = 2
 
-		start_year = 1944
+		start_year = 2013
 		
 		folder = {
 			name = naval_escorts_folder

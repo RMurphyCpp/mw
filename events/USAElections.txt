@@ -34,11 +34,11 @@ country_event = {
 			factor = 60
 		}
 		set_politics = {
-			ruling_party = right_wing
+			ruling_party = democratic_conservative
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = right_wing
+			ideology = democratic_conservative
 			popularity = 0.03
 		}
 		hidden_effect = {
@@ -70,11 +70,11 @@ country_event = {
 			}
 		}
 		set_politics = {
-			ruling_party = left_wing
+			ruling_party = democratic_liberal
 			elections_allowed = yes
 		}
 		add_popularity = {
-			ideology = left_wing
+			ideology = democratic_liberal
 			popularity = 0.03
 		}
 		create_country_leader = {
@@ -106,7 +106,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		original_tag = SRM
+		original_tag = USA
 		date > 2001.10.5
 		date < 2002.1.1
 	}	
@@ -139,7 +139,7 @@ country_event = {
 	fire_only_once = yes
 	
 	trigger = {
-		original_tag = SRM
+		original_tag = USA
 		date > 2001.10.5
 		date < 2002.1.1
 	}	

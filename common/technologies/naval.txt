@@ -14,17 +14,17 @@ technologies = {
 	@2000s_line = 15
 	@2010s_line = 20	
 	
-#################################################################               Destroyers                   ####################################################################################
+#################################################################               missile_destroyers                   ####################################################################################
 	
 #late 70's (Kidd class; Kashin class)
-	early_destroyer = {
+	missile_destroyers = {
 
 		enable_equipments = {
 			destroyer_1
 		}
 		
 		path = {
-			leads_to_tech = basic_destroyer 
+			leads_to_tech = missile_destroyers_1 
 			research_cost_coeff = 1
 		}
 		
@@ -48,14 +48,14 @@ technologies = {
 	}
 
 #late 80s (Sovremenny class, Arleigh Burke Flight I)	
-	basic_destroyer = {
+	missile_destroyers_1 = {
 
 		enable_equipments = { 
 			destroyer_2
 		}
 		
 		path = {
-			leads_to_tech = improved_destroyer 
+			leads_to_tech = missile_destroyers_2 
 			research_cost_coeff = 1
 		}
 		
@@ -79,14 +79,14 @@ technologies = {
 	}
 		
 #late 90s (Udaloy II, Arleigh Burke Flight II)		
-	improved_destroyer = {
+	missile_destroyers_2 = {
 
 		enable_equipments = { 
 			destroyer_3
 		}
 		
 		path = {
-			leads_to_tech = modern_destroyer 
+			leads_to_tech = missile_destroyers_3 
 			research_cost_coeff = 1
 		}
 		
@@ -111,7 +111,7 @@ technologies = {
 	
 	
 #DD-1000, Lider Class
-	modern_destroyer = {
+	missile_destroyers_3 = {
 
 		enable_equipments = { 
 			destroyer_4
@@ -143,14 +143,14 @@ technologies = {
 #################################################################               Guided Missiles Cruiser                   ####################################################################################
 
 #mid 70's 
-	early_cruiser = {
+	missile_cruisers = {
 
 		enable_equipments = {
 			cruiser_1
 		}
 		
 		path = {
-			leads_to_tech = basic_cruiser 
+			leads_to_tech = missile_cruisers_1 
 			research_cost_coeff = 1
 		}
 		
@@ -175,14 +175,14 @@ technologies = {
 
 
 #mid 80s 
-	basic_cruiser = {
+	missile_cruisers_1 = {
 
 		enable_equipments = { 
 			cruiser_2
 		}
 		
 		path = {
-			leads_to_tech = improved_cruiser 
+			leads_to_tech = missile_cruisers_2 
 			research_cost_coeff = 1
 		}
 		path = {
@@ -236,14 +236,14 @@ technologies = {
 	}
 	
 #mid 90s 
-	improved_cruiser = {
+	missile_cruisers_2 = {
 
 		enable_equipments = { 
 			cruiser_3
 		}
 		
 		path = {
-			leads_to_tech = modern_cruiser 
+			leads_to_tech = missile_cruisers_3 
 			research_cost_coeff = 1
 		}
 		
@@ -268,7 +268,7 @@ technologies = {
 
 		
 #Mid 2010s
-	modern_cruiser = {
+	missile_cruisers_3 = {
 
 		enable_equipments = { 
 			cruiser_4
@@ -299,14 +299,14 @@ technologies = {
 
 
 
-	early_carrier = {
+	aircraft_carriers = {
 
 		enable_equipments = { 
 			carrier_1
 		}
 		
 		path = {
-			leads_to_tech = basic_carrier 
+			leads_to_tech = aircraft_carriers_1 
 			research_cost_coeff = 1
 		}
 		
@@ -329,14 +329,14 @@ technologies = {
 		}
 	}
 	
-	basic_carrier = {
+	aircraft_carriers_1 = {
 
 		enable_equipments = { 
 			carrier_2
 		}
 		
 		path = {
-			leads_to_tech = improved_carrier 
+			leads_to_tech = aircraft_carriers_2 
 			research_cost_coeff = 1
 		}
 		
@@ -358,14 +358,14 @@ technologies = {
 		}
 	}
 	
-	improved_carrier = {
+	aircraft_carriers_2 = {
 
 		enable_equipments = { 
 			carrier_3
 		}
 		
 		path = {
-			leads_to_tech = advanced_carrier 
+			leads_to_tech = aircraft_carriers_3 
 			research_cost_coeff = 1
 		}
 		
@@ -388,7 +388,7 @@ technologies = {
 		}
 	}
 	
-	advanced_carrier = {
+	aircraft_carriers_3 = {
 
 		enable_equipments = { 
 			carrier_4
@@ -405,7 +405,7 @@ technologies = {
 		}
 
 		path = {
-			leads_to_tech = modern_carrier 
+			leads_to_tech = aircraft_carriers_4 
 			research_cost_coeff = 1
 		}
 		
@@ -419,7 +419,7 @@ technologies = {
 		}
 	}
 
-	modern_carrier = {
+	aircraft_carriers_4 = {
 
 		enable_equipments = { 
 			carrier_5
