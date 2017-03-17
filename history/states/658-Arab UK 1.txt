@@ -1,18 +1,14 @@
 
 state={
-	id=658 #Abu Dhabi
+	id=658
 	name="STATE_658"
-	manpower = 220000
 	resources={
-		oil=6
+		oil=6.000
 	}
-	
-	state_category = pastoral
-
 
 	history={
-		owner = ENG
-		add_core_of = QTR
+		owner = UAE
+		add_core_of = UAE
 		victory_points = {
 			7960 1 
 		}
@@ -20,15 +16,21 @@ state={
 			infrastructure = 2
 			7960 = {
 				naval_base = 3
+
 			}
 			8051 = {
 				naval_base = 2
+
 			}
+
 		}
 
 	}
 
 	provinces={
-		2048 7960 8051 8108 10904 
+		2048 7960 8108 10904 
 	}
+	manpower=220000
+	buildings_max_level_factor=1.000
+	state_category=pastoral
 }

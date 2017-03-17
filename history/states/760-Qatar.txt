@@ -1,0 +1,15 @@
+state={
+	id=760
+	name="STATE_760"
+	provinces={
+		8051 
+	}
+	history={
+		owner = QTR
+		add_core_of = QTR
+
+
+	}	
+	manpower=10000
+	buildings_max_level_factor=1.000
+}
