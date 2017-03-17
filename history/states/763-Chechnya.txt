@@ -1,0 +1,19 @@
+
+state={
+	id=763
+	name="STATE_763"
+
+	history={
+		owner = CHR
+		add_core_of = CHR
+		add_core_of = SOV
+
+	}
+
+	provinces={
+		666 670 683 3672 11632 
+	}
+	manpower=1658292
+	buildings_max_level_factor=1.000
+	state_category=rural
+}

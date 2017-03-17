@@ -1,0 +1,15 @@
+state={
+	id=764
+	name="STATE_764"
+	history={
+		owner = SRM
+		add_core_of = SER
+		add_core_of = SRM
+	}	
+	provinces={
+		6940 6953 9849 9874 9890 
+	}
+	manpower=1658292	
+	buildings_max_level_factor=1.000
+	state_category=rural	
+}

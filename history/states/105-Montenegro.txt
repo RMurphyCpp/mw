@@ -1,24 +1,25 @@
+
 state={
 	id=105
-	name="STATE_105" # Montenegro
-	manpower = 604950
-	
-	state_category = city
-	
+	name="STATE_105"
 	resources={
-		chromium=36
-		
+		chromium=36.000
 	}
+
 	history={
 		owner = SRM
 		add_core_of = SRM
-		add_core_of = MTN	
-			victory_points = {
+		add_core_of = MTN
+		victory_points = {
 			6913 10 
 		}
-		
+
 	}
+
 	provinces={
-		937 3922 6913 9809 9821 11858 6940 9849 9874
+		937 3922 6913 9809 9821 11858 
 	}
+	manpower=604950
+	buildings_max_level_factor=1.000
+	state_category=city
 }
