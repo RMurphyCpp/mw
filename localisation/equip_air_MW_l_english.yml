@@ -1,27 +1,31 @@
 ﻿l_english:
 
 #####################################################                   Aircrafts               ###################################################################################
-#Fighters
-    fighter_0:0 "3rd Gen Multirole Fighter"
-    fighter_1:0 "3rd Gen Multirole Adv. Fighter"
-    fighter_2:0 "4th Gen Multirole Fighter"
-    fighter_3:0 "4.5th Gen Multirole Fighter"
-    fighter_4:0 "5th Gen Multirole Fighter"
-    
-    heavy_fighter_0:0 "4th Gen Air Supperiority Fighter"
-    heavy_fighter_1:0 "4.5th Gen Air Supperiority Fighter"
-    heavy_fighter_2:0 "5th Gen Air Supperiority Fighter"
-  
-    USA_fighter_0:0 "F-4 Phantom "
-    USA_fighter_1:0 "F-14 Tomcat"
-    USA_fighter_2:0 "F-16 Fighting Falcon"
-    USA_fighter_3:0 "F-16V Viper"
-    USA_fighter_4:0 "F-35 Lightning II"
 
-    
-    USA_heavy_fighter_0:0 "F-15C Eagle"
-    USA_heavy_fighter_1:0 "F-15-2040C Silent Eagle"
-    USA_heavy_fighter_2:0 "F-22 Raptor"
+
+#--------------------------------------------------------------- MR Fighters ---------------------------------------------------------------
+    fighter_0:0 "3rd Gen Multirole Fighter"
+    fighter_0_short:0 "3G MR Fighter"    
+    fighter_1:0 "3rd Gen Multirole Adv. Fighter"
+    fighter_1_short:0 "3.5G MR Fighterr"    
+    fighter_2:0 "4th Gen Multirole Fighter"
+    fighter_2_short:0 "4G MR Fighter"   
+    fighter_3:0 "4.5th Gen Multirole Fighter"
+    fighter_3_short:0 "4.5G MR Fighter"    
+    fighter_4:0 "5th Gen Multirole Fighter"
+    fighter_4_short:0 "5G MR Fighter"    
+ 
+#   USA 
+    USA_fighter_0:0 "F-4 Phantom"
+    USA_fighter_0_short:0 "F-4"    
+    USA_fighter_1:0 "F-14 Tomcat"
+    USA_fighter_1_short:0 "F-14"    
+    USA_fighter_2:0 "F-16 Fighting Falcon"
+    USA_fighter_2_short:0 "F-16"    
+    USA_fighter_3:0 "F-16V Viper"
+    USA_fighter_3_short:0 "F-16V"    
+    USA_fighter_4:0 "F-35 Lightning II"
+    USA_fighter_4_short:0 "F-35"    
 
 
     USA_cv_fighter_0:0 "F-4A Phantom "
@@ -30,32 +34,54 @@
     USA_cv_fighter_3:0 "AV-8C"
     USA_cv_fighter_4:0 "F/A-35C"
 
-    USA_cv_heavy_fighter_0:0 "F/A-18C"
-    USA_cv_heavy_fighter_1:0 "F/A-18D"
+#   Russia / USSR
+    SOV_fighter_0:0 "MiG-21 Fishbed"
+    SOV_fighter_0_short:0 "MiG-21"   
+    SOV_fighter_1:0 "MiG-23 Flogger"
+    SOV_fighter_1_short:0 "MiG-23"   
+    SOV_fighter_2:0 "MiG-29 Fulcrum"
+    SOV_fighter_2_short:0 "MiG-29"   
+    SOV_fighter_3:0 "MiG-35 Fulcrum"
+    SOV_fighter_3_short:0 "MiG-35"   
+    SOV_fighter_4:0 "MiG LMFS"   
+    SOV_fighter_4_short:0 "MiG LMFS"     
+ 
+#People's Republic of China
+    PRC_fighter_0:0 "J-8"
+    PRC_fighter_1:0 "J-8II"
+    PRC_fighter_2:0 "J-10A"
+    PRC_fighter_3:0 "J-16"
+    PRC_fighter_4:0 "J-31"   
+    
+    
+#--------------------------------------------------------------- AS Fighters ---------------------------------------------------------------
+    heavy_fighter_0:0 "4th Gen Air Supperiority Fighter"
+    heavy_fighter_0_short:0 "4G AS Fighter"    
+    heavy_fighter_1:0 "4.5th Gen Air Supperiority Fighter"
+    heavy_fighter_1_short:0 "4.5G AS Fighter"   
+    heavy_fighter_2:0 "5th Gen Air Supperiority Fighter"
+    heavy_fighter_2_short:0 "5G AS Fighter"
+    
+    #United States
+    USA_heavy_fighter_0:0 "F-15C Eagle"
+    USA_heavy_fighter_1:0 "F-15C+ Eagle"
+    USA_heavy_fighter_2:0 "F-22 Raptor"
+ 
+    USA_cv_heavy_fighter_0:0 "F/A-18C Hornet"
+    USA_cv_heavy_fighter_1:0 "F/A-18D Super Hornet"
     USA_cv_heavy_fighter_2:0 "F-22N Sea Raptor"
 
-    
-    SOV_fighter_0:0 "MiG-21 Fishbed"
-    SOV_fighter_1:0 "MiG-23 Flogger"
-    SOV_fighter_2:0 "MiG-29 Fulcrum"
-    SOV_fighter_3:0 "MiG-35 Fulcrum"
-    SOV_fighter_4:0 "MiG LMFS"   
-    
+    # USSR/Russia    
     SOV_heavy_fighter_0:0 "Su-27 Flanker"
     SOV_heavy_fighter_1:0 "Su-35 Flanker-E"
-    SOV_heavy_fighter_2:0 "T-50 PAK FA"
+    SOV_heavy_fighter_2:0 "Su T-50 Pak Fa"    
  
-    CHC_fighter_0:0 "J-7 Airguard"
-    CHC_fighter_1:0 "J-8 Finback A"
-    CHC_fighter_2:0 "J-8II Finback B"
-    CHC_fighter_3:0 "J-10 Vigorous Dragon"
-    CHC_fighter_4:0 "J-20"   
+    #People's Republic of China
+    PRC_heavy_fighter_0:0 "J-11"
+    PRC_heavy_fighter_1:0 "J-16"
+    PRC_heavy_fighter_2:0 "J-31"
     
-    CHC_heavy_fighter_0:0 "J-11"
-    CHC_heavy_fighter_1:0 "J-16"
-    CHC_heavy_fighter_2:0 "J-31"
-  
-#Close Air Support
+#--------------------------------------------------------------- Close Air Support --------------------------------------------------------------- 
     third_gen_CAS:0 "3rd Gen CAS Fighter"
     forth_gen_CAS:0 "4th Gen CAS Fighter"
     fifth_gen_CAS:0 "5th Gen CAS Fighter" 
@@ -68,7 +94,8 @@
     SOV_CAS_1:0 "Su-39 Frogfoot"
     SOV_CAS_2:0 "Su-25SM3 Frogfoot"
 
-# Strike Fighters    
+#--------------------------------------------------------------- Strike Fighter --------------------------------------------------------------- 
+    
     third_gen_attacker:0 "3rd Gen Strike Fighter"
     adv_third_gen_attacker:0 "Adv 3rd Gen Strike Fighter"    
     forth_gen_attacker:0 "4th Gen Strike Fighter"
@@ -83,7 +110,8 @@
     SOV_strike_fighter_1:0 "Su-24M2 Fencer-D"
     SOV_strike_fighter_2:0 "Su-34 Fullback"
 
-#Interceptors
+ 
+#--------------------------------------------------------------- Interceptor --------------------------------------------------------------- 
     third_gen_interceptor:0 "3rd Gen Interceptor"
     forth_gen_interceptor:0 "4th Gen Interceptor"
     adv_forth_gen_interceptor:0 "Adv. 4th Gen Interceptor"   
@@ -93,7 +121,7 @@
     SOV_interceptor_2:0 "Mig-31BM Foxhound"   
   
 
-# UCAVs
+#--------------------------------------------------------------- UAVs/UCAVs --------------------------------------------------------------- 
     third_gen_uav:0 "3rd Gen UCAV"
     adv_third_gen_uav:0 "Adv 3rd Gen UCAV"    
     forth_gen_uav:0 "4th Gen UCAV"
@@ -104,7 +132,7 @@
     USA_ucav_2:0 "MQ-9 Predator C"
     USA_ucav_3:0 "X-47 Pegasus"
     
-#Strategic strategic_bombers
+#--------------------------------------------------------------- Strategic bomber --------------------------------------------------------------- 
     third_gen_strategic_bomber:0 "CW Strategic Bomber"
     adv_third_gen_strategic_bomber:0 "Mid CW Strategic Bomber"    
     forth_gen_strategic_bomber:0 "Late CW Strategic Bomber"
@@ -120,7 +148,7 @@
     USA_strategic_bomber_3:0 "B-2A Spirit"   
     USA_strategic_bomber_4:0 "B-21 Raider"    
     
-#MPAs
+#--------------------------------------------------------------- MPA --------------------------------------------------------------- 
     third_gen_mpa:0 "CW MPA"
     forth_gen_mpa:0 "Late CW MPA"
     fifth_gen_mpa:0 "Modern MPA"   
@@ -134,8 +162,7 @@
     USA_mpa_1:0 "P-3C BMUP Orion"
     USA_mpa_2:0 "P-8A Poseidon"   
  
-#Strategic trans
- 
+#--------------------------------------------------------------- Strat Airlift ---------------------------------------------------------------  
     strategic_airlift_1:0 "CW Strategic Airlift"
     strategic_airlift_2:0 "Late CW Strategic Airlift" 
 

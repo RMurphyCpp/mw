@@ -108,12 +108,12 @@
     ISR_spg_3:0 "ATMOS 2000"    
     
 #---------------------------------------------------------------      SPAAGs    ---------------------------------------------------------- 
-    spaaa_0:0 "Self-Propelled Howitzer I"
-    spaaa_1:0 "Self-Propelled Howitzer II"
-    spaaa_2:0 "Self-Propelled Howitzer III"
-    spaaa_3:0 "Self-Propelled Howitzer IV"
-    spaaa_4:0 "Self-Propelled Howitzer V"    
-    spaaa_5:0 "Self-Propelled Howitzer VI"
+    spaaa_0:0 "Self-Propelled AAA I"
+    spaaa_1:0 "Self-Propelled AAA II"
+    spaaa_2:0 "Self-Propelled AAA III"
+    spaaa_3:0 "Self-Propelled AAA IV"
+    spaaa_4:0 "Self-Propelled AAA V"    
+    spaaa_5:0 "Self-Propelled AAA VI"
      
     USA_spaaa_0:0 "M42A1 Duster"
     USA_spaaa_1:0 "M163 VADS"
@@ -189,10 +189,10 @@
     USA_hsam_3:0 "MIM-104 Patriot PAAC-4"   
 
 #---------------------------------------------------------------   Medium SAMs    ---------------------------------------------------------- 
-    msam_0:0 "Heavy SAM I"
-    msam_1:0 "Heavy SAM II"
-    msam_2:0 "Heavy SAM III"
-    msam_3:0 "Heavy SAM IV"
+    msam_0:0 "Medium SAM I"
+    msam_1:0 "Medium SAM II"
+    msam_2:0 "Medium SAM III"
+    msam_3:0 "Medium SAM IV"
     
     SOV_msam_0:0 "S-200D Dubna"
     SOV_msam_1:0 "S-300P"
@@ -203,12 +203,29 @@
     USA_msam_1:0 "MIM-23 I-Hawk"
     USA_msam_2:0 "MIM-23 Hawk PIP-3"
     USA_msam_3:0 "MIM-23 Hawk 21"   
+ 
+#---------------------------------------------------------------   Light SAMs    ---------------------------------------------------------- 
+    lsam_0:0 "Light SAM I"
+    lsam_1:0 "Light SAM II"
+    lsam_2:0 "Light SAM III"
+    lsam_3:0 "Light SAM IV"
+    lsam_4:0 "Light SAM V"
     
+    SOV_lsam_0:0 "9K31 Strela-1"
+    SOV_lsam_1:0 "9K35 Strela-10"
+    SOV_lsam_2:0 "9K35M Strela-10M3"
+    SOV_lsam_3:0 "9K35M Strela-10M4"
+    
+    USA_lsam_0:0 "MIM-72A Chaparral"
+    USA_lsam_1:0 "MIM-72C Improved Chaparral"
+    USA_lsam_2:0 "MIM-72G"
+    USA_lsam_3:0 "AN/TWQ-1 Avenger" 
+ 
 #---------------------------------------------------------------      IFVs    ---------------------------------------------------------- 
-    ifv_0:0 "1G Infantry Fighting vehicle"
-    ifv_1:0 "2G Infantry Fighting vehicle"
-    ifv_2:0 "3G Infantry Fighting vehicle"
-    ifv_3:0 "4G Infantry Fighting vehicle"
+    ifv_0:0 "Infantry Fighting vehicle I"
+    ifv_1:0 "Infantry Fighting vehicle II"
+    ifv_2:0 "Infantry Fighting vehicle III"
+    ifv_3:0 "Infantry Fighting vehicle IV"
  
     USA_ifv_0:0 "M113 AIFV"
     USA_ifv_1:0 "M2 Bradley"
@@ -256,9 +273,9 @@
     USA_apc_4:0 "M1296 Dragoon"
         
     SOV_apc_0:0 "BTR-60"
-    SOV_apc_1:0 "MT-LB"
-    SOV_apc_2:0 "BTR-70"
-    SOV_apc_3:0 "BTR-80"     
+    SOV_apc_1:0 "BTR-70"
+    SOV_apc_2:0 "BTR-80"
+    SOV_apc_3:0 "BTR-90"     
     SOV_apc_4:0 "Bumerang"  
   
     ENG_apc_0:0 "FV432"   
@@ -306,6 +323,27 @@
     SOV_atgm_apc_2:0 "9P149 Shturm-S"
     SOV_atgm_apc_3:0 "MT-LBM 6МА3"     
     SOV_atgm_apc_4:0 "9P157-2 Khrizantema-S"     
+
+#--------------------------------------------------------------------     Mortar APC   ------------------------------------------
+    mortar_apc_0:0 "Mortar Vehicle I"
+    mortar_apc_1:0 "Mortar Vehicle II"
+    mortar_apc_2:0 "Mortar Vehicle III"
+    mortar_apc_3:0 "Mortar Vehicle IV"
+    mortar_apc_4:0 "Mortar Vehicle V"
+    
+    
+    
+    USA_mortar_apc_0:0 "M106 Mortar Carrier"
+    USA_mortar_apc_1:0 "M106A1 Mortar Carrier"
+    USA_mortar_apc_2:0 "M106A2 Mortar Carrier"
+    USA_mortar_apc_3:0 "M1064 Mortar Carrier"
+    USA_mortar_apc_4:0 "M1129 Mortar Carrier"
+        
+    SOV_mortar_apc_0:0 "BTR-60P Mortar Carrier"
+    SOV_mortar_apc_1:0 "2S9 Nona-S"
+    SOV_mortar_apc_2:0 "2S9-1 Nona-S"
+    SOV_mortar_apc_3:0 "2S23 Nona-SVK"     
+    SOV_mortar_apc_4:0 "2S9-1M Nona-S"   
     
 #--------------------------------------------------------------     IMVs        - ----------------------------------------------------
     imv_0:0 "Infantry Mobility Vehicle I"

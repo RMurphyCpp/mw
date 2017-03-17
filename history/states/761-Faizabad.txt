@@ -1,0 +1,19 @@
+state={
+	id=761
+	name="STATE_761"
+	provinces={
+		7519 10826 12653 
+	}
+	manpower = 1143516
+	state_category = large_town
+	history= {
+		owner = AFG
+		add_core_of = AFG
+		add_core_of = IEA		
+		victory_points = {
+			12653 3 
+		}
+
+	}	
+	buildings_max_level_factor=1.000
+}
