@@ -1,0 +1,24 @@
+state={
+	id=765
+	name="STATE_765"
+	provinces={
+		657 687 3076 6677 9635 11636 
+	}
+	history={
+		owner = ROM
+		add_core_of = ROM	
+	victory_points = {
+			657 6 
+		}
+		buildings = {
+			infrastructure = 5
+			industrial_complex = 2
+			arms_factory = 1
+			air_base = 1
+            dockyard = 2
+		}
+		}
+	manpower=1234523
+	buildings_max_level_factor=1.000
+	state_category=large_city
+}

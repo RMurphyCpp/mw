@@ -1,4 +1,4 @@
-﻿capital = 622
+﻿capital = 768
 2000.1.1 = {
     set_research_slots = 3
     set_convoys = 10

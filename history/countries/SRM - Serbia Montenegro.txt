@@ -14,7 +14,7 @@
 		infantry_manpad = 1
 		
 	}
-
+	OOB = "00_SRM"
 	add_opinion_modifier = { target = USA modifier = historical_riverly }
 	add_opinion_modifier = { target = ENG modifier = historical_riverly }	
 	add_opinion_modifier = { target = ALB modifier = historical_riverly }

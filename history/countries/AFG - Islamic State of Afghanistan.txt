@@ -1,4 +1,4 @@
-﻿capital = 267 #TEMP
+﻿capital = 761 #TEMP
 2000.1.1 = {
     set_research_slots = 3
     set_convoys = 10

@@ -1,0 +1,16 @@
+state={
+	id=766
+	name="STATE_766"
+	provinces={
+		13230 13233 13234 13235 
+	}
+	history={
+		owner = TSN
+		add_core_of = TSN
+
+
+	}	
+	manpower=1143516
+	buildings_max_level_factor=1.000
+	state_category=large_town
+}

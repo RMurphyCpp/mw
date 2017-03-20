@@ -1,18 +1,22 @@
+
 state={
 	id=762
 	name="STATE_762"
-	provinces={
-		4920 7979 
-	}
-	manpower = 1143516
-	state_category = large_town
-	history= {
+
+	history={
 		owner = SDR
 		add_core_of = SDR
-		add_core_of = MOR		
+		add_core_of = MOR
 		victory_points = {
 			7979 3 
 		}
+
 	}
+
+	provinces={
+		4920 7979 13205 13206 13209 13211 13214 13216 13220 13224 
+	}
+	manpower=1143516
 	buildings_max_level_factor=1.000
+	state_category=large_town
 }

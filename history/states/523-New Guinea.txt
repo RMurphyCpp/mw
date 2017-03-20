@@ -3,7 +3,8 @@ state={
 	name="STATE_523"
 
 	history={
-		owner = AST
+		owner = PAG
+		add_core_of = PAG
 		buildings = {
 			infrastructure = 2
 			air_base = 3

@@ -18,7 +18,7 @@
 	add_opinion_modifier = { target = USA modifier = historical_riverly }	
 	add_opinion_modifier = { target = SRM modifier = historical_friends }
 	add_opinion_modifier = { target = SER modifier = historical_friends }	
-	
+
 
 	
 	create_faction = CSTO
